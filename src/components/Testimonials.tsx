@@ -11,13 +11,34 @@ function initial(name: string) {
   return `${match ? match[1] : name.trim().charAt(0)}'`
 }
 
-function Card({ item, colorIndex }: { item: Testimonial; colorIndex: number }) {
+// המלצה ארוכה מוצגת מקוצרת עם כפתור "להמשך קריאה", כדי שכל הכרטיסים יישארו נמוכים ואחידים
+const LONG_TEXT = 300
+
+function Card({ item, colorIndex, onExpand }: { item: Testimonial; colorIndex: number; onExpand: () => void }) {
+  const [expanded, setExpanded] = useState(false)
+  const long = item.text.length > LONG_TEXT
+
   return (
     <figure className="flex h-full flex-col items-center rounded-2xl border-2 border-brand-soft bg-white px-6 pt-8 pb-7 text-center shadow-[0_6px_22px_rgba(236,99,148,0.12)] md:px-8">
       <svg viewBox="0 0 24 24" fill="currentColor" className="size-9 shrink-0 text-brand-soft" aria-hidden="true">
         <path d="M10 7H6a3 3 0 0 0-3 3v4h5v3H5v2h3a2 2 0 0 0 2-2V7Zm11 0h-4a3 3 0 0 0-3 3v4h5v3h-3v2h3a2 2 0 0 0 2-2V7Z" />
       </svg>
-      <blockquote className="mt-4 grow text-[17px] leading-relaxed md:text-lg">{item.text}</blockquote>
+      <div className="mt-4 grow">
+        <blockquote className={`text-[17px] leading-relaxed md:text-lg ${long && !expanded ? 'line-clamp-7' : ''}`}>{item.text}</blockquote>
+        {long && (
+          <button
+            type="button"
+            onClick={() => {
+              setExpanded(!expanded)
+              onExpand()
+            }}
+            aria-expanded={expanded}
+            className="mt-2 cursor-pointer text-[15px] font-medium text-brand-deep underline hover:text-sky"
+          >
+            {expanded ? 'הצגה מקוצרת' : 'להמשך קריאה'}
+          </button>
+        )}
+      </div>
       <figcaption className="mt-6 flex items-center gap-3">
         <span
           className={`flex size-14 shrink-0 items-center justify-center rounded-full text-xl font-semibold ring-2 ring-white ${avatarColors[colorIndex % avatarColors.length]}`}
@@ -40,6 +61,8 @@ export default function Testimonials({ items }: { items: Testimonial[] }) {
   const [perPage, setPerPage] = useState(1)
   const [page, setPage] = useState(0)
   const [paused, setPaused] = useState(false)
+  // מי שפתח המלצה לקריאה מלאה – המעבר האוטומטי נעצר עד שיעבור עמוד בעצמו
+  const [reading, setReading] = useState(false)
 
   useEffect(() => {
     const wide = window.matchMedia('(min-width: 768px)')
@@ -57,13 +80,17 @@ export default function Testimonials({ items }: { items: Testimonial[] }) {
   const count = pages.length
 
   useEffect(() => {
-    if (paused || count < 2) return
+    if (paused || reading || count < 2) return
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
     const timer = setInterval(() => setPage((p) => (p + 1) % count), 7000)
     return () => clearInterval(timer)
-  }, [paused, count])
+  }, [paused, reading, count])
 
-  const go = (step: number) => setPage((p) => (p + step + count) % count)
+  const show = (next: number) => {
+    setReading(false)
+    setPage((next + count) % count)
+  }
+  const go = (step: number) => show(page + step)
   const arrowClass =
     'absolute top-1/2 z-10 -translate-y-1/2 cursor-pointer rounded-full border border-brand-soft bg-white p-1.5 text-brand-deep shadow-sm transition-colors hover:bg-powder'
 
@@ -95,7 +122,7 @@ export default function Testimonials({ items }: { items: Testimonial[] }) {
             }`}
           >
             {group.map((item, j) => (
-              <Card key={item.text} item={item} colorIndex={i * perPage + j} />
+              <Card key={item.text} item={item} colorIndex={i * perPage + j} onExpand={() => setReading(true)} />
             ))}
           </div>
         ))}
@@ -106,7 +133,7 @@ export default function Testimonials({ items }: { items: Testimonial[] }) {
           <button
             key={group[0].text}
             type="button"
-            onClick={() => setPage(i)}
+            onClick={() => show(i)}
             aria-label={`עמוד המלצות ${i + 1} מתוך ${count}`}
             aria-current={i === page}
             className={`size-2.5 cursor-pointer rounded-full transition-colors ${i === page ? 'bg-brand' : 'bg-brand-soft'}`}
