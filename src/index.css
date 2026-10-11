@@ -57,6 +57,17 @@
     @apply rounded-2xl border border-brand-soft/60 bg-white shadow-[0_4px_18px_rgba(236,99,148,0.1)];
   }
 
+  /* אפקט גלילה: בפריסת שתי עמודות, העמודה הקצרה נשארת במסך ו"מלווה" את הגלילה לאורך
+     העמודה הגבוהה. position: sticky תחום לתא הגריד, כך שהטקסט לעולם לא עולה על התמונה
+     ולא יוצא מגבולות המקטע. בנייד (עמודה אחת) ובמסכים נמוכים האפקט כבוי. */
+  @media (min-width: 768px) and (min-height: 600px) {
+    .follow {
+      position: sticky;
+      top: 1.5rem;
+      align-self: start;
+    }
+  }
+
   .field {
     @apply w-full rounded-lg border border-brand-soft bg-white px-4 py-2.5 text-ink placeholder:text-ink/50;
   }

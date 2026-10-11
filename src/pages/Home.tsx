@@ -45,8 +45,9 @@ export default function Home() {
       {/* אודותינו */}
       <section id="about" className="px-2.5 py-[60px] md:px-5 lg:px-0 lg:py-20">
         <span id="2" />
-        <div className="mx-auto grid max-w-site items-center gap-8 px-2.5 md:grid-cols-2">
-          <div className="text-center">
+        {/* הטקסט "מלווה" את הגלילה לצד התמונה (ראו .follow ב-index.css) */}
+        <div className="mx-auto grid max-w-site items-start gap-8 px-2.5 md:grid-cols-2">
+          <div className="follow text-center">
             <h2 className="title">{w['3ba5a54d'].text}</h2>
             <span className="divider mx-auto my-5" />
             <Rich html={w['23f1335a'].html} className="mb-5" />
@@ -54,7 +55,7 @@ export default function Home() {
               {CTA}
             </a>
           </div>
-          <Img name={w['89acc0e'].image} alt={w['89acc0e'].alt} className="mx-auto max-h-[720px] w-auto max-w-full" />
+          <Img name={w['89acc0e'].image} alt={w['89acc0e'].alt} className="mx-auto w-full max-w-[640px]" />
         </div>
       </section>
 
@@ -97,15 +98,19 @@ export default function Home() {
       </section>
 
       {/* המודל שלנו */}
-      <section className="mx-auto grid max-w-site items-center md:grid-cols-2">
+      <section className="mx-auto max-w-site">
         <span id="4" />
-        <div className="p-2.5">
-          <Img name={w['a35332b'].image} alt={w['a35332b'].alt} className="w-full" />
-        </div>
-        <div className="p-2.5 text-center md:px-8">
-          <h2 className="title">{w['3aba3dd'].text}</h2>
-          <span className="divider mx-auto my-5" />
-          <Rich html={w['f8d558e'].html} />
+        {/* הצד הקצר מבין השניים "מלווה" את הגלילה לצד הארוך */}
+        <div className="grid items-start md:grid-cols-2">
+          <div className="follow p-2.5">
+            {/* במחשב התמונה מוצגת בחיתוך גבוה, כדי שלטקסט שלצידה יהיה מרחק ללוות את הגלילה */}
+            <Img name={w['a35332b'].image} alt={w['a35332b'].alt} className="w-full object-cover md:aspect-[4/5]" />
+          </div>
+          <div className="follow p-2.5 text-center md:px-8">
+            <h2 className="title">{w['3aba3dd'].text}</h2>
+            <span className="divider mx-auto my-5" />
+            <Rich html={w['f8d558e'].html} />
+          </div>
         </div>
       </section>
 
