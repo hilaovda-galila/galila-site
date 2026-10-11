@@ -5,11 +5,8 @@ import { ChevronIcon } from './icons'
 // צבעי העיגול מתחלפים בין גווני הלוגו
 const avatarColors = ['bg-powder text-brand-deep', 'bg-sun/40 text-ink', 'bg-sky/20 text-ink']
 
-// האות של הילד/ה מתוך הקרדיט ("אמא של א' (6)" → א'), כדי לשמור על אנונימיות מלאה
-function initial(name: string) {
-  const match = name.match(/של\s+([א-ת])/)
-  return `${match ? match[1] : name.trim().charAt(0)}'`
-}
+// האות הראשונה של שם ההורה, שפותחת את הקרדיט ("ר' אמא של א' (6)" → ר'), כדי לשמור על אנונימיות מלאה
+const initial = (name: string) => `${name.trim().charAt(0)}'`
 
 // המלצה ארוכה מוצגת מקוצרת עם כפתור "להמשך קריאה", כדי שכל הכרטיסים יישארו נמוכים ואחידים
 const LONG_TEXT = 300

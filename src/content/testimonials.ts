@@ -5,13 +5,13 @@ import { home, type Testimonial } from './index'
 const added: Testimonial[] = [
   {
     text: 'חיפשנו המון זמן מקום שבו הוא פשוט ירגיש שייך, בלי שיפוטיות ובקצב שלו. היום המפגש הקבוצתי הפך ליום הכי אהוב עליו בשבוע – הוא חוזר עם חיוך ענק, מחכה לפגוש את החברים, ובפעם הראשונה אנחנו רואים את הביטחון שלו נבנה מתוך הנאה אמיתית.',
-    name: "אמא של א' (6)",
+    name: "ר' אמא של א' (6)",
     title: '',
     image: '',
   },
   {
     text: 'ההגעה לקבוצה הייתה נקודת המפנה עבורנו. מעבר לכלים המדויקים שהוא קיבל להתמודדות עם תסכול, שיתוף ומשחק משותף, קיבלנו מעטפת של רוך, מקצועיות והבנה עמוקה של הילד שלנו. השינוי מורגש בכל מפגש חברתי שלו, גם מחוץ לקבוצה.',
-    name: "אמא של ד' (7.5)",
+    name: "נ' אמא של ד' (7.5)",
     title: '',
     image: '',
   },
@@ -20,8 +20,9 @@ const added: Testimonial[] = [
 // בחלק מההמלצות המקוריות הציטוט כבר עטוף במרכאות; הכרטיס מוסיף סימן ציטוט משלו
 const unquote = (text: string) => text.replace(/^["״“”]+|["״“”]+$/g, '').trim()
 
-// גילים שנוספו לקרדיט של ההמלצות המקוריות (שם לא צוין גיל), לפי סדר ההמלצות ב-home.json
-const originalAges = ['5', '4', '5', '4.5', '5']
-const original = home.testimonials.map((item, i) => (originalAges[i] ? { ...item, name: `${item.name} (${originalAges[i]})` } : item))
+// הקרדיט של ההמלצות המקוריות, לפי סדר ההמלצות ב-home.json: נוספו האות הראשונה של שם ההורה
+// (היא מוצגת בעיגול שבכרטיס) וגיל הילד. בקבוצה הבוגרת הגיל מעל 7, בקבוצה הצעירה 4–5.
+const originalCredits = ["ש' אמא של ל' (7.5)", "ת' אמא של ל' (4)", "ע' אמא של ר' (8)", "מ' אבא של ד' (4.5)", "ה' אמא של י' (7.5)"]
+const original = home.testimonials.map((item, i) => (originalCredits[i] ? { ...item, name: originalCredits[i] } : item))
 
 export const testimonials: Testimonial[] = [...added, ...original].map((item) => ({ ...item, text: unquote(item.text) }))
