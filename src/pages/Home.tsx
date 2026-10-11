@@ -7,6 +7,7 @@ import Testimonials from '../components/Testimonials'
 import { PinIcon } from '../components/icons'
 import { areas, introVideo, shorts, site, youtubeChannel } from '../config/site'
 import { home } from '../content'
+import { testimonials } from '../content/testimonials'
 
 // המזהים הם מזהי הווידג'טים של העמוד המקורי ב-Elementor (ראו src/content/home.json)
 const w = home.widgets
@@ -154,7 +155,7 @@ export default function Home() {
       <section className="mx-auto max-w-site px-2.5 py-2.5">
         <span id="13" />
         <h2 className="title mb-6 text-center">{w['3ec2969'].text}</h2>
-        <Testimonials items={home.testimonials} />
+        <Testimonials items={testimonials} />
       </section>
 
       {/* תובנות וטיפים מהשטח */}
