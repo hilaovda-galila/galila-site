@@ -69,7 +69,7 @@ export default function Testimonials({ items }: { items: Testimonial[] }) {
 
   return (
     <div
-      className="relative mx-auto max-w-[1100px] px-11 md:px-14"
+      className="relative mx-auto max-w-[900px] px-11 md:px-14"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onFocus={() => setPaused(true)}

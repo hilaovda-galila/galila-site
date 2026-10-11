@@ -20,4 +20,8 @@ const added: Testimonial[] = [
 // בחלק מההמלצות המקוריות הציטוט כבר עטוף במרכאות; הכרטיס מוסיף סימן ציטוט משלו
 const unquote = (text: string) => text.replace(/^["״“”]+|["״“”]+$/g, '').trim()
 
-export const testimonials: Testimonial[] = [...added, ...home.testimonials].map((item) => ({ ...item, text: unquote(item.text) }))
+// גילים שנוספו לקרדיט של ההמלצות המקוריות (שם לא צוין גיל), לפי סדר ההמלצות ב-home.json
+const originalAges = ['5', '4', '5', '4.5', '5']
+const original = home.testimonials.map((item, i) => (originalAges[i] ? { ...item, name: `${item.name} (${originalAges[i]})` } : item))
+
+export const testimonials: Testimonial[] = [...added, ...original].map((item) => ({ ...item, text: unquote(item.text) }))
