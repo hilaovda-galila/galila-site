@@ -19,6 +19,10 @@ function NavItem({ href, label, className, onClick }: { href: string; label: str
   )
 }
 
+// לשונית: מלבן לחיץ בגובה 44 פיקסלים לפחות (נוח ללחיצה גם באצבע), עם מסגרת ברורה במיקוד מקלדת
+const tabClass =
+  'flex min-h-11 items-center justify-center rounded-lg border border-brand-soft bg-white px-3 py-2 text-center text-[17px] leading-tight font-medium text-brand-deep transition-colors hover:border-brand hover:bg-powder'
+
 export default function Header() {
   const [open, setOpen] = useState(false)
 
@@ -33,13 +37,10 @@ export default function Header() {
           )}
         </Link>
 
-        <nav className="hidden flex-wrap items-center justify-center lg:flex" aria-label="ניווט ראשי">
+        {/* לשוניות כמלבנים לחיצים, 4 בשורה בשתי שורות */}
+        <nav className="hidden grow grid-cols-4 gap-2 lg:grid lg:max-w-[860px]" aria-label="ניווט ראשי">
           {navLinks.map((link) => (
-            <NavItem
-              key={link.label}
-              {...link}
-              className="px-[14px] py-[13px] text-[19px] leading-5 text-brand-deep transition-colors hover:text-sky"
-            />
+            <NavItem key={link.label} {...link} className={tabClass} />
           ))}
         </nav>
 
@@ -60,14 +61,9 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav id="mobile-nav" className="absolute inset-x-0 top-full bg-white shadow-lg lg:hidden" aria-label="ניווט נייד">
+        <nav id="mobile-nav" className="absolute inset-x-0 top-full grid grid-cols-2 gap-2 bg-cream p-3 shadow-lg lg:hidden" aria-label="ניווט נייד">
           {navLinks.map((link) => (
-            <NavItem
-              key={link.label}
-              {...link}
-              onClick={() => setOpen(false)}
-              className="block px-5 py-[17px] text-center font-medium text-ink hover:bg-powder hover:text-brand-deep"
-            />
+            <NavItem key={link.label} {...link} onClick={() => setOpen(false)} className={tabClass} />
           ))}
         </nav>
       )}

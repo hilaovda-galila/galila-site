@@ -3,7 +3,6 @@ import authorJson from './author.json'
 import casesJson from './cases.json'
 import homeJson from './home.json'
 import postsJson from './posts.json'
-import webinarJson from './webinar.json'
 
 export type Block = {
   id?: string
@@ -35,7 +34,6 @@ export type Testimonial = { text: string; name: string; title: string; image: st
 export const posts = postsJson as Post[]
 export const author = authorJson as { name: string; bio: string; image: string }
 export const cases = casesJson as { metaTitle: string; description: string; blocks: Block[] }
-export const webinar = webinarJson as { metaTitle: string; description: string; blocks: Block[] }
 export const home = homeJson as unknown as {
   metaTitle: string
   description: string

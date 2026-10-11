@@ -2,7 +2,7 @@ import type { ReactElement } from 'react'
 import { Navigate } from 'react-router'
 import { imageSrc } from './components/Img'
 import { paths, redirects } from './config/site'
-import { cases, home, posts, webinar } from './content'
+import { cases, home, posts } from './content'
 import Blog, { blogMeta } from './pages/Blog'
 import Cases from './pages/Cases'
 import Courses, { coursesMeta } from './pages/Courses'
@@ -10,7 +10,6 @@ import MyCourses from './pages/MyCourses'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import PostPage from './pages/PostPage'
-import Webinar from './pages/Webinar'
 
 export type Page = {
   path: string
@@ -27,7 +26,6 @@ export const pages: Page[] = [
   { path: '/', title: home.metaTitle, description: home.description, image: imageSrc('IMG-20230523-WA0016.jpg'), element: <Home /> },
   { path: paths.blog, ...blogMeta, element: <Blog /> },
   { path: paths.cases, title: 'תאורי מקרה | גלילה', description: cases.description, element: <Cases /> },
-  { path: paths.webinar, title: 'הרשמה לוובינר | גלילה', description: webinar.description, element: <Webinar /> },
   { path: paths.courses, ...coursesMeta, element: <Courses /> },
   // אזור אישי: נוצר מראש רק עם שער הכניסה, בלי תוכן, ולא נכנס למפת האתר
   { path: paths.myCourses, title: 'הקורסים שלי | גלילה', description: 'אזור הצפייה להורים בקורסים הדיגיטליים של גלילה.', private: true, element: <MyCourses /> },
