@@ -1,0 +1,114 @@
+@import 'tailwindcss';
+
+/* ערכת הצבעים נלקחה מהלוגו של גלילה: ורוד, צהוב, כחול ושחור, על רקע בהיר ובלי משטחים כהים */
+@theme {
+  --font-sans: 'Rubik', system-ui, 'Segoe UI', Arial, sans-serif;
+
+  --color-brand: #ec6394; /* הוורוד של הלוגו – כותרות, כפתורים, פס תחתון */
+  --color-brand-deep: #c2356c; /* ורוד עמוק – לטקסט קטן, שיהיה קריא */
+  --color-brand-soft: #f6b6cd; /* ורוד בהיר – קווים ומסגרות */
+  --color-powder: #fce6ee; /* ורוד בהיר מאוד – רקע לעיגולים ולתגיות */
+  --color-sun: #dccf6f; /* הצהוב של הלוגו – קווי הפרדה */
+  --color-sky: #1c9dd9; /* הכחול של הלוגו – ריחוף על קישורים */
+  --color-cream: #fffaf8; /* רקע העמוד */
+  --color-sand: #fdf1f4; /* ורדרד רך – רקע למקטעים מודגשים */
+  --color-ink: #1d1e1c; /* השחור של הלוגו */
+  --color-whatsapp: #39de55;
+
+  --container-site: 1500px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream font-sans text-ink;
+    line-height: 1.5;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+  /* כותרת מקטע: Rubik 800, 52px */
+  .title {
+    @apply text-[45px] leading-none font-extrabold text-brand md:text-[52px];
+  }
+
+  .btn {
+    @apply inline-block rounded-[3px] bg-brand px-6 py-3 text-center text-[15px] leading-none font-semibold text-ink transition-transform duration-300 hover:scale-110;
+  }
+
+  .divider {
+    @apply block w-[15%] border-t-[3px] border-sun;
+  }
+
+  .card {
+    @apply rounded-2xl border border-brand-soft/60 bg-white shadow-[0_4px_18px_rgba(236,99,148,0.1)];
+  }
+
+  .field {
+    @apply w-full rounded-lg border border-brand-soft bg-white px-4 py-2.5 text-ink placeholder:text-ink/50;
+  }
+
+  /* טקסט עשיר שמגיע מהתוכן המקורי */
+  .rich p,
+  .rich ul,
+  .rich ol,
+  .rich blockquote {
+    margin-block-end: 0.9rem;
+  }
+  .rich > :last-child {
+    margin-block-end: 0;
+  }
+  .rich h2,
+  .rich h3,
+  .rich h4,
+  .rich h5,
+  .rich h6 {
+    @apply font-extrabold text-brand;
+    line-height: 1.2;
+    margin-block: 1.4rem 0.7rem;
+  }
+  .rich > :first-child {
+    margin-block-start: 0;
+  }
+  .rich h2 {
+    @apply text-[30px] md:text-[36px];
+  }
+  .rich h3 {
+    @apply text-[25px] md:text-[28px];
+  }
+  .rich h4,
+  .rich h5,
+  .rich h6 {
+    @apply text-[21px];
+  }
+  .rich ul {
+    list-style: disc;
+    padding-inline-start: 1.4rem;
+  }
+  .rich ol {
+    list-style: decimal;
+    padding-inline-start: 1.4rem;
+  }
+  .rich li {
+    margin-block-end: 0.35rem;
+  }
+  .rich a {
+    @apply font-medium text-brand-deep underline;
+  }
+  .rich blockquote {
+    @apply border-s-[3px] border-sun ps-4;
+  }
+}
