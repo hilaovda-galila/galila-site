@@ -53,6 +53,8 @@ export const paths = {
   blog: '/autism-blog-parents/',
   cases: '/גלילה-קבוצות-חברתיות-2/',
   webinar: '/הרשמה-לוובינר/',
+  courses: '/courses/',
+  myCourses: '/courses/my/',
 }
 
 // סדר ושמות התפריט כמו באתר המקורי; המספרים הם העוגנים המקוריים בעמוד הבית
@@ -64,6 +66,7 @@ export const navLinks = [
   { href: '/#5', label: 'היתרונות שלנו' },
   { href: '/#6', label: 'הצוות שלנו' },
   { href: paths.blog, label: 'בלוג' },
+  { href: paths.courses, label: 'קורסים דיגיטליים' },
   { href: '/#13', label: 'הורים ממליצים' },
   { href: paths.cases, label: 'תאורי מקרה' },
   { href: '/#25', label: 'השאירו פרטים' },

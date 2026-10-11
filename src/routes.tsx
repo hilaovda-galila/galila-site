@@ -5,6 +5,8 @@ import { paths, redirects } from './config/site'
 import { cases, home, posts, webinar } from './content'
 import Blog, { blogMeta } from './pages/Blog'
 import Cases from './pages/Cases'
+import Courses, { coursesMeta } from './pages/Courses'
+import MyCourses from './pages/MyCourses'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import PostPage from './pages/PostPage'
@@ -15,6 +17,8 @@ export type Page = {
   title: string
   description: string
   image?: string
+  // עמוד אישי שלא אמור להופיע בגוגל
+  private?: boolean
   element: ReactElement
 }
 
@@ -24,6 +28,9 @@ export const pages: Page[] = [
   { path: paths.blog, ...blogMeta, element: <Blog /> },
   { path: paths.cases, title: 'תאורי מקרה | גלילה', description: cases.description, element: <Cases /> },
   { path: paths.webinar, title: 'הרשמה לוובינר | גלילה', description: webinar.description, element: <Webinar /> },
+  { path: paths.courses, ...coursesMeta, element: <Courses /> },
+  // אזור אישי: נוצר מראש רק עם שער הכניסה, בלי תוכן, ולא נכנס למפת האתר
+  { path: paths.myCourses, title: 'הקורסים שלי | גלילה', description: 'אזור הצפייה להורים בקורסים הדיגיטליים של גלילה.', private: true, element: <MyCourses /> },
   ...posts.map((post) => ({
     path: `/${post.slug}/`,
     title: post.metaTitle,

@@ -26,6 +26,7 @@ for (const page of pageList) {
     `<meta property="og:description" content="${escape(page.description)}" />`,
     `<meta property="og:url" content="${absolute(page.path)}" />`,
     page.image ? `<meta property="og:image" content="${site.url}${page.image}" />` : '',
+    page.private ? '<meta name="robots" content="noindex" />' : '',
   ]
     .filter(Boolean)
     .join('\n    ')
@@ -39,7 +40,7 @@ for (const page of pageList) {
   await writeFile(path.join(dir, 'index.html'), html)
 }
 
-const urls = pageList.map((p) => `  <url><loc>${absolute(p.path)}</loc></url>`).join('\n')
+const urls = pageList.filter((p) => !p.private).map((p) => `  <url><loc>${absolute(p.path)}</loc></url>`).join('\n')
 await writeFile(
   path.join(dist, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`,
