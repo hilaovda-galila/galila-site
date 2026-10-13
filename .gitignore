@@ -7,3 +7,4 @@ dist-server
 *.local
 .DS_Store
 galila-site-upload.zip
+seo/secrets/
