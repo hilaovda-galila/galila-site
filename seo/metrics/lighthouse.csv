@@ -1,0 +1,4 @@
+﻿date,page,performance,seo,accessibility,best_practices,lcp_s,fcp_s,cls,tbt_ms,page_weight_kb,runs,lighthouse_version
+2026-10-13,blog,83,100,96,100,3.6,3.2,0.011,71,1371,3,12.8.2
+2026-10-13,home,83,100,88,96,3.6,3.2,0.011,62,3116,3,12.8.2
+2026-10-13,post,87,100,96,100,3.2,3.1,0.000,19,641,3,12.8.2

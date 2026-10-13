@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:courses": "vite --mode courses-preview --port 5175 --strictPort",
     "build": "tsc --noEmit && vite build && vite build --ssr src/entry-server.tsx --outDir dist-server && node scripts/prerender.mjs",
     "preview": "vite preview",
     "seo:snapshot": "node scripts/seo-snapshot.mjs"
