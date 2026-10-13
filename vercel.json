@@ -1,8 +1,11 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": true,
-  "rewrites": [
-    { "source": "/playing-games/(.*)", "destination": "/removed-spam-page" },
-    { "source": "/(.*)", "destination": "/spa.html" }
+  "rewrites": [{ "source": "/(.*)", "destination": "/spa.html" }],
+  "headers": [
+    {
+      "source": "/playing-games/(.*)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    }
   ]
 }
