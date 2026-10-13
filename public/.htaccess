@@ -1,0 +1,23 @@
+# הגדרות לאחסון רגיל (Apache / cPanel), למשל JetServer. ב-Vercel הקובץ הזה לא בשימוש.
+Options -Indexes
+DirectoryIndex index.html
+AddDefaultCharset UTF-8
+
+# כתובת שלא נוצר לה עמוד מראש (כתובות ישנות של האתר, עמוד שלא קיים) נטענת דרך המעטפת,
+# והאתר עצמו מפנה לכתובת הנכונה או מציג "העמוד לא נמצא"
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ /spa.html [L]
+</IfModule>
+
+# קבצים עם שם ייחודי (JS/CSS של הבנייה) נשמרים בדפדפן לשנה; עמודי HTML נבדקים מחדש בכל כניסה
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
