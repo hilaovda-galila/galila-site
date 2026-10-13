@@ -13,6 +13,11 @@ export type Course = {
   lessons: Lesson[]
 }
 
+// כל עוד false, עמודי הקורסים מציגים רק חלונית "בקרוב" שמחזירה לדף הבית, והקטלוג,
+// ההרשמה ואזור הצפייה (שעדיין במצב הדגמה) לא נחשפים לגולשים.
+// להפוך ל-true רק כשיש קורסים אמיתיים, הרשמה אמיתית וסליקה.
+export const COURSES_OPEN = false
+
 export const ACCESS_DAYS = 30
 
 export const courses: Course[] = [

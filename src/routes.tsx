@@ -1,6 +1,8 @@
 import type { ReactElement } from 'react'
 import { Navigate } from 'react-router'
+import ComingSoon from './components/ComingSoon'
 import { imageSrc } from './components/Img'
+import { COURSES_OPEN } from './content/courses'
 import { paths, redirects } from './config/site'
 import { cases, home, posts } from './content'
 import Blog, { blogMeta } from './pages/Blog'
@@ -26,9 +28,18 @@ export const pages: Page[] = [
   { path: '/', title: home.metaTitle, description: home.description, image: imageSrc('IMG-20230523-WA0016.jpg'), element: <Home /> },
   { path: paths.blog, ...blogMeta, element: <Blog /> },
   { path: paths.cases, title: 'תאורי מקרה | גלילה', description: cases.description, element: <Cases /> },
-  { path: paths.courses, ...coursesMeta, element: <Courses /> },
+  // עד שהקורסים נפתחים (COURSES_OPEN) שני העמודים מציגים חלונית "בקרוב" ולא נכנסים למפת האתר
+  COURSES_OPEN
+    ? { path: paths.courses, ...coursesMeta, element: <Courses /> }
+    : { path: paths.courses, title: 'קורסים דיגיטליים – בקרוב | גלילה', description: 'בקרוב: קורסים דיגיטליים להורים מבית גלילה.', private: true, element: <ComingSoon /> },
   // אזור אישי: נוצר מראש רק עם שער הכניסה, בלי תוכן, ולא נכנס למפת האתר
-  { path: paths.myCourses, title: 'הקורסים שלי | גלילה', description: 'אזור הצפייה להורים בקורסים הדיגיטליים של גלילה.', private: true, element: <MyCourses /> },
+  {
+    path: paths.myCourses,
+    title: 'הקורסים שלי | גלילה',
+    description: 'אזור הצפייה להורים בקורסים הדיגיטליים של גלילה.',
+    private: true,
+    element: COURSES_OPEN ? <MyCourses /> : <ComingSoon />,
+  },
   ...posts.map((post) => ({
     path: `/${post.slug}/`,
     title: post.metaTitle,
