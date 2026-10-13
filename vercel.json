@@ -1,5 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": true,
-  "rewrites": [{ "source": "/(.*)", "destination": "/spa.html" }]
+  "rewrites": [
+    { "source": "/playing-games/(.*)", "destination": "/removed-spam-page" },
+    { "source": "/(.*)", "destination": "/spa.html" }
+  ]
 }

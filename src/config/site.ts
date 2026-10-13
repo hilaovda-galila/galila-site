@@ -2,7 +2,8 @@
 export const site = {
   name: 'גלילה',
   domain: 'galilagroup.com',
-  url: 'https://galilagroup.com',
+  // הכתובת הראשית ב-Vercel היא עם www; הכתובת בלי www מפנה אליה
+  url: 'https://www.galilagroup.com',
   phoneDisplay: '0549480868',
   phoneHref: 'tel:0549480868',
   // מספר וואטסאפ בפורמט בינלאומי, ספרות בלבד
