@@ -6,7 +6,7 @@ import { pages } from './routes'
 
 export { site } from './config/site'
 
-export const pageList = pages.map(({ path, title, description, image, private: isPrivate }) => ({ path, title, description, image, private: isPrivate }))
+export const pageList = pages.map(({ path, title, description, image, private: isPrivate, jsonLd }) => ({ path, title, description, image, private: isPrivate, jsonLd }))
 
 export function render(path: string) {
   return renderToString(

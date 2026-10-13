@@ -9,6 +9,7 @@ import Blog, { blogMeta } from './pages/Blog'
 import Cases from './pages/Cases'
 import Courses, { coursesMeta } from './pages/Courses'
 import MyCourses from './pages/MyCourses'
+import { organizationLd, postLd } from './seo'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import PostPage from './pages/PostPage'
@@ -20,12 +21,14 @@ export type Page = {
   image?: string
   // עמוד אישי שלא אמור להופיע בגוגל
   private?: boolean
+  // נתונים מובנים (schema.org) למנועי חיפוש ולעוזרי בינה מלאכותית – ראו src/seo.ts
+  jsonLd?: object[]
   element: ReactElement
 }
 
 // כל עמודי האתר, בכתובות המקוריות שלהם
 export const pages: Page[] = [
-  { path: '/', title: home.metaTitle, description: home.description, image: imageSrc('IMG-20230523-WA0016.jpg'), element: <Home /> },
+  { path: '/', title: home.metaTitle, description: home.description, image: imageSrc('IMG-20230523-WA0016.jpg'), jsonLd: [organizationLd], element: <Home /> },
   { path: paths.blog, ...blogMeta, element: <Blog /> },
   { path: paths.cases, title: 'תאורי מקרה | גלילה', description: cases.description, element: <Cases /> },
   // עד שהקורסים נפתחים (COURSES_OPEN) שני העמודים מציגים חלונית "בקרוב" ולא נכנסים למפת האתר
@@ -45,6 +48,7 @@ export const pages: Page[] = [
     title: post.metaTitle,
     description: post.description,
     image: imageSrc(post.ogImage),
+    jsonLd: postLd(post),
     element: <PostPage post={post} />,
   })),
 ]

@@ -26,14 +26,18 @@ for (const page of pageList) {
     `<meta property="og:description" content="${escape(page.description)}" />`,
     `<meta property="og:url" content="${absolute(page.path)}" />`,
     page.image ? `<meta property="og:image" content="${site.url}${page.image}" />` : '',
+    `<meta name="twitter:card" content="${page.image ? 'summary_large_image' : 'summary'}" />`,
     page.private ? '<meta name="robots" content="noindex" />' : '',
+    // נתונים מובנים: "<" מוחלף כדי שהטקסט לא יוכל לסגור את תגית הסקריפט
+    ...(page.jsonLd ?? []).map((data) => `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`),
   ]
     .filter(Boolean)
     .join('\n    ')
 
+  // פונקציות החלפה, כדי שסימן $ בתוכן לא יפורש כהוראת החלפה
   const html = template
-    .replace(/<title>[\s\S]*?<\/title>/, head)
-    .replace('<div id="root"></div>', `<div id="root">${render(page.path)}</div>`)
+    .replace(/<title>[\s\S]*?<\/title>/, () => head)
+    .replace('<div id="root"></div>', () => `<div id="root">${render(page.path)}</div>`)
 
   const dir = path.join(dist, ...page.path.split('/').filter(Boolean))
   await mkdir(dir, { recursive: true })
@@ -46,6 +50,34 @@ await writeFile(
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`,
 )
 await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${site.url}/sitemap.xml\n`)
+
+// llms.txt: תקציר קריא של האתר לעוזרי בינה מלאכותית – מי אנחנו, פרטי קשר ורשימת העמודים עם תיאור
+const publicPages = pageList.filter((p) => !p.private)
+const isPost = (p) => p.jsonLd?.some((data) => data['@type'] === 'Article')
+const line = (p) => `- [${p.title}](${absolute(p.path)}): ${p.description}`
+const org = pageList[0].jsonLd?.[0]
+await writeFile(
+  path.join(dist, 'llms.txt'),
+  [
+    `# ${org?.name ?? site.name}`,
+    '',
+    `> ${org?.description ?? ''}`,
+    '',
+    `- אתר: ${site.url}/`,
+    `- טלפון: ${site.phoneDisplay}`,
+    `- אימייל: ${site.email}`,
+    ...(org?.location ?? []).map((place) => `- מיקום: ${place.name} (${place.address.streetAddress}, ${place.address.addressLocality})`),
+    '',
+    '## עמודים',
+    '',
+    ...publicPages.filter((p) => !isPost(p)).map(line),
+    '',
+    '## מאמרים להורים',
+    '',
+    ...publicPages.filter(isPost).map(line),
+    '',
+  ].join('\n'),
+)
 
 await rm(serverDir, { recursive: true, force: true })
 console.log(`Prerendered ${pageList.length} pages`)
