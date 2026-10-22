@@ -1,11 +1,112 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": true,
-  "rewrites": [{ "source": "/(.*)", "destination": "/spa.html" }],
+  "redirects": [
+    {
+      "source": "/בלוג/",
+      "destination": "/autism-blog-parents/",
+      "permanent": true
+    },
+    {
+      "source": "/%D7%91%D7%9C%D7%95%D7%92/",
+      "destination": "/autism-blog-parents/",
+      "permanent": true
+    },
+    {
+      "source": "/בלוג-הורים-אוטיזם/",
+      "destination": "/autism-blog-parents/",
+      "permanent": true
+    },
+    {
+      "source": "/%D7%91%D7%9C%D7%95%D7%92-%D7%94%D7%95%D7%A8%D7%99%D7%9D-%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D/",
+      "destination": "/autism-blog-parents/",
+      "permanent": true
+    },
+    {
+      "source": "/גלילה-קבוצה-חברתית/",
+      "destination": "/%D7%92%D7%9C%D7%99%D7%9C%D7%94-%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-2/",
+      "permanent": true
+    },
+    {
+      "source": "/%D7%92%D7%9C%D7%99%D7%9C%D7%94-%D7%A7%D7%91%D7%95%D7%A6%D7%94-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA/",
+      "destination": "/%D7%92%D7%9C%D7%99%D7%9C%D7%94-%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-2/",
+      "permanent": true
+    },
+    {
+      "source": "/הורים-ממליצים/",
+      "destination": "/#13",
+      "permanent": true
+    },
+    {
+      "source": "/%D7%94%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%9E%D7%9C%D7%99%D7%A6%D7%99%D7%9D/",
+      "destination": "/#13",
+      "permanent": true
+    },
+    {
+      "source": "/הרשמה-לוובינר/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/%D7%94%D7%A8%D7%A9%D7%9E%D7%94-%D7%9C%D7%95%D7%95%D7%91%D7%99%D7%A0%D7%A8/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/asperger-high-functioning/",
+      "destination": "/asperger-syndrome-guide-for-parents/",
+      "permanent": true
+    },
+    {
+      "source": "/hugging-strangers-autism/",
+      "destination": "/hugging-strangers-autism-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/אוקסיטוצין-ואוטיזם-מה-הקשר/",
+      "destination": "/oxytocin-and-autism-treatment-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/%D7%90%D7%95%D7%A7%D7%A1%D7%99%D7%98%D7%95%D7%A6%D7%99%D7%9F-%D7%95%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-%D7%9E%D7%94-%D7%94%D7%A7%D7%A9%D7%A8/",
+      "destination": "/oxytocin-and-autism-treatment-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/אפילפסיה-ואוטיזם-השפעות-וטיפול/",
+      "destination": "/epilepsy-and-autism-connection-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/%D7%90%D7%A4%D7%99%D7%9C%D7%A4%D7%A1%D7%99%D7%94-%D7%95%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-%D7%94%D7%A9%D7%A4%D7%A2%D7%95%D7%AA-%D7%95%D7%98%D7%99%D7%A4%D7%95%D7%9C/",
+      "destination": "/epilepsy-and-autism-connection-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/על-הספקטרום-מה-באמת-עובר-על-הורים-לילדי/",
+      "destination": "/parents-of-children-with-autism-challenges/",
+      "permanent": true
+    },
+    {
+      "source": "/%D7%A2%D7%9C-%D7%94%D7%A1%D7%A4%D7%A7%D7%98%D7%A8%D7%95%D7%9D-%D7%9E%D7%94-%D7%91%D7%90%D7%9E%D7%AA-%D7%A2%D7%95%D7%91%D7%A8-%D7%A2%D7%9C-%D7%94%D7%95%D7%A8%D7%99%D7%9D-%D7%9C%D7%99%D7%9C%D7%93%D7%99/",
+      "destination": "/parents-of-children-with-autism-challenges/",
+      "permanent": true
+    },
+    {
+      "source": "/pressure-chamber-asd/",
+      "destination": "/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%91%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9D-%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-asd-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%AA%D7%90-%D7%9C%D7%97%D7%A5/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/playing-games/(.*)",
-      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
 }

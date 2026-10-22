@@ -114,6 +114,8 @@ export default function Testimonials({ items }: { items: Testimonial[] }) {
           <div
             key={group[0].text}
             aria-hidden={i !== page}
+            // inert: גם אי אפשר להגיע במקלדת לכפתורים שבעמוד מוסתר
+            inert={i !== page}
             className={`col-start-1 row-start-1 grid gap-6 transition-opacity duration-500 md:grid-cols-2 ${
               i === page ? 'opacity-100' : 'pointer-events-none opacity-0'
             }`}
@@ -125,7 +127,8 @@ export default function Testimonials({ items }: { items: Testimonial[] }) {
         ))}
       </div>
 
-      <div className="mt-6 flex justify-center gap-2">
+      {/* הנקודה קטנה, אבל אזור הלחיצה סביבה 24 פיקסלים – נוח גם לאצבע */}
+      <div className="mt-5 flex justify-center gap-1">
         {pages.map((group, i) => (
           <button
             key={group[0].text}
@@ -133,8 +136,10 @@ export default function Testimonials({ items }: { items: Testimonial[] }) {
             onClick={() => show(i)}
             aria-label={`עמוד המלצות ${i + 1} מתוך ${count}`}
             aria-current={i === page}
-            className={`size-2.5 cursor-pointer rounded-full transition-colors ${i === page ? 'bg-brand' : 'bg-brand-soft'}`}
-          />
+            className="flex size-6 cursor-pointer items-center justify-center rounded-full"
+          >
+            <span className={`size-2.5 rounded-full transition-colors ${i === page ? 'bg-brand' : 'bg-brand-soft'}`} />
+          </button>
         ))}
       </div>
     </div>

@@ -72,7 +72,9 @@ export const navLinks = [
   { href: paths.courses, label: 'קורסים דיגיטליים' },
 ]
 
-// כתובות ישנות של האתר שמפנות לכתובות העדכניות
+// כתובות ישנות של האתר שמפנות לכתובות העדכניות.
+// כל שורה כאן חייבת להופיע גם ב-"redirects" שב-vercel.json (שם זו הפניה אמיתית מהשרת, 301,
+// שמעבירה לגוגל את הדירוג של הכתובת הישנה). הבנייה נכשלת אם משהו חסר שם (scripts/prerender.mjs).
 export const redirects: Record<string, string> = {
   '/בלוג/': paths.blog,
   '/בלוג-הורים-אוטיזם/': paths.blog,

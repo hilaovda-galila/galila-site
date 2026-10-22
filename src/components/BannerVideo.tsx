@@ -11,26 +11,44 @@ export default function BannerVideo({ id, title }: { id: string; title: string }
 
   useEffect(() => {
     if (full || !holder.current) return
-    // הנגן נטען רק אחרי שהעמוד עלה, ולא למי שביקש להפחית תנועה
+    // לא מפעילים למי שביקש להפחית תנועה, או בחיבור איטי / במצב חיסכון בנתונים – שם רואים רק את התמונה
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
-    return mountPlayer(
-      holder.current,
-      id,
-      { autoplay: 1, mute: 1, controls: 0, playsinline: 1, rel: 0, disablekb: 1, loop: 1, playlist: id },
-      {
-        onReady: ({ target }) => {
-          target.mute()
-          target.playVideo()
-        },
-        onStateChange: ({ target, data }) => {
-          if (data === PLAYING) setStarted(true)
-          if (data === ENDED) {
-            target.seekTo(0, true)
+    const connection = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection
+    if (connection?.saveData || ['slow-2g', '2g', '3g'].includes(connection?.effectiveType ?? '')) return
+
+    // נגן יוטיוב שוקל כ-2MB. מורידים אותו רק אחרי שהעמוד נטען במלואו ויש רגע של שקט,
+    // כדי שלא יעכב את הטקסט ואת התמונות – מהירות הטעינה משפיעה גם על הדירוג בגוגל
+    let cancelled = false
+    let unmount: (() => void) | undefined
+    const start = () => {
+      if (cancelled || !holder.current) return
+      unmount = mountPlayer(
+        holder.current,
+        id,
+        { autoplay: 1, mute: 1, controls: 0, playsinline: 1, rel: 0, disablekb: 1, loop: 1, playlist: id },
+        {
+          onReady: ({ target }) => {
+            target.mute()
             target.playVideo()
-          }
+          },
+          onStateChange: ({ target, data }) => {
+            if (data === PLAYING) setStarted(true)
+            if (data === ENDED) {
+              target.seekTo(0, true)
+              target.playVideo()
+            }
+          },
         },
-      },
-    )
+      )
+    }
+    const whenIdle = () => (typeof window.requestIdleCallback === 'function' ? window.requestIdleCallback(start, { timeout: 4000 }) : window.setTimeout(start, 1500))
+    if (document.readyState === 'complete') whenIdle()
+    else window.addEventListener('load', whenIdle, { once: true })
+    return () => {
+      cancelled = true
+      window.removeEventListener('load', whenIdle)
+      unmount?.()
+    }
   }, [id, full])
 
   if (full) {
@@ -49,7 +67,17 @@ export default function BannerVideo({ id, title }: { id: string; title: string }
 
   return (
     <div className="relative aspect-[16/8] overflow-hidden bg-sand md:aspect-[16/6]">
-      <img src={`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`} alt="" decoding="async" className="size-full object-cover object-top" />
+      {/* תמונת הפתיחה נשמרת באתר עצמו (scripts/banner-thumbnail.mjs) ונטענת בעדיפות גבוהה, כי היא התוכן הראשון שרואים */}
+      <img
+        src="/images/banner/intro-video-1280.jpg"
+        srcSet="/images/banner/intro-video-640.jpg 640w, /images/banner/intro-video-1280.jpg 1280w"
+        sizes="100vw"
+        width={1280}
+        height={720}
+        fetchPriority="high"
+        alt=""
+        className="size-full object-cover object-top"
+      />
       {/* הנגן בגובה מלא של 16:9 ומוצמד למעלה, כך שהרצועה חותכת רק את החלק התחתון */}
       <div
         ref={holder}

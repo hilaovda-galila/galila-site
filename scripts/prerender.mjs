@@ -8,13 +8,22 @@ const root = path.resolve(import.meta.dirname, '..')
 const dist = path.join(root, 'dist')
 const serverDir = path.join(root, 'dist-server')
 
-const { render, pageList, site } = await import(pathToFileURL(path.join(serverDir, 'entry-server.js')).href)
+const { render, pageList, site, redirects } = await import(pathToFileURL(path.join(serverDir, 'entry-server.js')).href)
 const template = await readFile(path.join(dist, 'index.html'), 'utf8')
 
 const escape = (s = '') => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const absolute = (p) => site.url + encodeURI(p)
 
-// המעטפת הריקה משמשת כתובות שלא נוצר להן עמוד מראש (הפניות ישנות, 404)
+// כל הפניה מ-src/config/site.ts חייבת להופיע גם ב-vercel.json, שם היא הפניה אמיתית מהשרת (301)
+const vercelConfig = JSON.parse(await readFile(path.join(root, 'vercel.json'), 'utf8'))
+const serverRedirects = new Set((vercelConfig.redirects ?? []).map((r) => decodeURI(r.source)))
+const missing = Object.keys(redirects).filter((from) => !serverRedirects.has(from))
+if (missing.length) {
+  console.error(`vercel.json חסרות הפניות עבור: ${missing.join(', ')}`)
+  process.exit(1)
+}
+
+// מעטפת ריקה לאחסון Apache (.htaccess); ב-Vercel כתובת שלא קיימת מקבלת את 404.html עם סטטוס 404
 await writeFile(path.join(dist, 'spa.html'), template)
 
 for (const page of pageList) {
@@ -43,6 +52,13 @@ for (const page of pageList) {
   await mkdir(dir, { recursive: true })
   await writeFile(path.join(dir, 'index.html'), html)
 }
+
+// עמוד "לא נמצא": Vercel מגיש אותו לכל כתובת שלא קיימת, עם סטטוס 404 אמיתי (ולא "תקין"), כך שגוגל
+// מבין שהעמוד לא קיים – חשוב במיוחד לעמודי הספאם שנשארו בגוגל מהפריצה לאתר הישן
+const notFoundHtml = template
+  .replace(/<title>[\s\S]*?<\/title>/, () => `<title>העמוד לא נמצא | גלילה</title>\n    <meta name="robots" content="noindex" />`)
+  .replace('<div id="root"></div>', () => `<div id="root">${render('/this-page-does-not-exist/')}</div>`)
+await writeFile(path.join(dist, '404.html'), notFoundHtml)
 
 const urls = pageList.filter((p) => !p.private).map((p) => `  <url><loc>${absolute(p.path)}</loc></url>`).join('\n')
 await writeFile(
