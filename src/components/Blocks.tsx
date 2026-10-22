@@ -23,7 +23,7 @@ export default function Blocks({ blocks }: { blocks: Block[] }) {
           case 'html':
             return <Rich key={key} html={block.html} className="my-5" />
           case 'image':
-            return <Img key={key} name={block.image} alt={block.alt} className="mx-auto my-7 max-h-[640px] w-auto max-w-full rounded-[5px]" />
+            return <Img key={key} name={block.image} alt={block.alt} sizes="(min-width: 900px) 860px, 100vw" className="mx-auto my-7 max-h-[640px] w-auto max-w-full rounded-[5px]" />
           case 'video':
             return block.youtube ? <LiteYouTube key={key} id={block.youtube} title="סרטון של גלילה ב-YouTube" className="mx-auto my-7 w-full max-w-[340px]" /> : null
           case 'list':

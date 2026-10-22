@@ -31,7 +31,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-site items-center justify-between gap-3 px-3 py-2">
         <Link to="/" aria-label={`${site.name} – לעמוד הבית`} className="shrink-0">
           {imageSrc(LOGO) ? (
-            <Img name={LOGO} alt="גלילה – קבוצות חברתיות" loading="eager" className="w-[73px] md:w-[99px]" />
+            <Img name={LOGO} alt="גלילה – קבוצות חברתיות" loading="eager" sizes="99px" className="w-[73px] md:w-[99px]" />
           ) : (
             <span className="text-3xl font-extrabold text-brand">{site.name}</span>
           )}

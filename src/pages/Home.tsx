@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* פתיח */}
       <section className="mx-auto flex max-w-site flex-col items-center gap-[11px] px-2.5 py-2.5 text-center">
-        <Img name="גלילה-600-pix.png" alt="גלילה – קבוצות חברתיות" loading="eager" className="w-[60%] max-w-[420px]" />
+        <Img name="גלילה-600-pix.png" alt="גלילה – קבוצות חברתיות" loading="eager" sizes="(min-width: 700px) 420px, 60vw" className="w-[60%] max-w-[420px]" />
         <h1 className="text-[32px] leading-tight font-extrabold text-brand md:text-[41px]">{w['4d9b430'].text}</h1>
         <p className="text-[20px] leading-tight font-extrabold text-brand md:text-[23px]">{w['c7af937'].text}</p>
         <Rich html={w['20fdeab'].html} />
@@ -56,7 +56,7 @@ export default function Home() {
               {CTA}
             </a>
           </div>
-          <Img name={w['89acc0e'].image} alt={w['89acc0e'].alt} className="mx-auto w-full max-w-[640px]" />
+          <Img name={w['89acc0e'].image} alt={w['89acc0e'].alt} sizes="(min-width: 768px) 640px, 100vw" className="mx-auto w-full max-w-[640px]" />
         </div>
       </section>
 
@@ -105,7 +105,7 @@ export default function Home() {
         <div className="grid items-start md:grid-cols-2">
           <div className="follow p-2.5">
             {/* במחשב התמונה מוצגת בחיתוך גבוה, כדי שלטקסט שלצידה יהיה מרחק ללוות את הגלילה */}
-            <Img name={w['a35332b'].image} alt={w['a35332b'].alt} className="w-full object-cover md:aspect-[4/5]" />
+            <Img name={w['a35332b'].image} alt={w['a35332b'].alt} sizes="(min-width: 768px) 50vw, 100vw" className="w-full object-cover md:aspect-[4/5]" />
           </div>
           <div className="follow p-2.5 text-center md:px-8">
             <h2 className="title">{w['3aba3dd'].text}</h2>
@@ -126,7 +126,7 @@ export default function Home() {
                 key={card.text}
                 className="card m-[5px] overflow-hidden border-b-[3px] border-b-brand-soft pb-[15px] md:m-[15px]"
               >
-                <Img name={w[card.image].image} alt={w[card.image].alt} className="h-[321px] w-full object-cover md:h-[412px]" />
+                <Img name={w[card.image].image} alt={w[card.image].alt} sizes="(min-width: 1024px) 33vw, 100vw" className="h-[321px] w-full object-cover md:h-[412px]" />
                 <Rich html={w[card.text].html} className="p-5 text-center" />
               </article>
             ))}
@@ -142,7 +142,7 @@ export default function Home() {
           {team.map((member) => (
             <article key={member.name} className="card flex flex-col items-center p-6 text-center md:p-8">
               <div className="size-[170px] shrink-0 overflow-hidden rounded-full bg-powder ring-4 ring-brand-soft/50">
-                <Img name={w[member.image].image} alt={w[member.name].text} className="size-full object-cover object-top" />
+                <Img name={w[member.image].image} alt={w[member.name].text} sizes="170px" className="size-full object-cover object-top" />
               </div>
               <h3 className="mt-5 mb-3 text-[30px] leading-tight font-semibold text-brand">{w[member.name].text}</h3>
               <Rich html={w[member.text].html} />

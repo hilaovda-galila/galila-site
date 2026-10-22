@@ -27,7 +27,7 @@ export default function Cases() {
             className="card mt-10 grid items-start gap-6 border-b-[3px] border-b-brand-soft p-5 md:grid-cols-[2fr_1fr] md:p-8"
           >
             <Rich html={story.text.html} />
-            <Img name={story.image?.image} alt={story.image?.alt} className="mx-auto max-h-[520px] w-auto max-w-full rounded-[5px]" />
+            <Img name={story.image?.image} alt={story.image?.alt} sizes="(min-width: 768px) 33vw, 100vw" className="mx-auto max-h-[520px] w-auto max-w-full rounded-[5px]" />
           </article>
         ))}
       </div>

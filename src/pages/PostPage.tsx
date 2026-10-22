@@ -30,7 +30,7 @@ export default function PostPage({ post }: { post: Post }) {
         <Blocks blocks={post.blocks} />
 
         <aside className="mt-10 flex flex-col items-center gap-5 border-t-[3px] border-sun pt-8 text-center sm:flex-row sm:text-start">
-          <Img name={author.image} alt={author.name} className="size-[100px] shrink-0 rounded-full object-cover" />
+          <Img name={author.image} alt={author.name} sizes="100px" className="size-[100px] shrink-0 rounded-full object-cover" />
           <div>
             <p className="text-xl font-extrabold text-brand">{author.name}</p>
             <p className="mt-1">{author.bio}</p>
@@ -61,7 +61,7 @@ export default function PostPage({ post }: { post: Post }) {
           {more.map((p) => (
             <article key={p.slug} className="bg-white shadow-[0_0_10px_rgba(0,0,0,0.15)]">
               <Link to={`/${p.slug}/`} tabIndex={-1} aria-hidden="true">
-                <Img name={p.ogImage} alt="" className="aspect-[3/2] w-full object-cover" />
+                <Img name={p.ogImage} alt="" sizes="(min-width: 768px) 33vw, 100vw" className="aspect-[3/2] w-full object-cover" />
               </Link>
               <div className="p-5">
                 <h3 className="text-[19px] leading-snug font-extrabold">

@@ -25,7 +25,7 @@ export default function Blog() {
           {posts.map((post) => (
             <article key={post.slug} className="flex flex-col bg-white shadow-[0_0_10px_rgba(0,0,0,0.15)]">
               <Link to={`/${post.slug}/`} tabIndex={-1} aria-hidden="true">
-                <Img name={post.ogImage} alt="" className="aspect-[3/2] w-full object-cover" />
+                <Img name={post.ogImage} alt="" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" className="aspect-[3/2] w-full object-cover" />
               </Link>
               <div className="flex grow flex-col p-5">
                 <h2 className="text-[21px] leading-snug font-extrabold">

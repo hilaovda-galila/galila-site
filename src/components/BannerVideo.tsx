@@ -16,12 +16,16 @@ export default function BannerVideo({ id, title }: { id: string; title: string }
     const connection = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection
     if (connection?.saveData || ['slow-2g', '2g', '3g'].includes(connection?.effectiveType ?? '')) return
 
-    // נגן יוטיוב שוקל כ-2MB. מורידים אותו רק אחרי שהעמוד נטען במלואו ויש רגע של שקט,
-    // כדי שלא יעכב את הטקסט ואת התמונות – מהירות הטעינה משפיעה גם על הדירוג בגוגל
+    // נגן יוטיוב שוקל כ-2MB. מורידים אותו רק כשהמבקר מתחיל לפעול בעמוד (מזיז עכבר, גולל, נוגע במסך)
+    // או 6 שניות אחרי שהעמוד נטען – כך הוא לא מתחרה בטקסט ובתמונות על רוחב הפס בטעינה הראשונה.
+    // מהירות הטעינה משפיעה גם על הדירוג בגוגל.
     let cancelled = false
+    let started = false
     let unmount: (() => void) | undefined
     const start = () => {
-      if (cancelled || !holder.current) return
+      if (cancelled || started || !holder.current) return
+      started = true
+      cleanupTriggers()
       unmount = mountPlayer(
         holder.current,
         id,
@@ -41,12 +45,22 @@ export default function BannerVideo({ id, title }: { id: string; title: string }
         },
       )
     }
-    const whenIdle = () => (typeof window.requestIdleCallback === 'function' ? window.requestIdleCallback(start, { timeout: 4000 }) : window.setTimeout(start, 1500))
-    if (document.readyState === 'complete') whenIdle()
-    else window.addEventListener('load', whenIdle, { once: true })
+    const TRIGGERS = ['pointermove', 'pointerdown', 'scroll', 'keydown', 'touchstart'] as const
+    let timer: number | undefined
+    const afterLoad = () => {
+      timer = window.setTimeout(start, 6000)
+    }
+    function cleanupTriggers() {
+      TRIGGERS.forEach((type) => window.removeEventListener(type, start))
+      window.removeEventListener('load', afterLoad)
+      window.clearTimeout(timer)
+    }
+    TRIGGERS.forEach((type) => window.addEventListener(type, start, { once: true, passive: true }))
+    if (document.readyState === 'complete') afterLoad()
+    else window.addEventListener('load', afterLoad, { once: true })
     return () => {
       cancelled = true
-      window.removeEventListener('load', whenIdle)
+      cleanupTriggers()
       unmount?.()
     }
   }, [id, full])
