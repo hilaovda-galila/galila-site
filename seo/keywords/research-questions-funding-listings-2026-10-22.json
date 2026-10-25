@@ -1,0 +1,1534 @@
+{
+ "questions": {
+  "questions": [
+   {
+    "question": "איך יודעים אם קבוצה חברתית מתאימה לילד שלי? (\"האם קבוצת מיומנויות חברתיות מתאימה לכל ילד?\")",
+    "theme": "התאמה: למי זה מתאים",
+    "how_common": "very common (in almost every clinic FAQ)",
+    "source_urls": [
+     "https://www.rimonclinic.com/grouptherapysocial/",
+     "https://www.hevruta-center.com/faq-hevruta",
+     "https://smilemichal.co.il/service/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://www.overtherainbowcenter.com/qna"
+    ]
+   },
+   {
+    "question": "באילו מקרים קבוצה אינה המענה המתאים כרגע?",
+    "theme": "התאמה: למי זה מתאים",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.hevruta-center.com/faq-hevruta",
+     "https://www.tipulpsychology.co.il/therapy/children/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8.html",
+     "https://thespectrum.co.il/content/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A7%D7%91%D7%95%D7%A6%D7%AA%D7%99/"
+    ]
+   },
+   {
+    "question": "האם כדאי לשלוח את הילד לקבוצת מיומנויות חברתיות?",
+    "theme": "התאמה: למי זה מתאים",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://www.rimonclinic.com/grouptherapysocial/"
+    ]
+   },
+   {
+    "question": "למי מתאים להשתתף בקבוצה לחשיבה חברתית?",
+    "theme": "התאמה: למי זה מתאים",
+    "how_common": "single source",
+    "source_urls": [
+     "https://www.overtherainbowcenter.com/qna"
+    ]
+   },
+   {
+    "question": "האם הקבוצה יכולה להתאים לילדים עם קשיי קשב, ויסות או קשיים התפתחותיים אחרים?",
+    "theme": "התאמה: למי זה מתאים",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.hevruta-center.com/faq-hevruta",
+     "https://www.rimonclinic.com/grouptherapysocial/"
+    ]
+   },
+   {
+    "question": "האם הילד חייב לדעת לדבר על רגשות כדי להשתתף?",
+    "theme": "התאמה: למי זה מתאים",
+    "how_common": "single source",
+    "source_urls": [
+     "https://www.rimonclinic.com/grouptherapysocial/"
+    ]
+   },
+   {
+    "question": "מאיזה גיל מתאים לשלוח ילד לקבוצת מיומנויות חברתיות?",
+    "theme": "גיל ותזמון: מתי מתחילים, גן או בית ספר",
+    "how_common": "very common",
+    "source_urls": [
+     "https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://noamsystems.co.il/2025/03/11/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A8%D7%A6%D7%A3-%D7%94%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98/",
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "מהי חשיבות ההתערבות המוקדמת בשיפור כישורים חברתיים אצל ילדים אוטיסטים?",
+    "theme": "גיל ותזמון: מתי מתחילים, גן או בית ספר",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.autism.org.il/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D/",
+     "https://www.mifne-autism.com/%D7%A9%D7%90%D7%9C%D7%95%D7%AA-%D7%95%D7%AA%D7%A9%D7%95%D7%91%D7%95%D7%AA"
+    ]
+   },
+   {
+    "question": "איך נוכל להכין את ילדינו לקראת המעבר לכיתה א'?",
+    "theme": "גיל ותזמון: מתי מתחילים, גן או בית ספר",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://oti.org.il/1st-grade-adjustment/",
+     "https://www.efsharuyot.com/copy-of-17"
+    ]
+   },
+   {
+    "question": "בני כמה הילדים בקבוצה? (ומה פער הגילאים המקסימלי בין הילדים?)",
+    "theme": "מבנה הקבוצה: גודל, גילאים, הרכב",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://smilemichal.co.il/service/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://www.tipulpsychology.co.il/therapy/children/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8.html",
+     "https://www.tapuz.co.il/threads/%D7%9B%D7%99%D7%AA%D7%AA-%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA.13782928/"
+    ]
+   },
+   {
+    "question": "כמה ילדים בקבוצה?",
+    "theme": "מבנה הקבוצה: גודל, גילאים, הרכב",
+    "how_common": "very common (every listing states a size)",
+    "source_urls": [
+     "https://smilemichal.co.il/service/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://d-ligdol.co.il/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A1%D7%A4",
+     "https://thespectrum.co.il/content/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A7%D7%91%D7%95%D7%A6%D7%AA%D7%99/",
+     "https://www.be106.net/233/162215"
+    ]
+   },
+   {
+    "question": "האם עצם שהייתו בחברת ילדים על הקשת לא תגרום לו לחקות וללמוד התנהגויות אליהן הוא לא חשוף כלל כיום?",
+    "theme": "מבנה הקבוצה: גודל, גילאים, הרכב",
+    "how_common": "single source (parent Q&A, 2011). The same concern, a group of only spectrum kids versus a mixed group, comes up in professional articles",
+    "source_urls": [
+     "https://www.mako.co.il/home-family-kids/education/Article-76989722c6b7e21006.htm",
+     "https://www.hebpsy.net/articles.asp?id=3643"
+    ]
+   },
+   {
+    "question": "איך בוחרים את הקבוצה המתאימה? (לפי גיל, מגדר, רמת תפקוד)",
+    "theme": "מבנה הקבוצה: גודל, גילאים, הרכב",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/",
+     "https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "כמה זמן נמשכת התכנית? (כמה מפגשים, כמה זמן כל מפגש)",
+    "theme": "מבנה הקבוצה: משך ותדירות",
+    "how_common": "very common",
+    "source_urls": [
+     "https://smilemichal.co.il/service/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://d-ligdol.co.il/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A1%D7%A4",
+     "https://www.be106.net/233/162215",
+     "https://www.bsk.co.il/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%9D"
+    ]
+   },
+   {
+    "question": "מתי נפתחות קבוצות חדשות?",
+    "theme": "מבנה הקבוצה: משך ותדירות",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://smilemichal.co.il/service/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://www.be106.net/233/162215"
+    ]
+   },
+   {
+    "question": "מה עושים בקבוצה חברתית?",
+    "theme": "מה קורה במפגש ושיטת העבודה",
+    "how_common": "very common",
+    "source_urls": [
+     "https://www.overtherainbowcenter.com/qna",
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/",
+     "https://thespectrum.co.il/content/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A7%D7%91%D7%95%D7%A6%D7%AA%D7%99/"
+    ]
+   },
+   {
+    "question": "איך מתנהל מפגש בקבוצה?",
+    "theme": "מה קורה במפגש ושיטת העבודה",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/",
+     "https://www.rimonclinic.com/grouptherapysocial/"
+    ]
+   },
+   {
+    "question": "מה בעצם מתרגלים בקבוצה? / מהן בעצם מיומנויות חברתיות שהקבוצה מפתחת?",
+    "theme": "מה קורה במפגש ושיטת העבודה",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://www.galsuccess.com/post/social-groups-in-rishon-lezion"
+    ]
+   },
+   {
+    "question": "מהי חשיבה חברתית?",
+    "theme": "מה קורה במפגש ושיטת העבודה",
+    "how_common": "single source",
+    "source_urls": [
+     "https://www.overtherainbowcenter.com/qna"
+    ]
+   },
+   {
+    "question": "מהם התכנים שמועברים במסגרת הקבוצות? (על איזו שיטה זה מבוסס?)",
+    "theme": "מה קורה במפגש ושיטת העבודה",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://nhn.co.il/kbvtzvt-myvmnvyvt-chbrtyvt-children-vbny-youth/",
+     "https://www.tipulpsychology.co.il/therapy/children/asperger-s-disorder.html"
+    ]
+   },
+   {
+    "question": "מי הצוות שמפעיל את הקבוצות החברתיות? / מי המנחה?",
+    "theme": "מה קורה במפגש ושיטת העבודה",
+    "how_common": "very common",
+    "source_urls": [
+     "https://nhn.co.il/kbvtzvt-myvmnvyvt-chbrtyvt-children-vbny-youth/",
+     "https://www.tipulpsychology.co.il/therapy/children/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8.html",
+     "https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "מה הילד שלי יקבל מההשתתפות בקבוצות החברתיות?",
+    "theme": "תוצאות וציפיות",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.overtherainbowcenter.com/qna",
+     "https://www.galsuccess.com/post/social-groups-in-rishon-lezion"
+    ]
+   },
+   {
+    "question": "כמה זמן לוקח לראות שינוי?",
+    "theme": "תוצאות וציפיות",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.rimonclinic.com/grouptherapysocial/",
+     "https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "איך יודעים אם הילד באמת מרוצה מהמסגרת שלו?",
+    "theme": "תוצאות וציפיות",
+    "how_common": "single source (questions from a parents' webinar)",
+    "source_urls": [
+     "https://shavvim.co.il/2026/05/04/%D7%9E%D7%94%D7%95-%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-%D7%91%D7%AA%D7%A4%D7%A7%D7%95%D7%93-%D7%92%D7%91%D7%95%D7%94-%D7%95%D7%9B%D7%99%D7%A6%D7%93-%D7%A0%D7%99%D7%AA%D7%9F-%D7%9C%D7%94%D7%AA/"
+    ]
+   },
+   {
+    "question": "האם קבוצה עדיפה על טיפול פרטני?",
+    "theme": "קבוצה מול טיפול פרטני או חוג",
+    "how_common": "very common",
+    "source_urls": [
+     "https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://www.tipulpsychology.co.il/therapy/children/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8.html",
+     "https://www.rimonclinic.com/grouptherapysocial/",
+     "https://noamsystems.co.il/2025/03/11/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A8%D7%A6%D7%A3-%D7%94%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98/"
+    ]
+   },
+   {
+    "question": "אפשר להגיע גם לטיפול פרטני במקביל? / ילדי מטופל אצל פסיכולוג/ית. האם יש טעם לפנות לקבוצה?",
+    "theme": "קבוצה מול טיפול פרטני או חוג",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://smilemichal.co.il/service/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "מה ההבדל בין טיפול קבוצתי לבין חוג חברתי?",
+    "theme": "קבוצה מול טיפול פרטני או חוג",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.rimonclinic.com/grouptherapysocial/",
+     "https://www.bsk.co.il/post/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%95%D7%97%D7%95%D7%92%D7%99%D7%9D-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A8%D7%A6%D7%A3-%D7%94%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98%D7%99"
+    ]
+   },
+   {
+    "question": "האם קבוצה מחליפה מעבר בית ספר במקרה של קשיים חברתיים?",
+    "theme": "קבוצה מול טיפול פרטני או חוג",
+    "how_common": "single source",
+    "source_urls": [
+     "https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "כמה זה עולה?",
+    "theme": "עלות, מימון וזכויות",
+    "how_common": "very common (most listings give no price, so parents ask)",
+    "source_urls": [
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/",
+     "https://www.be106.net/233/162215",
+     "https://www.tipulpsychology.co.il/therapy/children/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8.html",
+     "https://d-ligdol.co.il/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A1%D7%A4"
+    ]
+   },
+   {
+    "question": "האם יש החזרים מחברות הביטוח או קופות החולים?",
+    "theme": "עלות, מימון וזכויות",
+    "how_common": "very common",
+    "source_urls": [
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/",
+     "https://www.bsk.co.il/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%9D",
+     "https://www.maccabi4u.co.il/eligibilites/2733/?id=1527",
+     "https://www.leumit.co.il/child-development/the-autism-spectrum-in-children-identification-diagnosis-and-treatment/"
+    ]
+   },
+   {
+    "question": "למה חייבים להתחייב מראש?",
+    "theme": "עלות, מימון וזכויות",
+    "how_common": "single source",
+    "source_urls": [
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "הטבות לילדה עם ASD בחשאיות (אפשר לממש טיפולים בלי לספר לגן?)",
+    "theme": "עלות, מימון וזכויות",
+    "how_common": "single source (parent forum thread)",
+    "source_urls": [
+     "https://www.prog.co.il/threads/%D7%94%D7%98%D7%91%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%94-%D7%A2%D7%9D-asd-%D7%91%D7%97%D7%A9%D7%90%D7%99%D7%95%D7%AA.1129557/"
+    ]
+   },
+   {
+    "question": "האם בכדי להכניס אותו לגן של אלוטף הוא חייב להיות רשום בביטוח לאומי כנכה?",
+    "theme": "עלות, מימון וזכויות",
+    "how_common": "single source (parent Q&A, 2011)",
+    "source_urls": [
+     "https://www.mako.co.il/home-family-kids/education/Article-76989722c6b7e21006.htm"
+    ]
+   },
+   {
+    "question": "הילד שלי ביישן. הוא לא יילחץ בקבוצה?",
+    "theme": "חששות: ביישנות, חרדה, סירוב",
+    "how_common": "very common",
+    "source_urls": [
+     "https://smilemichal.co.il/service/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://www.hevruta-center.com/faq-hevruta",
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "הילד שלי מסרב ללכת, מה עושים? / מה קורה אם הילד חושש או מסרב להשתתף?",
+    "theme": "חששות: ביישנות, חרדה, סירוב",
+    "how_common": "very common",
+    "source_urls": [
+     "https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/",
+     "https://noamsystems.co.il/2025/03/11/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A8%D7%A6%D7%A3-%D7%94%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98/",
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "איך אדע שהשתתפות בקבוצה לא תגרום לאותו סבל שנגרם בכיתה ובקבוצות אחרות של ילדים?",
+    "theme": "חששות: ביישנות, חרדה, סירוב",
+    "how_common": "single source",
+    "source_urls": [
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "הילד אומר \"לא אכפת לי מחברים\" - האם קבוצה עדיין יכולה להתאים?",
+    "theme": "\"אין לו חברים\": בדידות, הפסקה, דחייה",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.hevruta-center.com/faq-hevruta",
+     "https://www.ynet.co.il/health/article/hkh34bmjgg",
+     "https://www.ynet.co.il/articles/0,7340,L-4643430,00.html"
+    ]
+   },
+   {
+    "question": "מה לעשות כשלילד שלי אין חברים? (\"אמא, אין לי חברים!\")",
+    "theme": "\"אין לו חברים\": בדידות, הפסקה, דחייה",
+    "how_common": "very common (recurring headline across parenting media)",
+    "source_urls": [
+     "https://www.mako.co.il/home-family-relationship/family-einat-natan/Article-facf1703a6dfe41006.htm",
+     "https://www.ynet.co.il/articles/0,7340,L-5492365,00.html",
+     "https://www.ynet.co.il/articles/0,7340,L-4112920,00.html",
+     "https://havinenu.com/articles/%D7%90%D7%91%D7%90-%D7%9C%D7%9E%D7%94-%D7%90%D7%99%D7%9F-%D7%9C%D7%99-%D7%97%D7%91%D7%A8%D7%99%D7%9D/"
+    ]
+   },
+   {
+    "question": "מה עושים כשהילד אומר שאף אחד לא רוצה לשחק איתו?",
+    "theme": "\"אין לו חברים\": בדידות, הפסקה, דחייה",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.mako.co.il/home-family-kids/education/Article-d76d4bc003df961006.htm",
+     "https://www.hidabroot.org/article/1180206"
+    ]
+   },
+   {
+    "question": "הילד יושב לבד בהפסקה, מה עושים? (בלשון הילד: \"איך אני אדע מה לעשות בהפסקה?\")",
+    "theme": "\"אין לו חברים\": בדידות, הפסקה, דחייה",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.ynet.co.il/health/article/hkh34bmjgg",
+     "https://www.ynet.co.il/parents/article/BJ9AdYjKu",
+     "https://www.ynet.co.il/articles/0,7340,L-4387180,00.html"
+    ]
+   },
+   {
+    "question": "האם לילד שלי יש מספיק חברים?",
+    "theme": "\"אין לו חברים\": בדידות, הפסקה, דחייה",
+    "how_common": "single source",
+    "source_urls": [
+     "https://www.kikar.co.il/parents/413868"
+    ]
+   },
+   {
+    "question": "הילדה הכי דחויה בגן: איך מתמודדים?",
+    "theme": "\"אין לו חברים\": בדידות, הפסקה, דחייה",
+    "how_common": "single source",
+    "source_urls": [
+     "https://www.ynet.co.il/articles/0,7340,L-3718834,00.html"
+    ]
+   },
+   {
+    "question": "האם זה סוג של אוטיזם? או רק ילד ללא כישורים חברתיים?",
+    "theme": "אבחנה, תפקוד גבוה, אספרגר",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.mako.co.il/home-family-kids/education/Article-76989722c6b7e21006.htm",
+     "https://www.tasmc.org.il/bewell/interestareas/default/autism-or-social-anxiety/",
+     "https://www.ynet.co.il/health/article/hkh34bmjgg"
+    ]
+   },
+   {
+    "question": "אוטיזם בתפקוד גבוה: מה המשמעות? (רמה 1, רמה 2, רמה 3?)",
+    "theme": "אבחנה, תפקוד גבוה, אספרגר",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.autism.org.il/%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-%D7%A7%D7%9C/",
+     "https://www.sharonarbel.co.il/%D7%90%D7%91%D7%97%D7%95%D7%9F-%D7%A8%D7%9E%D7%95%D7%AA-%D7%AA%D7%A4%D7%A7%D7%95%D7%93-%D7%91%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-%D7%A8%D7%9E%D7%94-1-%D7%A8%D7%9E%D7%94-2-%D7%A8%D7%9E%D7%94-3/",
+     "https://www.overtherainbowcenter.com/qna"
+    ]
+   },
+   {
+    "question": "האם אפשר עדיין לקבל אבחון אספרגר או שזה תמיד ASD? / מה ההבדל בין אוטיזם לאספרגר?",
+    "theme": "אבחנה, תפקוד גבוה, אספרגר",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.tipulpsychology.co.il/therapy/children/asperger-s-disorder.html",
+     "https://www.beofen-tv.co.il/viewtopic.php?t=3828"
+    ]
+   },
+   {
+    "question": "האם מישהו היה במצב כזה שהיו לילד קשיים שפתיים ורגשיים מינקות, ורק בגיל מאוחר יותר אבחנו עם אוטיזם?",
+    "theme": "אבחנה, תפקוד גבוה, אספרגר",
+    "how_common": "single source (parent forum)",
+    "source_urls": [
+     "https://www.inn.co.il/forum/t1133214"
+    ]
+   },
+   {
+    "question": "האם זה בכלל אפשרי להעלות סף תסכול? מה אפשר לעשות עם פגיעות יתר רגשית?",
+    "theme": "ויסות רגשי ותסכול",
+    "how_common": "single source (parent forum, 2014). Frustration tolerance appears as a goal in many group listings",
+    "source_urls": [
+     "https://www.tapuz.co.il/threads/%D7%A1%D7%A3-%D7%AA%D7%A1%D7%9B%D7%95%D7%9C-%D7%A0%D7%9E%D7%95%D7%9A-%D7%9E%D7%94-%D7%90%D7%A4%D7%A9%D7%A8-%D7%9C%D7%A2%D7%A9%D7%95%D7%AA-img-http-timg-co-il-f-emo53-gif-img.14117603/",
+     "https://www.be106.net/233/162215"
+    ]
+   },
+   {
+    "question": "האם להשאיר ילדה בתפקוד גבוה בגן תקשורת, או לשלב אותה במסגרת רגילה?",
+    "theme": "מסגרת חינוכית ושילוב",
+    "how_common": "very common",
+    "source_urls": [
+     "https://shavvim.co.il/2026/05/04/%D7%9E%D7%94%D7%95-%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-%D7%91%D7%AA%D7%A4%D7%A7%D7%95%D7%93-%D7%92%D7%91%D7%95%D7%94-%D7%95%D7%9B%D7%99%D7%A6%D7%93-%D7%A0%D7%99%D7%AA%D7%9F-%D7%9C%D7%94%D7%AA/",
+     "https://www.tapuz.co.il/threads/%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-asd.14527218/",
+     "https://www.tapuz.co.il/threads/%D7%9B%D7%99%D7%AA%D7%AA-%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA-%D7%90%D7%95-%D7%A9%D7%99%D7%9C%D7%95%D7%91.15207566/"
+    ]
+   },
+   {
+    "question": "האם מנסיונכם הפרטי ועם אבחנה דומה, פניתם לשילוב מיידי בגן תקשורת או בקשתם סייעת לגן הנוכחי?",
+    "theme": "מסגרת חינוכית ושילוב",
+    "how_common": "several sources (parent forums)",
+    "source_urls": [
+     "https://www.tapuz.co.il/threads/%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-asd.14527218/",
+     "https://www.infomed.co.il/forums/349/"
+    ]
+   },
+   {
+    "question": "האם יש כאן הורים שהילד שלהם קיבל גננת שיח וזה קידם אותו?",
+    "theme": "מסגרת חינוכית ושילוב",
+    "how_common": "single source (parent forum)",
+    "source_urls": [
+     "https://www.inn.co.il/forum/t1133214"
+    ]
+   },
+   {
+    "question": "כיצד יש לכוון את המורה/מנהלת/מורת שילוב? / האם יש קשר עם בית הספר?",
+    "theme": "מסגרת חינוכית ושילוב",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.beofen-tv.co.il/viewtopic.php?t=3828",
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/"
+    ]
+   },
+   {
+    "question": "מחפשים קבוצה לשיפור מיומנויות תקשורת באזור ___ – אשמח אם מישהו יוכל להמליץ",
+    "theme": "איפה יש קבוצה (חיפוש מקומי)",
+    "how_common": "several sources (recurring forum request)",
+    "source_urls": [
+     "https://www.doctors.co.il/forum-4436/message-1076224/",
+     "https://www.tapuz.co.il/threads/%D7%9B%D7%99%D7%AA%D7%AA-%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA.13782928/"
+    ]
+   },
+   {
+    "question": "איך מתנהל תהליך הכניסה לקבוצה? / איך מתחילים?",
+    "theme": "הרשמה ותהליך קבלה",
+    "how_common": "very common",
+    "source_urls": [
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/",
+     "https://www.hevruta-center.com/faq-hevruta",
+     "https://www.rimonclinic.com/grouptherapysocial/",
+     "https://www.tipulpsychology.co.il/therapy/children/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8.html"
+    ]
+   },
+   {
+    "question": "האם ההורים מעורבים בתהליך?",
+    "theme": "הורים: מעורבות והדרכת הורים",
+    "how_common": "very common",
+    "source_urls": [
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/",
+     "https://d-ligdol.co.il/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A1%D7%A4",
+     "https://thespectrum.co.il/content/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A7%D7%91%D7%95%D7%A6%D7%AA%D7%99/"
+    ]
+   },
+   {
+    "question": "איך ההורים יכולים לתמוך בתהליך בבית? / מה ההורים יכולים לעשות במקביל לקבוצה?",
+    "theme": "הורים: מעורבות והדרכת הורים",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/",
+     "https://www.rimonclinic.com/grouptherapysocial/"
+    ]
+   },
+   {
+    "question": "מי צריך הדרכת הורים? / מה זה הדרכת הורים באוטיזם?",
+    "theme": "הורים: מעורבות והדרכת הורים",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://oti.org.il/parenting-guidance/",
+     "https://www.leumit.co.il/child-development/the-autism-spectrum-in-children-identification-diagnosis-and-treatment/"
+    ]
+   },
+   {
+    "question": "איך מספרים לאחים ולאחיינים ואיך מכוונים את המשפחה המורחבת יותר לתמיכה ולעזרה?",
+    "theme": "אחים ומשפחה",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://www.mako.co.il/home-family-kids/education/Article-76989722c6b7e21006.htm",
+     "https://www.ynet.co.il/articles/0,7340,L-5488257,00.html"
+    ]
+   },
+   {
+    "question": "איך מסבירים את האבחנה לסבא וסבתא – במיוחד כשיש התנגדות או דעות קדומות?",
+    "theme": "אחים ומשפחה",
+    "how_common": "single source (questions from a parents' webinar)",
+    "source_urls": [
+     "https://shavvim.co.il/2026/05/04/%D7%9E%D7%94%D7%95-%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-%D7%91%D7%AA%D7%A4%D7%A7%D7%95%D7%93-%D7%92%D7%91%D7%95%D7%94-%D7%95%D7%9B%D7%99%D7%A6%D7%93-%D7%A0%D7%99%D7%AA%D7%9F-%D7%9C%D7%94%D7%AA/"
+    ]
+   },
+   {
+    "question": "\"למה אני אוטיסט ואת לא?\" (שאלה של אח)",
+    "theme": "אחים ומשפחה",
+    "how_common": "single source",
+    "source_urls": [
+     "https://www.ynet.co.il/articles/0,7340,L-5287197,00.html"
+    ]
+   },
+   {
+    "question": "איך לספר לילד שלי שהוא אוטיסט? / לספר או לא לספר?",
+    "theme": "שיתוף האבחנה עם הילד ועם הסביבה",
+    "how_common": "several sources",
+    "source_urls": [
+     "https://shavvim.co.il/2026/05/04/%D7%9E%D7%94%D7%95-%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-%D7%91%D7%AA%D7%A4%D7%A7%D7%95%D7%93-%D7%92%D7%91%D7%95%D7%94-%D7%95%D7%9B%D7%99%D7%A6%D7%93-%D7%A0%D7%99%D7%AA%D7%9F-%D7%9C%D7%94%D7%AA/",
+     "https://www.tipulpsychology.co.il/therapy/children/asperger-s-disorder.html",
+     "https://www.ynet.co.il/health/article/hkh34bmjgg"
+    ]
+   }
+  ],
+  "themes_summary": [
+   "METHOD AND LIMITS: Bing returned off-topic results (Windows help, speedtest) for every Hebrew query, and DuckDuckGo served a bot challenge, which was not attempted. kolzchut.org.il and prog.co.il returned HTTP 403, and several tapuz.co.il threads returned errors. Mining therefore relied on WebSearch plus direct fetches. Real parent-forum phrasing came from tapuz, beofen-tv, infomed, doctors, inn.co.il, a mako parent Q&A (2011) and a parents' webinar (shavvim, 2026). Many of the 59 questions are FAQ headings on Israeli clinic sites, which mirror what parents ask clinics. Most forum threads are old (2004–2015).",
+   "WHO IT SUITS / READINESS (most common question): almost every competitor FAQ opens with 'is it right for my child?' Typical answers: suited to children who can benefit from a guided peer setting. Very high anxiety, severe dysregulation or trauma may need individual therapy first (https://www.rimonclinic.com/grouptherapysocial/, https://www.hevruta-center.com/faq-hevruta, https://thespectrum.co.il/content/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A7%D7%91%D7%95%D7%A6%D7%AA%D7%99/). Several groups are marketed specifically for children diagnosed HFASD and in mainstream education (https://www.overtherainbowcenter.com/qna, https://www.be106.net/233/162215).",
+   "AGE / WHEN TO START: competitors say groups can start in kindergarten. noamsystems says around ages 3–4. BSK runs groups for ages 3–4.5 and 4.5–6 (kindergarten), plus grades 1–6. Rehovot runs kindergarten–grade 1 and grades 2–6 (https://noamsystems.co.il/2025/03/11/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A8%D7%A6%D7%A3-%D7%94%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98/, https://www.bsk.co.il/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%9D, https://www.be106.net/233/162215). Preparing for first grade is its own concern (https://oti.org.il/1st-grade-adjustment/). Galila's split of a kindergarten group and a grades 1–3 group matches how the market is organised.",
+   "GROUP STRUCTURE (size, duration, age gap): sizes quoted are 3–6 (thespectrum), 4–6 (d-ligdol), 4–5 (Rehovot), 3–5 (tipulpsychology), and up to 12 (smilemichal). Programmes run 10, 12, 14 or 20 sessions of 45–60 minutes, weekly. One clinic caps the gap at two school years (https://www.tipulpsychology.co.il/therapy/children/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8.html), and a 2013 forum reply said groups struggle with a 2–3 year gap (https://www.tapuz.co.il/threads/%D7%9B%D7%99%D7%AA%D7%AA-%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA.13782928/). Parents also worry whether a group of only spectrum children leads to imitating unwanted behaviours (https://www.mako.co.il/home-family-kids/education/Article-76989722c6b7e21006.htm).",
+   "WHAT HAPPENS IN A SESSION / METHOD: parents ask what is actually done in a session, who leads it and what method it uses. Answers mention play, role-play, joining a game, reading social cues, emotional regulation, conflict resolution, 'social thinking' (Michelle Garcia Winner), PEERS, PPSI/PRT and CBT. The two-facilitator model is often highlighted (https://www.overtherainbowcenter.com/qna, https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/, https://nhn.co.il/kbvtzvt-myvmnvyvt-chbrtyvt-children-vbny-youth/). A ynet explainer by a group facilitator stresses imitation and the role of peers for children on the spectrum (https://www.ynet.co.il/articles/0,7340,L-5146865,00.html). No competitor found explicitly combines ABA, CBT and paramedical professionals the way Galila does, which is a differentiator.",
+   "GROUP vs INDIVIDUAL THERAPY vs AFTER-SCHOOL CLUB: frequent FAQ topics include 'is a group better than individual therapy?', 'can we do both at the same time?' and 'what is the difference between a therapy group and a social club (חוג חברתי)?' (https://haverim.me/%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/, https://www.rimonclinic.com/grouptherapysocial/).",
+   "COST AND FUNDING (parents ask often, few sites answer): Haverim (Tel Aviv) charges ₪500 for the intake and ₪390 per session, with at least 20 sessions (https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/). Rehovot (Havayot) charges ₪150 per session for 12 sessions (https://www.be106.net/233/162215). A Tel Aviv CBT group package costs ₪4,820 (https://www.tipulpsychology.co.il/therapy/children/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8.html). A Haifa University teen group (ages 14–16) costs ₪200 per session according to a search snippet, not fetched (https://icc.haifa.ac.il/2026/01/18/%D7%A7%D7%91%D7%95%D7%A6%D7%94-%D7%9C%D7%A4%D7%99%D7%AA%D7%95%D7%97-%D7%9E%D7%99%D7%95%D7%9E%D7%A0%D7%95%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%9E%D7%AA%D7%91%D7%92/).",
+   "HEALTH FUNDS: Maccabi's basic basket for children with an ASD diagnosis up to age 17 covers up to 3 sessions a week (156 a year) of speech, OT, physio, social work or psychology. Co-pay is ₪37.70 from age 3. Children in a communication kindergarten with TAM are excluded. Reimbursement for private therapists is being phased out from 1.2.2026, and the page does not mention group therapy (https://www.maccabi4u.co.il/eligibilites/2733/?id=1527). Leumit likewise offers up to 3 sessions a week until age 18 (https://www.leumit.co.il/child-development/the-autism-spectrum-in-children-identification-diagnosis-and-treatment/). BSK says HMOs or private insurers 'may reimburse' its groups (https://www.bsk.co.il/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%9D). Reimbursement for social groups specifically is unclear, which makes a careful answer a content opportunity.",
+   "SCHOOL ROUTE: per the Ministry of Education, a student on the spectrum in individual integration is entitled to a programme that includes 'קבוצה חברתית ושעות סיוע' (https://parents.education.gov.il/prhnet/special-education/disabilities-types/autism/autism-assistance-education-systems). A ynet article notes that schools sometimes run a small group with 2–3 classmates the child chooses (https://www.ynet.co.il/health/article/hkh34bmjgg). Parents weigh communication kindergarten against a regular kindergarten with an aide, speech-support teacher or personal support package (https://www.tapuz.co.il/threads/%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-asd.14527218/, https://www.inn.co.il/forum/t1133214).",
+   "'MY CHILD HAS NO FRIENDS' / RECESS: this is the biggest emotional entry point and recurs across ynet, mako, kikar and hidabroot headlines ('אין לי חברים', 'לבד בהפסקה', 'אף אחד לא רוצה לשחק איתו'). A psychiatrist calls the belief that children on the spectrum don't want friends 'a mistake', says withdrawal can be self-protection after repeated rejection, and names recess as the hardest part of the day (https://www.ynet.co.il/health/article/hkh34bmjgg). One clinic FAQ addresses 'he says he doesn't care about friends' directly (https://www.hevruta-center.com/faq-hevruta).",
+   "FEARS AND RESISTANCE: parents worry the child is too shy, will refuse to go, or will suffer the same hurt in the group as in class. Clinics answer with gradual entry, starting as an observer, and two facilitators (https://smilemichal.co.il/service/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/, https://noamsystems.co.il/2025/03/11/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A8%D7%A6%D7%A3-%D7%94%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98/, https://haverim.me/%D7%A9%D7%90%D7%9C%D7%95%D7%AA/).",
+   "PARENTS' ROLE: parents ask whether they are involved, how to support at home, and what parent guidance is. Models include a monthly parent meeting (d-ligdol, Haverim). Oti cites the Ministry of Health view that parent guidance counts as 'direct treatment of the child through the parents' (https://oti.org.il/parenting-guidance/). Galila's parent-guidance component addresses this directly.",
+   "DIAGNOSIS LANGUAGE: parents ask whether it is autism or just poor social skills or social anxiety, what 'high functioning' or levels 1–3 mean, and Asperger vs ASD. Asperger has not been a separate diagnosis since DSM-5 in 2013, but parents still search for it (https://www.tipulpsychology.co.il/therapy/children/asperger-s-disorder.html, https://www.tasmc.org.il/bewell/interestareas/default/autism-or-social-anxiety/, https://www.mako.co.il/home-family-kids/education/Article-76989722c6b7e21006.htm).",
+   "SIBLINGS AND FAMILY: parents ask how to tell siblings, cousins and grandparents, and siblings ask 'why am I autistic and you're not?' (https://www.ynet.co.il/articles/0,7340,L-5488257,00.html, https://shavvim.co.il/2026/05/04/%D7%9E%D7%94%D7%95-%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D-%D7%91%D7%AA%D7%A4%D7%A7%D7%95%D7%93-%D7%92%D7%91%D7%95%D7%94-%D7%95%D7%9B%D7%99%D7%A6%D7%93-%D7%A0%D7%99%D7%AA%D7%9F-%D7%9C%D7%94%D7%AA/, https://www.ynet.co.il/articles/0,7340,L-5287197,00.html). Disclosing the diagnosis to the child is a separate recurring question.",
+   "LOCAL / SEO NOTE: for 'קבוצה חברתית לילדים על הרצף חיפה', WebSearch surfaced Galila's own Facebook page (https://www.facebook.com/p/%D7%92%D7%9C%D7%99%D7%9C%D7%94-%D7%A7%D7%91%D7%95%D7%A6%D7%94-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA-100088575528100/), not galilagroup.com. Other Haifa results were a teen group (14–16) at Haifa University and a general CBT clinic, with no dedicated ages 4–9 spectrum competitor visible. Tel Aviv competition is denser: Haverim, d-ligdol (grades 3–6), Efsharuyot (pre-first-grade, Ramat HaHayal) and tipulpsychology (ages 8–12). Most competitor pages state no price, few answer reimbursement clearly, and none target ages 4–9 with an ABA+CBT team. A FAQ section on galilagroup.com answering the questions above (with schema.org FAQPage) would fill a visible gap."
+  ],
+  "vocabulary": [
+   "על הרצף / על הרצף האוטיסטי / רצף האוטיזם",
+   "על הספקטרום / הספקטרום האוטיסטי",
+   "על הקשת (האוטיסטית) – 'ילדים על הקשת'",
+   "הרצף התקשורתי / קשיי תקשורת / לקות תקשורתית",
+   "ASD (also inside Hebrew sentences: 'ילדה עם ASD')",
+   "אוטיזם בתפקוד גבוה / תפקוד גבוה / HFASD; תפקוד בינוני",
+   "רמה 1 / רמה 2 / רמה 3",
+   "אספרגר (still widely used by parents despite DSM-5)",
+   "PDD / PDD-NOS (older posts)",
+   "מיומנויות חברתיות / כישורים חברתיים",
+   "קבוצה חברתית / קבוצת מיומנויות חברתיות / קבוצה טיפולית / טיפול קבוצתי",
+   "חוג חברתי (versus a therapy group)",
+   "חשיבה חברתית (Social Thinking)",
+   "קבוצת השווים / בני גילו",
+   "אין לו חברים / 'אין לי חברים' / 'אף אחד לא רוצה לשחק איתי'",
+   "לבד בהפסקה / ההפסקה",
+   "דחייה חברתית / דחוי / חרם / בדידות",
+   "ביישן / חרדה חברתית",
+   "ויסות רגשי / סף תסכול נמוך / התפרצויות / פגיעות יתר",
+   "גמישות מחשבתית / נוקשות",
+   "משחק מקביל / משחק משותף / להצטרף למשחק",
+   "סיפור חברתי",
+   "גן תקשורת / כיתת תקשורת",
+   "שילוב / משולב בחינוך הרגיל / משלבת / מורת שילוב",
+   "סייעת / סייעת צמודה",
+   "סל אישי / סל שילוב / ועדת זכאות ואפיון / ועדת שילוב / מתי\"א",
+   "גננת שיח / גן התפתחותי",
+   "אלוטף / אלו\"ט",
+   "טב\"ם (טיפול בריאותי מקדם)",
+   "התפתחות הילד / מכון להתפתחות הילד",
+   "טיפולים פרא-רפואיים / טיפולים התפתחותיים (קלינאית תקשורת, ריפוי בעיסוק)",
+   "הדרכת הורים",
+   "ABA / מנתחת התנהגות",
+   "CBT / טיפול קוגניטיבי-התנהגותי",
+   "טיפול רגשי / טיפול באומנות",
+   "אבחון / אבחנה / ADOS / אבחון מבדל / חוות דעת שנייה",
+   "הכרה בביטוח לאומי / רשום בביטוח לאומי כנכה",
+   "קופת חולים / החזר / השתתפות עצמית / ביטוח משלים (מכבי זהב, כללית מושלם)",
+   "מיסוך (girls diagnosed late)",
+   "ילד מיוחד / צרכים מיוחדים",
+   "מאובחן / אובחן על הרצף"
+  ]
+ },
+ "funding": {
+  "summary": "How Israeli parents fund therapy for children with ASD (checked 22.10.2026). The direct public sources were the Kol Zchut pages, Clalit, Maccabi, Meuhedet, Leumit, the btl.gov.il rates page, the Tel Aviv municipality site, and Bing autosuggest (he-IL). DuckDuckGo HTML returned a CAPTCHA, which I did not solve. gov.il and call.gov.il pages were blocked (403) or rendered empty, so the one gov.il figure comes from a search-engine excerpt and is marked medium confidence.\n\n1) Basic health basket (סל הבריאות). It funds up to 3 paramedical treatments a week (156 a year at Clalit, Maccabi and Leumit) from diagnosis to age 18. The professions are speech therapy (קלינאות תקשורת), occupational therapy (ריפוי בעיסוק), physiotherapy, psychology and social work. There is a co-pay from age 3. Children under 7 who get TABAM (טב\"ם, a Ministry of Health package in designated frameworks) are excluded. None of the fund pages reviewed lists a \"קבוצה חברתית\" or social-skills group as a named basket service. Maccabi's autism page does not mention group treatment at all.\n\n2) The reform is the most important change for private providers. It started 1.2.2026, and the funds are phasing out reimbursement for private child-development treatments:\n- New patients under 6 with autism lose reimbursement from 1.1.2027.\n- New patients aged 6–18 with autism lose it from 1.1.2028.\n- All reimbursements end 1.1.2030.\n- Since 1.12.2025, Maccabi only reimburses private therapists who hold a Ministry of Health licence (speech, occupational or physiotherapy) or are registered social workers, and have at least 4 years in public developmental institutions.\n- Leumit says the change does not apply to supplementary insurance (ביטוח משלים) entitlements.\n\n3) Supplementary insurance (ביטוח משלים, also called שב\"ן) is the realistic path for art therapy (הבעה ויצירה), and only through providers that have an arrangement with the fund (ספקים בהסדר):\n- Clalit Mushlam: emotional treatments for ages 3–18, including arts therapy, up to 30 a year in Zahav. Arrangement providers only, 6-month waiting period.\n- Maccabi Zahav/Sheli: complementary treatments for children with ASD aged 3–17, including expressive and creative therapy. 45 ₪ per treatment, up to 30 + 20 a year.\n- Maccabi psychotherapy with therapists in agreement: group therapy costs 78 ₪ per session.\n- Meuhedet Si: 40 emotional treatments a year up to age 12.\n- Leumit: lists group therapeutic sport and art therapy among emotional treatments for children with ASD. Leumit Zahav covers 55 child-development treatments a year.\n\n4) Bituach Leumi disabled-child allowance (גמלת ילד נכה). An autism diagnosis entitles the child to the 100% rate: 3,820 ₪ a month in 2026, and 7,181 or 9,126 ₪ when the child is fully dependent on others. Bituach Leumi describes it as sharing the family's costs of raising the child, with no restriction on how it is used. No source quantified how parents spend it. Related benefits:\n- Exemption from health-fund co-pays for specialists, outpatient clinics and diagnostic institutes.\n- 2 income-tax credit points (5,808 ₪ a year).\n\n5) Welfare and municipal support. It requires recognition by the Welfare Ministry, arranged through the local social-services department. Recognized children can get:\n- An afternoon club (מועדונית) with individual and group treatment for social skills, or alternatively a mentor (סומך). Both carry a co-pay.\n- Camp subsidies for children in regular education.\n- Tel Aviv also refers families to children's clubs and mentors, and runs the \"תותים\" centre.\n- Separately, the national \"רעים\" programme at community centres (מתנ\"סים) runs weekly social groups with a co-pay.\n- There is no single autism fund (no \"סל אוטיזם\"). In practice the term means the health-fund autism basket: Clalit's \"סל טיפולים לילדים עם אוטיזם\", which appears in autosuggest as \"סל אוטיזם כללית\".\n\n6) What people search for (Bing he-IL autosuggest):\n- Parents pair \"טיפול רגשי לילדים\" with fund names (כללית, מכבי, מאוחדת, כללית מושלם) and with חיפה.\n- \"הדרכת הורים\" with \"לילדים על הרצף\", מכבי or כללית מושלם.\n- \"ביטוח לאומי\" with \"ילד נכה אוטיזם\" or \"הגשה\".\n- \"קבוצה חברתית\" with \"תל אביב מוגבלות\".\n- \"כללית מושלם\" with \"טיפול באומנות\" or \"החזר\".\n- Long phrasings such as \"קבוצה חברתית לילדים על הרצף\" or \"החזר טיפולים אוטיזם\" returned no suggestions.\n\nWhat this means for Galila: content that explains funding (basket vs. supplementary insurance, the 2027–2030 changes, the disabled-child allowance, Welfare Ministry recognition) matches real searches. But no public source here confirms that a private social-skills group is covered. Galila would need to check directly with each fund whether it can join as an arrangement provider (for art therapy, or for group psychotherapy at Maccabi).",
+  "claims": [
+   {
+    "claim": "ילדים שאובחנו על רצף האוטיזם זכאים לטיפולים פרא-רפואיים מקופות החולים (ריפוי בעיסוק, פיזיותרפיה, קלינאות תקשורת, פסיכולוג או עובד סוציאלי), עד 3 טיפולים בשבוע לאורך כל השנה, מגיל האבחון עד גיל 18.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים"
+    ],
+    "source_date": "2025-03-02 (עודכן לאחרונה)",
+    "confidence": "high",
+    "survives": false,
+    "votes": [
+     {
+      "refuted": true,
+      "reason": "The numbers in the claim are correct. Its blanket wording (\"children diagnosed with autism are entitled\") is wrong for one group, though, and that group overlaps the site's own audience of ages 4–9. So I am marking it refuted on the \"missing a condition\" ground and giving a corrected wording below.\n\nWHAT CHECKS OUT\n1. The cited source supports the claim almost word for word. The Kol Zchut page (https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים, last updated 2 March 2025) says:\n   - the therapies are occupational therapy, physiotherapy, speech therapy, and treatment by a psychologist or social worker;\n   - the entitlement is \"up to 3 treatments a week, all year round\";\n   - it applies \"from the age of diagnosis until age 18\".\n2. The Ministry of Health page (https://me.health.gov.il/mental-health/information-and-updates/autism/entitlements-for-children/, updated 6 October 2026) confirms up to 3 paramedical sessions a week in the same five professions. It also says a formal autism diagnosis is required.\n3. Clalit (https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx, updated 1 February 2026) confirms ages up to the 18th birthday and up to 3 treatments a week.\n4. Maccabi (https://www.maccabi4u.co.il/eligibilites/2733/, updated 25 August 2026) confirms up to 3 treatments a week up to age 17 inclusive, which is the same as up to 18.\n5. Leumit (https://www.leumit.co.il/en/child-development/rights-of-children-with-autism/) confirms ages up to 18 and the same professions. It gives no weekly number.\n\nWHAT THE CLAIM LEAVES OUT\n1. An exclusion group. Children up to age 7 who receive \"health-promoting treatment\" (טיפול בריאותי מקדם, the ministry-funded therapy package given inside dedicated autism settings) are not entitled to these treatments from the health fund.\n   - Kol Zchut lists this group under \"Who is not eligible?\".\n   - Clalit says these children \"will not receive the treatments from the health funds, even if the package they receive is incomplete\". It applies this to children up to 7 in dedicated autism settings.\n   - Maccabi says a child in a rehabilitative day-care centre or a communication kindergarten that gives this package \"is not entitled to the treatments given in the basket\".\n   - This matters for the site: many children aged 4–7 attend communication kindergartens that provide this package.\n2. \"Up to 3\" is a maximum, not a set number. Clalit says its authorised professional body decides the number together with the therapist.\n3. There is a yearly cap of 156 treatments per calendar year (Clalit, Maccabi). \"All year round\" is correct in the sense that there is no summer break.\n4. From age 3 there is a co-payment for each treatment, unless the family receives income support (Kol Zchut, Clalit). Maccabi lists 37.70 ILS per treatment at its own child development centres.\n5. Treatment is arranged through child development centres (Kol Zchut).\n\nOne possible inconsistency: an older 2023 Knesset research document reportedly describes the 3 sessions as \"3 hours\". Current official sources say \"3 treatments/sessions\", so the claim's wording is fine.\n\nSearch engines (Bing, DuckDuckGo) and gov.il pages blocked automated access, so I could not open the full Ministry of Health circulars. The findings above rest on the Ministry of Health portal and the health funds' own pages.",
+      "corrected_claim": "ילדים שאובחנו על רצף האוטיזם זכאים, מגיל האבחון ועד גיל 18, לטיפולים פרא-רפואיים מקופות החולים במסגרת סל הבריאות: ריפוי בעיסוק, פיזיותרפיה, קלינאות תקשורת וטיפול רגשי אצל פסיכולוג או עובד סוציאלי. הזכאות היא לעד 3 טיפולים בשבוע (ולכל היותר 156 בשנה קלנדרית), ואת מספרם קובע הגורם המקצועי בקופה לפי צורכי הילד. ילדים עד גיל 7 שלומדים במסגרת ייעודית (כמו גן תקשורת או מעון יום שיקומי) ומקבלים בה טיפול בריאותי מקדם (טב\"מ) אינם זכאים לטיפולים אלה מהקופה. מגיל 3 יש השתתפות עצמית על כל טיפול, למעט חריגים כמו משפחות שמקבלות הבטחת הכנסה.",
+      "evidence_url": "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+     },
+     {
+      "refuted": false,
+      "reason": "The claim matches the cited source and two current health-fund pages, but it leaves out a condition that matters for this site's audience.\n\n1) Cited source: Kol Zchut, last updated 2 March 2025 (https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים). It says almost exactly what the claim says:\n- Children diagnosed on the autism spectrum get paramedical treatments from the health funds: occupational therapy, physiotherapy, speech therapy, and a psychologist or social worker.\n- \"עד 3 טיפולים בשבוע, לכל אורך השנה\".\n- Who qualifies: \"מגיל האבחון עד גיל 18\".\nThe same page also gives conditions the claim leaves out:\n- Not eligible: \"ילדים עד גיל 7 שמקבלים שעות טיפול בריאותי מקדם\".\n- From age 3 there is a co-payment for each treatment, unless the family gets income support (הבטחת הכנסה / השלמת הכנסה).\n- Treatment is given through child development institutes.\n\n2) Clalit, official page updated 01.02.2026 (https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx):\n- Covers children \"עד גיל 18 (יום הולדת 18)\".\n- Funding for \"עד 3 טיפולים בשבוע ולכל היותר 156 בשנה קלנדרית\" across occupational therapy, physiotherapy, speech therapy, and emotional therapy by a psychologist or social worker.\n- The number of treatments is set by Clalit's authorised staff together with the therapist.\n- Exclusion: under the National Health Insurance Law, children up to age 7 in dedicated autism frameworks who get \"סל טיפול בריאותי מקדם\" do not get these treatments from the fund, \"גם אם הסל המקדם שהם מקבלים אינו שלם\".\n- Free under age 3; co-payment for each treatment from age 3 to 18.\n- Refunds for private therapists are being phased out from 1 January 2027 (no new refunds for children under 6 from 2027, for ages 6–18 from 2028, and none at all from 2030).\n\n3) Maccabi, official page updated 25.8.26 (https://www.maccabi4u.co.il/eligibilites/2733/):\n- Basic coverage from birth to age 17 inclusive.\n- \"עד 3 טיפולים בשבוע בהתאם לשיקול דעת מקצועי\", with a total of up to 156 per calendar year, in speech therapy, occupational therapy, physiotherapy, social work and psychology.\n- A child in a rehabilitation day-care, a communication day-care or a communication kindergarten (גן תקשורת) that provides טב\"מ (טיפול בריאותי מקדם) is not entitled to these treatments.\n\nVerdict: the core facts are correct and still current: the five types of treatment, up to 3 a week all year (capped at 156 a calendar year), and from diagnosis up to the 18th birthday. But \"eligible\" is stated without conditions, and three are missing:\n- (a) The exclusion for children up to age 7 who get טיפול בריאותי מקדם in a dedicated framework such as a גן תקשורת. This matters because the site's audience is children aged 4–9.\n- (b) \"Up to 3\" is a ceiling. The actual number is set by the fund's professional team.\n- (c) There is a co-payment from age 3.\n\nI could not open the Ministry of Health circulars on health.gov.il (bot protection, empty response). The two health-fund pages above are the official confirmation.",
+      "corrected_claim": "ילדים שאובחנו על רצף האוטיזם זכאים, מגיל האבחון ועד יום הולדתם ה-18, לטיפולים פרא-רפואיים בסל הבסיסי של קופות החולים (ריפוי בעיסוק, פיזיותרפיה, קלינאות תקשורת, וטיפול רגשי אצל פסיכולוג או עובד סוציאלי): עד 3 טיפולים בשבוע ועד 156 טיפולים בשנה קלנדרית, לפי החלטת הצוות המקצועי של הקופה. ילדים עד גיל 7 שנמצאים במסגרת ייעודית (כמו גן תקשורת) ומקבלים בה טיפול בריאותי מקדם אינם מקבלים את הטיפולים האלה מהקופה. מגיל 3 משלמים השתתפות עצמית על כל טיפול (למעט משפחות הזכאיות להבטחת הכנסה).",
+      "evidence_url": "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+     }
+    ]
+   },
+   {
+    "claim": "Under the basic basket, above age 3 parents pay a co-payment for each paramedical treatment unless the family receives income support (הבטחת הכנסה/השלמת הכנסה).",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים"
+    ],
+    "source_date": "2025-03-02",
+    "confidence": "high",
+    "survives": true,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The core claim is accurate but leaves out an exemption, so it should be tightened rather than dropped.\n\n(1) Cited source. Kol Zchut, last updated 2 Mar 2025, says word for word: \"מעל גיל 3 יש לשלם השתתפות עצמית על כל טיפול, אלא אם כן המשפחה זכאית להבטחת הכנסה/השלמת הכנסה\" (https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים). Kol Zchut's separate page confirms the income-support exemption and says it is applied automatically from National Insurance lists (https://www.kolzchut.org.il/he/פטור_מתשלום_עבור_שירותי_התפתחות_הילד_למקבלי_הבטחת_הכנסה).\n\n(2) Official source. Ministry of Health circular 6/2024 (published 31/12/2024), section 16.7, gives the income-support exemption for child-development services. It also says \"ילדים עד גיל 3 וילדים עם הפרעות התפתחויות סומטיות פטורים אף הם מהשתתפות עצמית\" (https://www.gov.il/BlobFolder/policy/sbn06-2024/he/files_circulars_sbn_sbn06-2024.pdf). So income support is not the only exception: children diagnosed with a somatic developmental disorder are also exempt at any age.\n\n(3) Maccabi's autism page (updated 25.8.26), basic basket:\n- Ages 0-2: no co-payment.\n- Ages 3-17 in Maccabi institutes: 37.70 NIS per treatment.\n- Public hospitals under agreement: 41 NIS per quarter, not per treatment.\n- Income-support families: no co-payment up to age 18.\n- Families with 4 or more children: 50% discount.\n(https://www.maccabi4u.co.il/eligibilites/2733/)\n\n(4) Maccabi's somatic page (updated 25.8.26) says the basic basket has no co-payment for somatic children. It includes children the child-development institute classifies as \"סומטיים-אוטיסטים\" (https://www.maccabi4u.co.il/eligibilites/4738/).\n\nWhat needs fixing:\n- \"Above age 3\" really means from the 3rd birthday.\n- The somatic-disorder exemption is missing.\n- \"Each treatment\" is not universal: hospital units charge a quarterly fee.\n- Exact amounts and discounts differ between health funds.\n\nThe Feb 2026 reform phases out the private-reimbursement route, but co-payments in the public track continue.",
+      "corrected_claim": "Under the basic health basket, treatments are free up to age 3. From age 3, parents usually pay a co-payment set by their health fund (for example, Maccabi charges 37.70 NIS per treatment, or a quarterly fee at hospital-based units). Two groups are fully exempt: children whose parent receives income support (הבטחת/השלמת הכנסה), and children diagnosed with a somatic developmental disorder, which Maccabi also applies to children classified as \"somatic-autistic\". Some funds give further discounts, such as 50% for families with four or more children at Maccabi.",
+      "evidence_url": "https://www.gov.il/BlobFolder/policy/sbn06-2024/he/files_circulars_sbn_sbn06-2024.pdf"
+     },
+     {
+      "refuted": false,
+      "reason": "The claim is accurate, though slightly incomplete. The cited Kol Zchut page (last updated 2 March 2025) says almost word for word: \"מעל גיל 3 יש לשלם השתתפות עצמית על כל טיפול, אלא אם כן המשפחה זכאית להבטחת הכנסה/השלמת הכנסה\". Source: https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים\n\nHealth fund sources confirm it:\n- Clalit's autism treatment page (updated 01.02.2026) says treatment is free up to age 3, and that from age 3 until the 18th birthday there is \"השתתפות עצמית לכל טיפול\". It also says children with at least one parent entitled to income support (גמלת הבטחת הכנסה) pay nothing, and neither do children diagnosed with a somatic developmental disorder (הפרעה התפתחותית סומטית). Source: https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx\n- Maccabi's autism page (updated 25.8.26) says ages 0-2 inclusive pay nothing, and ages 3-17 pay 37.70 NIS per treatment at Maccabi institutes. At public hospitals under agreement the charge is 41 NIS per quarter instead. Children of income-support recipients up to age 18 pay nothing, and families with 4 or more children get 50% off. Source: https://www.maccabi4u.co.il/eligibilites/2733/\n- Kol Zchut's general child-development page (updated 24.9.2026) lists three exemptions: children up to age 3, children with a somatic developmental disability, and members entitled to income support (השלמת הכנסה) since 1.8.2005. Source: https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_(שירותי_התפתחות_הילד)\n- A separate Kol Zchut page says the income-support exemption is applied automatically from National Insurance (ביטוח לאומי) lists. Source: https://www.kolzchut.org.il/he/פטור_מתשלום_עבור_שירותי_התפתחות_הילד_למקבלי_הבטחת_הכנסה\n\nThe newest Ministry of Health circular, 01/2026 (28.07.2026), deals with phasing out reimbursement for private therapists. It does not change co-payments. Source: https://www.gov.il/BlobFolder/policy/sbn01-2026/he/files_circulars_sbn_sbn01-2026.pdf\n\nWhat needs fixing:\n1. Income support is not the only exemption. Children with a somatic developmental disability are also exempt, and Maccabi gives a 50% discount to families with 4 or more children.\n2. \"Above age 3\" really means from the 3rd birthday until 18.\n3. The charge is not always per treatment. At Maccabi, care at hospitals under agreement has a quarterly co-payment instead.\n4. Clalit and Maccabi name only הבטחת הכנסה. השלמת הכנסה appears only on Kol Zchut.\n\nThe core claim holds, so it is not refuted, but the wording should be made more precise.",
+      "corrected_claim": "In the basic health basket, paramedical treatments for children with autism are free until age 3. From age 3 until 18, parents pay a co-payment, usually per treatment (about 37.70 NIS at Maccabi in 2026; the amount is set by law and updated each year). Children whose parents receive income support (הבטחת הכנסה) are exempt, and so are children with a somatic developmental disability. Some health funds give extra discounts, such as Maccabi's 50% for families with 4 or more children.",
+      "evidence_url": "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+     }
+    ]
+   },
+   {
+    "claim": "Kol Zchut states that if the wait for treatment exceeds 3 months from referral, parents may go to a private therapist pre-approved by the health fund and receive a refund per Ministry of Health child-development tariffs, minus the co-payment.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים"
+    ],
+    "source_date": "2025-03-02",
+    "confidence": "high",
+    "survives": false,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The claim matches what the cited Kol Zchut page says. The wording was checked against the page's raw text, last revised 2026-03-17, at https://www.kolzchut.org.il/w/he/index.php?title=טיפולים_פרא_רפואיים_לילדים_אוטיסטים&action=raw (the normal page URL returned HTTP 403 to WebFetch). The page's section \"טיפול אצל מטפל פרטי\" says three things:\n(1) If the wait for treatment is more than 3 months from the referral, parents may go to a private therapist and get a refund from the health fund. The condition is that the fund approved the therapist in advance, and the fund may ask for a copy of the therapist's licence.\n(2) The refund is paid against an invoice or receipt, according to the Ministry of Health child-development tariffs, minus the co-payment. Families exempt from the co-payment pay none. On the same page, the co-payment applies only from age 3, and families on income support are exempt.\n(3) The page covers children diagnosed on the autism spectrum, from diagnosis to age 18. It also says that if a private therapist was approved because of a long wait, the child may stay with that therapist even if the fund later offers a place.\nIndependent check from a health fund: Maccabi's autism eligibility page, last updated 25.8.26 (https://www.maccabi4u.co.il/eligibilites/2733/), confirms that a refund for private treatment requires advance approval from Maccabi's child development institute. Without that approval there is no refund. The refund follows the Ministry of Health tariff minus the co-payment, and it is never more than the actual cost. That page does not mention the 3-month wait. It also includes an older line saying refunds for private therapists were cancelled from 01.01.2020, which contradicts the rest of the page.\nThe claim is time-sensitive. Maccabi's reform page, last updated 25.08.26 (https://www.maccabi4u.co.il/maccabi_circles/child_development/child_services_reform/), says the Ministry of Health is gradually ending the refund route for physiotherapy, speech therapy, occupational therapy and social work. For psychology, only treatment refunds end, not diagnosis refunds. The page treats children with autism as \"ילדים מורכבים\" (complex children). New patients aged 0–6 with autism move to public and health-fund services from 01.01.27. New patients over 6 move from 01.01.28. All children move by 01.01.30. The phases name only new patients. The page does not clearly say whether children already in treatment keep their refunds.\nSo, as of 2026-10-22, the claim correctly reports what the source says and still applies to children with autism. It needs a caveat, because for newly referred autistic children aged 0–6 it stops applying in about 2 months. I could not open the Ministry of Health circular 3/09 itself: health.gov.il returned an empty response to automated requests.",
+      "corrected_claim": "According to Kol Zchut (based on Ministry of Health circular 3/09), a child diagnosed on the autism spectrum can still get this refund in October 2026. If the health fund's wait for paramedical treatment is more than 3 months from the referral, parents may use a private licensed therapist whom the fund approved before treatment starts. The refund is paid against a receipt, at the Ministry of Health child-development tariff and never more than the actual cost, minus the co-payment. The co-payment applies from age 3, and families on income support are exempt. Under the Ministry's child-development reform, this refund route is being phased out for occupational therapy, speech therapy, physiotherapy and social work, and for psychology treatment. For newly referred children with autism, the change starts on 1.1.2027 for ages 0–6 and on 1.1.2028 for children over 6. Families should check with their health fund before starting private treatment.",
+      "evidence_url": "https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים"
+     },
+     {
+      "refuted": true,
+      "reason": "The claim quotes the cited page correctly, but the rule itself is out of date. A new Ministry of Health circular is phasing out the private-refund route, and the cited page does not mention it.\n\n1) What the cited source says. The live text of https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים, under \"טיפול אצל מטפל פרטי\", matches the claim almost word for word:\n- If the wait for treatment is more than 3 months from the referral, parents may go to a private therapist and get a refund, provided the health fund approved that therapist in advance.\n- The refund is paid against an invoice or receipt, at the Ministry of Health child-development tariffs, minus the co-payment. Families exempt from the co-payment pay none.\nThe page's legal sources stop at Medical Administration circular 21/2021, and it says nothing about the 2026 reform.\n\n2) What the Ministry of Health now says. Health-fund supervision circular 01/2026, dated 28/07/2026 (https://www.gov.il/BlobFolder/policy/sbn01-2026/he/files_circulars_sbn_sbn01-2026.pdf), cancels the earlier refund circulars (1/2010 and 9/2016) in stages. Section 7 sets out the stages:\n- From 01/02/2026: new patients who are under 6, not diagnosed with autism or somatic disability, and do not live in a town listed in Appendix A.\n- From 01/08/2026: all new patients who are not diagnosed with autism or somatic disability, except residents of the Appendix A towns.\n- From 01/01/2027, subject to professional recommendations: new patients under 6 who are diagnosed with autism or somatic disability.\n- From 01/01/2028: all new patients.\n- From 01/01/2030: all patients, including those already receiving refunds.\nSection 7 also says refunds are allowed only in exceptional cases that the regulator approved. Section 6 adds that therapists must now have several years of work in the public system for their treatment to qualify for a refund.\n\n3) Independent confirmation. Kol Zchut's general child-development page has already been updated with the same timeline (https://www.kolzchut.org.il/he/אבחון_רפואי_התפתחותי_לילדים_(שירותי_התפתחות_הילד)). It says that from 01.01.2027 new patients can get refunds only if they are over 6 and diagnosed with autism or somatic disability. It also says that from 01.01.2028 no new patient can get one, and from 01.01.2030 nobody can.\n\nMaccabi's reform page (https://www.maccabi4u.co.il/maccabi_circles/child_development/child_services_reform/, updated 25.08.26) gives the same stages. Maccabi's eligibility page (https://www.maccabi4u.co.il/eligibilites/2733/?id=1496, updated 25.8.26) adds more conditions:\n- Without prior approval there is no refund.\n- The therapist needs a Ministry of Health license and at least 4 years of experience in developmental services at 50% of a full-time job or more.\n- The refund cannot exceed the actual cost of the treatment.\n\n4) Why this matters for this website. Galila serves children aged 4–9. As of today (22.10.2026), newly referred autistic children can still use the refund route. From 1.1.2027, new autistic children under 6 lose it, and from 1.1.2028 no new patient has it. Presented without these dates, the statement will soon mislead parents.\n\nLimit of this check: I could not download the health.gov.il circulars (3/09 and 21/2021) or the tariff file, because the site's bot check blocked automated access. The current rules above come from the 01/2026 gov.il circular itself.",
+      "corrected_claim": "Under the Ministry of Health rules that apply until the reform takes full effect, a child diagnosed with autism can see a private therapist if the wait for the health fund's treatment is more than 3 months from the (complete) referral. The health fund must approve the therapist before treatment starts, and the therapist must hold a Ministry of Health license and meet its experience requirements. The fund then refunds each treatment at the Ministry of Health child-development tariff, up to the actual cost and the number of treatments the child is entitled to, minus the co-payment (no co-payment for children under 3 or families on income support). Ministry of Health circular 01/2026 (28.7.2026) is phasing this route out. From 1.1.2027, new patients under 6, including children with autism, will no longer get refunds for private treatment. From 1.1.2028 no new patient will, and from 1.1.2030 refunds stop for everyone. Parents should confirm their eligibility with their health fund in writing before starting private treatment.",
+      "evidence_url": "https://www.gov.il/BlobFolder/policy/sbn01-2026/he/files_circulars_sbn_sbn01-2026.pdf"
+     }
+    ]
+   },
+   {
+    "claim": "ילדים עד גיל 7 שמקבלים שעות טיפול בריאותי מקדם (טב\"ם) אינם זכאים לטיפולים הפרא-רפואיים של קופות החולים במסגרת סל האוטיזם.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים",
+     "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+    ],
+    "source_date": "2025-03-02 / 2026-02-01",
+    "confidence": "high",
+    "survives": true,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The claim holds up. It matches the cited sources and the law itself.\n\n1) Kol Zchut (https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים, read through its raw wikitext because the normal page returned 403). Under \"מי לא זכאי?\" it lists \"ילדים עד גיל 7 שמקבלים שעות טיפול בריאותי מקדם\". The claim repeats this almost word for word. The page also says paramedical treatments that the Ministry of Education gives in special education do not block health-fund treatments; only טב\"ם does.\n\n2) Clalit, an official health fund (https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx, updated 01.02.2026). It says that under the National Health Insurance Law, children up to age 7 who are in dedicated autism frameworks and receive סל טיפול בריאותי מקדם \"לא יקבלו את הטיפולים בקופות החולים, גם אם הסל המקדם שהם מקבלים אינו שלם\". It also asks special-education families to bring a letter from the framework saying whether the child receives טב\"ם.\n\n3) The law itself, National Health Insurance Law, Second Schedule, section 20(a)(7) (https://www.nevo.co.il/law_html/law01/036_001.htm). Health funds give multi-professional treatment to children up to 18 on the autism spectrum, \"למעט ילדים כאמור עד גיל 7 המממשים את זכאותם לטיפול בריאותי מקדם בהתאם להוראות התוספת השלישית\". Section 6a of the Third Schedule sets the cap at 3 hours a week.\n\nSmall details that do not make the claim false:\n(a) The legal wording is \"המממשים את זכאותם\", meaning children who actually use their טב\"ם entitlement. Kol Zchut's טב\"ם page (https://www.kolzchut.org.il/he/טיפול_בריאותי_מקדם_(טב\"ם)_לילדים_על_הרצף_האוטיסטי) says a parent can sign a waiver form and give up טב\"ם at the kindergarten. The child then becomes eligible for up to 3 weekly hours from the health fund. If the child gets טב\"ם in an outside framework (מסגרת חוץ-גנית) instead, the exclusion still applies.\n(b) Per Clalit, the exclusion applies even if the טב\"ם basket is incomplete.\n(c) טב\"ם is given only to children up to 7 in dedicated frameworks: a rehabilitative day center (מעון יום שיקומי) or a communication or special-education kindergarten with at least 4 children on the spectrum, or in an outside framework for children integrated in regular settings.\n(d) Paramedical treatments from the Ministry of Education in special education do not block health-fund treatments. Only טב\"ם does.\n\nNothing I found shows the claim is out of date, overstated or missing a condition that would change its meaning.",
+      "corrected_claim": "The claim is accurate as written. A more precise version: ילדים עד גיל 7 המממשים את זכאותם לטיפול בריאותי מקדם (טב\"ם) – הניתן במסגרות ייעודיות לילדים על הרצף (מעון יום שיקומי, גן תקשורת/חינוך מיוחד) או במסגרת חוץ-גנית – אינם זכאים לטיפולים הפרא-רפואיים של קופות החולים בסל האוטיזם, גם אם סל הטב\"ם שהם מקבלים אינו שלם. הורה שמוותר על הטב\"ם בטופס ויתור יכול לקבל עד 3 שעות טיפול שבועיות מהקופה. טיפולים פרא-רפואיים של משרד החינוך בחינוך המיוחד אינם שוללים את הזכאות בקופה.",
+      "evidence_url": "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+     },
+     {
+      "refuted": false,
+      "reason": "The claim is accurate and current. It matches both cited sources and the official Ministry of Health circular. I found nothing showing the rule has changed.\n\n(1) The cited Kol Zchut page, \"טיפולים פרא רפואיים לילדים אוטיסטים\" (https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים, last updated 2 March 2025, oldid=608867), almost word for word. Under \"מי לא זכאי?\" it lists \"ילדים עד גיל 7 שמקבלים שעות טיפול בריאותי מקדם\". It also says that para-medical treatment in special education does not block health-fund treatment \"אלא אם מדובר בטיפול בריאותי מקדם\". It sets general eligibility from diagnosis to age 18, up to 3 treatments a week. WebFetch got HTTP 403 from kolzchut.org.il in this run, so this page was read from a copy saved earlier in the session.\n\n(2) Clalit, the cited official health fund (https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx), says children up to age 7 who are in dedicated autism frameworks and receive \"סל טיפול בריאותי מקדם\" \"לא יקבלו את הטיפולים בקופות החולים, גם אם הסל המקדם שהם מקבלים אינו שלם\". Clalit asks parents of children in special education to bring a letter from the framework stating whether the child receives this basket.\n\n(3) The Ministry of Health director-general circular, joint with Ministry of Education circular 1.2-45 (https://www.gov.il/BlobFolder/policy/mk1-2-45/he/files_circulars_mk_mk1_2_45.pdf). It says that whenever a child receives טב\"ם, in a communication kindergarten (גן תקשורת) or an out-of-kindergarten framework, \"הוא לא יהיה זכאי לקבלת שעות טיפול פרא רפואי במסגרת קופת החולים\". If a parent signs the waiver form, the child is entitled to up to 3 weekly hours from the health fund. The Kol Zchut טב\"ם page (https://www.kolzchut.org.il/he/טיפול_בריאותי_מקדם_(טב\"ם)_לילדים_על_הרצף_האוטיסטי) says the same: טב\"ם is given on top of Ministry of Education treatments, but not on top of health-fund treatments.\n\nI looked for a 2025-2026 change and found none. The child-development reform (https://www.maccabi4u.co.il/maccabi_circles/child_development/child_services_reform/) changes how health-fund treatments are delivered and reimbursed. Per the search summary, it reaches children with autism only from 1.1.2027. It does not touch the no-double-coverage rule.\n\nMissing nuances (not errors):\n- טב\"ם is only given in dedicated frameworks: a rehabilitative daycare (מעון יום שיקומי), a communication or special-education kindergarten with at least 4 autistic children, or an out-of-kindergarten framework for children in regular settings.\n- The bar applies even if the טב\"ם basket is incomplete.\n- It is the parents' choice: by formally waiving טב\"ם, the child regains up to 3 weekly para-medical treatments from the health fund.\n- \"סל האוטיזם\" is loose wording. The entitlement is the para-medical treatments in the national health basket.",
+      "corrected_claim": "ילדים עד גיל 7 שמקבלים טיפול בריאותי מקדם (טב\"ם) במסגרת ייעודית (גן תקשורת, מעון יום שיקומי או מסגרת חוץ-גנית) אינם זכאים במקביל לטיפולים הפרא-רפואיים של קופת החולים לפי סל הבריאות. זה נכון גם אם סל הטב\"ם שהם מקבלים אינו מלא. הורים שמוותרים על הטב\"ם בטופס ויתור זכאים לעד 3 טיפולים פרא-רפואיים בשבוע מהקופה.",
+      "evidence_url": "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+     }
+    ]
+   },
+   {
+    "claim": "TABAM (טב\"ם), funded by the Ministry of Health for children up to age 7 with ASD in designated frameworks, is 14 weekly hours, of which 10.5 are direct treatment including individual treatment, group treatment and parent guidance; providers may include expressive/creative therapists and behavioral treatment.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/טיפול_בריאותי_מקדם_(טב\"ם)_לילדים_על_הרצף_האוטיסטי"
+    ],
+    "source_date": "2025-03-02",
+    "confidence": "high",
+    "survives": true,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The claim is accurate. It matches the cited source almost word for word, and an official Ministry of Health page confirms the core numbers. It leaves out a few conditions, listed below.\n\n1) Cited source, Kol Zchut. The page blocked WebFetch with a 403, so I read the article's raw wikitext through kolzchut.org.il/w/he/index.php?title=...&action=raw. It says the Ministry of Health funds TABAM for \"ילדים עד גיל 7 שאובחנו על הרצף האוטיסטי ושוהים במסגרות הייעודיות להם\", under the National Health Insurance Law. It gives \"14 שעות שבועיות (ש\"ש) לילד, שמתוכן: 10.5 ש\"ש מיועדות לטיפול ישיר בילד הכולל טיפול פרטני, טיפול קבוצתי והדרכת ההורים\" and 3.5 hours of indirect work, such as staff meetings and professional supervision. The listed providers include \"מטפלים בהבעה ויצירה, טיפול התנהגותי ופיזיותרפיה - בהתאם לצורך ולגישה הטיפולית\". Every element of the claim appears there.\n\n2) Independent official source: the Ministry of Health's Kol HaBriut page (call.gov.il, EL370, now product-page/100370), which I read in a browser. It says the package is \"14 שעות טיפולים בשבוע: 10.5 שעות של טיפול ישיר עם הילד. 3.5 שעות עבודה עקיפה\". It is \"בפיקוח משרד הבריאות\". The professions are pediatric neurologist, psychiatrist or developmental pediatrician, psychology, speech therapy, OT, physiotherapy, social work \"או מקצועות אחרים שאושרו בהתאם לאמות המידה\". It still cites the Ministry's TABAM criteria circular 15/2011, the joint circular with the Ministry of Education on communication kindergartens, and a 05/2025 circular. Nothing suggests the 14 / 10.5 / 3.5 split is out of date.\n\nThis official page does not itself state the age-7 limit, the split into individual/group/parent guidance, or expressive/behavioral therapists by name. Those details come only from Kol Zchut and are consistent with the Ministry's wording that \"other professions approved under the criteria\" may provide treatment. Maccabi's eligibility page (maccabi4u.co.il/new/eligibilites/2733/) separately confirms that a child receiving TABAM in a rehabilitative daycare or communication kindergarten \"אינו זכאי לטיפולים הניתנים בסל\".\n\nConditions the claim leaves out, all from Kol Zchut:\n- A \"designated framework\" means a licensed rehabilitative daycare or a therapeutic/communication kindergarten with at least 4 children with ASD. Children in mainstream daycare or kindergarten can get TABAM through a Ministry of Health–approved out-of-kindergarten framework.\n- The service is delivered by nonprofits.\n- Parents pay a co-payment everywhere except rehabilitative daycares.\n- The Ministry of Health must approve eligibility; kindergarten applications are due by June 15.\n- TABAM is given on top of Ministry of Education paramedical treatments, but not alongside health-fund paramedical treatments.\n- Hours are set according to each framework's treatment method.",
+      "corrected_claim": "Under the National Health Insurance Law, the Ministry of Health funds a \"health-promoting treatment\" package (TABAM, טב\"ם) for children up to age 7 diagnosed with ASD. It covers children in designated frameworks: rehabilitative daycares or therapeutic/communication kindergartens with at least 4 children with ASD. Children in mainstream settings can get it through a Ministry-approved out-of-kindergarten framework. The package is 14 weekly hours per child: 10.5 hours of direct treatment (individual, group and parent guidance) and 3.5 hours of indirect work. It is delivered by nonprofits under Ministry of Health criteria. Providers are physicians, psychologists, speech therapists, OTs, physiotherapists and social workers, plus other approved professions such as expressive/creative therapists and behavioral therapists, according to need and the framework's therapeutic approach. Parents pay a co-payment except in rehabilitative daycares. TABAM replaces, and cannot be combined with, health-fund paramedical treatments.",
+      "evidence_url": "https://call.gov.il/infocenter/index?page=content&id=EL370"
+     },
+     {
+      "refuted": false,
+      "reason": "The claim is accurate. Both the cited source and an official government document support it.\n\n1) The cited Kol Zchut page (last updated 2 March 2025, read from the page's raw wikitext because the normal page returned 403 to WebFetch) says the Ministry of Health funds TABAM for children up to age 7 diagnosed with ASD who attend designated frameworks. It says TABAM is \"14 שעות שבועיות... 10.5 ש\"ש מיועדות לטיפול ישיר בילד הכולל טיפול פרטני, טיפול קבוצתי והדרכת ההורים\", and the other 3.5 hours are indirect work. Among the providers it lists \"מטפלים בהבעה ויצירה, טיפול התנהגותי ופיזיותרפיה - בהתאם לצורך ולגישה הטיפולית\" (expressive/creative therapists, behavioral treatment and physiotherapy, according to need and therapeutic approach). Source: https://www.kolzchut.org.il/he/טיפול_בריאותי_מקדם_(טב\"ם)_לילדים_על_הרצף_האוטיסטי\n\n2) The official joint circular of the Ministries of Health and Education (mk1-2-45, in force from 2 Nov 2014, applying to children aged 3–7 in communication kindergartens) confirms the numbers independently. Section 4.3 says the basket is 14 hours, of which 10.5 weekly hours are direct treatment for the child and/or parents and 3.5 are indirect. It defines direct treatment as individual treatment, group treatment and/or parent guidance. It also says the service will never be less than 14 weekly hours and may be more. Treatment is given by health professions (speech therapy, OT, physiotherapy, social work, psychology) and by other professionals listed in the Ministry of Health criteria document. The circular's letter to parents also lists \"emotional therapists\" (מטפלים רגשיים). Source: https://www.gov.il/BlobFolder/policy/mk1-2-45/he/files_circulars_mk_mk1_2_45.pdf\n\nI could not open the Ministry of Health criteria PDF itself (health.gov.il/hozer/mtl-Autism-treatment.pdf). The server returned an empty response and the web.archive.org copy hit a rate limit. So the list of expressive and behavioral therapists rests on Kol Zchut plus the circular's reference to that document.\n\nThe claim leaves out some conditions, which a website should keep:\n- \"Designated frameworks\" means a licensed rehabilitative day care center, or a communication/special-education kindergarten, with at least 4 children diagnosed with ASD. Children placed in regular kindergartens or day care can receive TABAM through an outside-the-kindergarten framework.\n- TABAM cannot be received alongside the health funds' paramedical treatments. It can be received alongside the Ministry of Education's paramedical treatments.\n- It is free in rehabilitative day care centers. Every other framework charges parents a co-payment.\n- Eligibility requires approval from the Ministry of Health's autism department. The documents are due by June 15.\n- The circular says the 14 hours are a minimum (\"not less than\").\n\nA 2026 health-fund reform of child-development services was found in search results (for example https://www.maccabi4u.co.il/maccabi_circles/child_development/child_services_reform/). Nothing found shows that it changed TABAM's hours or eligibility.",
+      "corrected_claim": "TABAM (טב\"ם) is a basket of treatment funded by the Ministry of Health under the National Health Insurance Law. It is for children up to age 7 diagnosed with ASD who attend a designated framework: a licensed rehabilitative day care center, or a communication/special-education kindergarten, with at least 4 children with ASD. Children in regular settings can receive it through an outside-the-kindergarten framework. It provides at least 14 weekly hours per child. Of these, 10.5 are direct treatment for the child and/or parents (individual treatment, group treatment and parent guidance) and 3.5 are indirect work (team meetings, coordination, professional supervision). Treatment is given through nonprofit providers. The providers are mainly speech therapists, occupational therapists, physiotherapists, psychologists, social workers and physicians, and also expressive/creative therapists and behavioral therapy according to need and the therapeutic approach. It cannot be combined with the health funds' paramedical treatments. It is free in rehabilitative day care centers and requires a parental co-payment in other frameworks.",
+      "evidence_url": "https://www.gov.il/BlobFolder/policy/mk1-2-45/he/files_circulars_mk_mk1_2_45.pdf"
+     }
+    ]
+   },
+   {
+    "claim": "Children with ASD integrated in regular kindergartens or day-care can receive TABAM through an out-of-kindergarten framework (מסגרת חוץ גנית); outside a rehabilitative day-care, parents pay a co-payment, and documents must reach the Ministry of Health autism department by 15 June for the following school year.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/טיפול_בריאותי_מקדם_(טב\"ם)_לילדים_על_הרצף_האוטיסטי"
+    ],
+    "source_date": "2025-03-02",
+    "confidence": "high",
+    "survives": true,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The claim matches the cited source and two official Ministry of Health documents. I could not refute any of its three parts, but it leaves out some conditions.\n\nKol Zchut source: WebFetch returned 403. I read the page's wikitext through the site's MediaWiki API at https://www.kolzchut.org.il/w/he/api.php?action=parse&page=טיפול_בריאותי_מקדם_(טב\"ם)_לילדים_על_הרצף_האוטיסטי&prop=wikitext. Its substantive text dates from 2013–2015; later edits were by bots, the latest on 17.3.2026. The page says:\n(1) \"ילדים המשולבים במעונות יום או בגנים רגילים יכולים לקבל את הטיפול במסגרת חוץ גנית\".\n(2) \"בכל מסגרת שאינה מעון יום שיקומי נדרשת השתתפות עצמית של ההורים\"; rehabilitative day-cares charge nothing.\n(3) Documents must be sent \"למחלקה לאוטיזם במשרד הבריאות עד ה-15 ביוני לקראת שנת הלימודים המתחילה בספטמבר שלאחריו\".\n\nOfficial confirmation:\n(a) The Ministry of Health page https://me.health.gov.il/mental-health/information-and-updates/autism/treatment/ (dated 15.7.2026) says out-of-kindergarten frameworks \"מספקות טיפול בריאותי מקדם לילדים עם אוטיזם שמשולבים בגנים ובמעונות יום רגילים\". It gives eligibility as ages 3 to 7.\n(b) The Ministry of Health criteria document of 6.11.2013 (https://www.gov.il/BlobFolder/policy/mtl-41155114/he/files_regulation_mtl_mtl-Autism-treatment.pdf) says no payment is collected in rehabilitative day-cares. In therapeutic kindergartens and out-of-kindergarten frameworks, the provider may charge a co-payment, but only at Ministry-approved amounts. The same document says out-of-kindergarten treatment is approved only with the Ministry's advance written approval that the framework is equivalent to a kindergarten or day-care.\n(c) The joint circular 1.2-45, hosted by the Ministry of Health (https://www.gov.il/BlobFolder/policy/mk1-2-45/he/files_circulars_mk_mk1_2_45.pdf, in force from 2.11.2014), includes a parent letter. It says all documents must be sent by post or email \"עד 15 ביוני לקראת שנת הלימודים המתחילה בחודש ספטמבר שלאחריו\" to the autism department. For the out-of-kindergarten route, a letter from that framework replaces the placement committee approval. The same letter says the out-of-kindergarten route carries the same co-payment as a communication kindergarten.\n(d) The current Education Ministry circular from 2.11.2015 (https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=60&REFF_GUID=%7B029B6194-4E55-4393-8325-6CC86480AA6E%7D) still points parents to that Ministry of Health letter. It says out-of-kindergarten treatment is possible \"גם במקרה שבו הילד משולב בחינוך הרגיל\". It also confirms a monthly co-payment.\n\nGaps:\n- The claim omits the age limit, the required diagnoses, that an out-of-kindergarten framework must exist and be Ministry-approved, and that a child receiving this treatment loses the health-fund paramedical hours.\n- The sources say documents must be *sent* by 15 June, not that they must *arrive* by then.\n- The 15 June deadline appears only in the 2014 parent letter and on Kol Zchut. The Ministry of Health's current pages (15.7.2026 and 6.10.2026) neither confirm nor contradict it, so it should be checked with the autism department.",
+      "corrected_claim": "Children aged 3–7 (Kol Zchut says \"up to 7\") who were diagnosed on the autism spectrum according to Ministry of Health criteria (a doctor's diagnosis and a clinical or developmental psychologist's diagnosis) and who attend regular kindergartens or day-cares can receive TABAM through an out-of-kindergarten framework (מסגרת חוץ גנית). This applies only where such a framework exists and the Ministry has approved it. A child who receives it is no longer entitled to paramedical treatment hours from the health fund. Rehabilitative day-cares charge parents nothing. In every other framework, including out-of-kindergarten ones, parents pay a monthly co-payment set by the Ministry of Health. Under the joint Education–Health circular, documents are sent by post or email to the Ministry of Health's autism department by 15 June for the school year starting the following September. For the out-of-kindergarten route, a letter from that framework replaces the placement committee approval. It is worth confirming this date with the department, because the Ministry's current web pages do not state it.",
+      "evidence_url": "https://www.gov.il/BlobFolder/policy/mk1-2-45/he/files_circulars_mk_mk1_2_45.pdf"
+     },
+     {
+      "refuted": false,
+      "reason": "The claim is accurate in substance. Both the cited source and an independent official source support it, but it leaves out conditions that matter.\n\n1) Cited source (Kol Zchut). The page's raw wikitext was fetched from https://www.kolzchut.org.il/he/טיפול_בריאותי_מקדם_(טב\"ם)_לילדים_על_הרצף_האוטיסטי?action=raw. Its last content edit was 2024-09-01; later edits were bot formatting only. It says, in Hebrew:\n- Children integrated in day-care centres or regular kindergartens can get the treatment through an out-of-kindergarten framework (מסגרת חוץ גנית).\n- Any framework that is not a rehabilitative day-care (מעון יום שיקומי) requires a parental co-payment. In rehabilitative day-cares parents pay nothing.\n- To get TABAM in kindergarten settings, documents must be sent to the Ministry of Health autism department by 15 June, ahead of the school year that starts the following September.\n- For an out-of-kindergarten framework, a letter from that framework saying it can take the child replaces the placement committee (ועדת השמה) approval.\n\n2) Independent official source. The joint Ministry of Health and Ministry of Education circular on TABAM (Ministry of Health circular 1/2-45, joint with Education circular 1.2-45), in force from 2 November 2014: https://www.gov.il/BlobFolder/policy/mk1-2-45/he/files_circulars_mk_mk1_2_45.pdf. It confirms that:\n- Parents may choose an out-of-kindergarten framework \"if such a framework exists\", including when the child is integrated in regular education or attends a special-education kindergarten that is not a communication kindergarten.\n- The service in that framework carries the same co-payment as in a communication kindergarten (633 NIS a month when the circular was issued).\n- All documents must be sent by post or email by 15 June for the school year starting the following September, to the Ministry of Health autism department (mental health services).\n- The policy covers children aged 3–7.\n\nWhat the claim leaves out:\n(a) Age limit: TABAM is for children up to age 7 (the circular says ages 3–7). This matters for a site that serves ages 4–9.\n(b) The out-of-kindergarten option exists only where such a framework is available in the area.\n(c) A child who receives TABAM, in kindergarten or out of it, loses the paramedical treatment hours from the health fund (קופת חולים).\n(d) The rule is that documents must be sent by 15 June, not that they must arrive by then. The required documents are a doctor's diagnosis and a clinical or developmental psychologist's diagnosis, plus the framework's acceptance letter or the placement committee approval.\n\nI found no official source showing the 2014 circular has been replaced. The co-payment amount is old and should not be quoted. gov.il service pages and DuckDuckGo blocked automated access, so the current amount could not be checked.",
+      "corrected_claim": "Children up to age 7 diagnosed with ASD who are integrated in a regular kindergarten or day-care (or in a special-education kindergarten that is not a communication kindergarten) may receive Ministry of Health-funded TABAM through an out-of-kindergarten framework (מסגרת חוץ גנית), if one is available in their area. In any framework other than a rehabilitative day-care, parents pay a monthly co-payment. Receiving TABAM ends eligibility for paramedical treatments from the health fund. To get approval, parents must send the documents to the Ministry of Health autism department (mental health services) by 15 June for the school year starting the following September: a doctor's diagnosis, a clinical or developmental psychologist's diagnosis, and a letter from the out-of-kindergarten framework saying it can take the child, which replaces the placement committee approval.",
+      "evidence_url": "https://www.gov.il/BlobFolder/policy/mk1-2-45/he/files_circulars_mk_mk1_2_45.pdf"
+     }
+    ]
+   },
+   {
+    "claim": "כללית: סל טיפולים לילדים עם אוטיזם עד גיל 18 – השתתפות במימון של עד 3 טיפולים בשבוע ולכל היותר 156 בשנה קלנדרית, בריפוי בעיסוק, פיזיותרפיה, קלינאות תקשורת וטיפול רגשי (פסיכולוגים או עובדים סוציאליים); עד גיל 3 ללא עלות, מגיל 3 עד 18 בהשתתפות עצמית.",
+    "source_urls": [
+     "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+    ],
+    "source_date": "2026-02-01",
+    "confidence": "high",
+    "survives": true,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The cited Clalit page (marked \"עודכן: 01.02.2026\") supports every element of the claim. It covers children and teens up to age 18 (the 18th birthday) who have been diagnosed with autism. It allows \"עד 3 טיפולים בשבוע ולכל היותר 156 בשנה קלנדרית\". The covered fields are occupational therapy, physiotherapy, speech therapy, and emotional therapy by psychologists or social workers. Treatment is free up to age 3, with a co-payment per treatment from age 3 to 18. Source: https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx\n\nMaccabi's page is an independent health-fund source, last updated 25.8.26. It describes the same national basket: up to 3 treatments a week and up to 156 per calendar year, in the same 5 fields, with no co-payment at ages 0–2 and a co-payment at ages 3–17 (37.70 NIS per treatment at Maccabi institutes). Source: https://www.maccabi4u.co.il/eligibilites/2733/ (kolzchut.org.il returned 403, so it could not be checked.)\n\nThe claim is accurate but leaves out conditions that appear on the Clalit page:\n(1) Children up to age 7 in dedicated autism frameworks are not covered by the health fund. Maccabi words this as a child in a rehabilitation day-care centre, communication day-care centre or communication kindergarten with health-promotion treatment (טב\"מ).\n(2) There is no cost at any age if at least one parent receives income support (הבטחת הכנסה), or if the child has a somatic developmental disorder.\n(3) Eligibility requires autism diagnosis documents and approval from an authorised Clalit professional, and the provider's annual treatment plan must be approved.\n(4) The treating body sets the number of treatments, so 3 a week and 156 a year are maximums, not guaranteed amounts.\n(5) Reimbursement for private therapists requires Clalit's prior approval of the therapist. It is being phased out under a Ministry of Health directive starting 1.1.2027, and children already being reimbursed keep it until their treatment ends.\n\nThe phrase \"השתתפות במימון\" is loose wording. In-network treatment is provided directly with a co-payment, and only the private track works by reimbursement. These omissions do not make the claim false.",
+      "corrected_claim": "כללית: ילדים ובני נוער עד גיל 18 שאובחנו עם אוטיזם זכאים, באישור הקופה, לעד 3 טיפולים בשבוע ולכל היותר 156 טיפולים בשנה קלנדרית. הטיפולים הם בריפוי בעיסוק, פיזיותרפיה, קלינאות תקשורת וטיפול רגשי (פסיכולוגים או עובדים סוציאליים), ומספר הטיפולים בפועל נקבע על ידי הגורם המטפל. עד גיל 3 הטיפולים ללא עלות, ומגיל 3 עד 18 יש השתתפות עצמית לכל טיפול. אין עלות בכל גיל למשפחות שמקבלות הבטחת הכנסה ולילדים עם הפרעה התפתחותית סומטית. ילדים עד גיל 7 במסגרות ייעודיות לאוטיזם אינם מקבלים את הסל מהקופה. החזר על מטפל פרטי ניתן רק באישור מראש, והוא מופסק בהדרגה החל מ-1.1.2027.",
+      "evidence_url": "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+     },
+     {
+      "refuted": false,
+      "reason": "Every fact in the claim checks out against the cited Clalit page and against Maccabi's official page, which describes the same basic-basket entitlement. The claim does leave out conditions, though, and one of them matters for this website's audience.\n\nWhat I confirmed:\n(1) Clalit page (https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx). The service is in the basic basket for children diagnosed with autism, up to their 18th birthday. Clalit helps fund \"עד 3 טיפולים בשבוע ולכל היותר 156 בשנה קלנדרית\". The covered professions are occupational therapy, physiotherapy, speech therapy, and emotional therapy by psychologists or social workers. The page says \"עד גיל 3 שנים - ללא עלות\", and from age 3 to 18 there is a co-payment for each treatment.\n(2) Maccabi page (https://www.maccabi4u.co.il/new/eligibilites/2733/). It gives the same basic-basket rules: ages 0-17 inclusive, up to 3 treatments a week, \"סך הכול עד 156 טיפולים בשנה קלנדרית\". The professions are the same. There is no co-payment for ages 0-2, and from age 3 the co-payment is 37.70 NIS per treatment.\n\nWhat the claim leaves out (all from the Clalit page):\n(a) The most important omission: children up to age 7 who attend a designated autism framework and get a state health-promotion basket (טב\"מ), for example a communication kindergarten or a rehabilitation day-care, are not eligible for these treatments from the health fund. This holds even if that basket is incomplete. Maccabi says the same.\n(b) Children with at least one parent receiving income support (הבטחת הכנסה) pay no co-payment. The same goes for children with a somatic developmental disorder.\n(c) A diagnosis is required. The number of treatments is set by Clalit's authorized body together with the treating professional, within the stated maximum.\n(d) Refunds for private treatment are being phased out. The phase-out starts in January 2027 for new patients under 6 and covers all ages by 2030. The claim doesn't mention refunds, but a fuller paraphrase would need this.\n\nKolzchut returned HTTP 403, and Bing/DuckDuckGo did not return usable results, so the independent check rests on Maccabi's official site.",
+      "corrected_claim": "כללית (סל הבסיס): ילדים עם אבחנה של אוטיזם עד גיל 18 זכאים להשתתפות במימון של עד 3 טיפולים בשבוע ולכל היותר 156 בשנה קלנדרית, בריפוי בעיסוק, פיזיותרפיה, קלינאות תקשורת וטיפול רגשי (פסיכולוגים או עובדים סוציאליים), בהיקף שנקבע עם הגורם המוסמך בכללית. עד גיל 3 ללא עלות; מגיל 3 עד 18 בהשתתפות עצמית (ללא השתתפות למשפחות המקבלות הבטחת הכנסה). ילדים עד גיל 7 הנמצאים במסגרת ייעודית לאוטיזם (כגון גן תקשורת) ומקבלים בה סל טיפול בריאותי מקדם (טב\"מ) אינם זכאים לטיפולים אלה מהקופה.",
+      "evidence_url": "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+     }
+    ]
+   },
+   {
+    "claim": "Clalit's autism-basket page says that usually the professional giving the child emotional therapy can also accompany the parents with parent therapy or parent guidance (הדרכת הורים).",
+    "source_urls": [
+     "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+    ],
+    "source_date": "2026-02-01",
+    "confidence": "high",
+    "survives": true,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The claim is accurate. I opened the cited Clalit page (https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx, last updated 01.02.2026). Under \"מה מגיע לי?\", right after the \"טיפול רגשי\" bullet (therapy by psychologists or social workers), it says word for word: \"לרוב, הגורם שיעניק טיפול רגשי לילד או לילדה יוכל ללוות את ההורים בטיפול הורי או בהדרכת הורים.\" The claim keeps the hedge \"usually\" (לרוב), so it does not overstate the source. The page presents this as part of the basic autism basket (\"הסל הבסיסי\"), not as part of Clalit Mushlam. The same page sets these conditions: the child must be under 18 and diagnosed with autism; the fund pays toward up to 3 treatments a week and at most 156 per calendar year across occupational therapy, physiotherapy, speech therapy and emotional therapy; Clalit's authorized body decides the number of treatments together with the therapist; children under 7 who get the Ministry of Health's טב\"ם basket in dedicated autism settings do not get these treatments from Clalit; there is a co-payment from age 3; and refunds for private therapists are phased out starting 1.1.2027. I could not get an independent official source that confirms or contradicts the parent-guidance sentence. Kol Zchut returned 403. DuckDuckGo showed a CAPTCHA, which I did not solve. The 01/2026 Ministry of Health circular (https://www.gov.il/BlobFolder/policy/sbn01-2026/he/files_circulars_sbn_sbn01-2026.pdf) downloaded, but I could not extract its text. Because the claim is only about what Clalit's own official page says, the cited source is enough to confirm it. The sentence describes Clalit's practice only, not a right in every health fund.",
+      "corrected_claim": "Clalit's autism-basket page (updated 01.02.2026) says that usually the professional giving the child emotional therapy (a psychologist or social worker) can also accompany the parents in parent therapy or parent guidance. This is part of Clalit's basic autism basket for children under 18 diagnosed with autism. The fund pays toward up to 3 treatments a week and at most 156 a year, and Clalit sets the number of treatments together with the therapist. It describes Clalit's practice only, not a right in every health fund.",
+      "evidence_url": "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+     },
+     {
+      "refuted": false,
+      "reason": "The cited Clalit page (https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx) says almost exactly this. Its Hebrew text, fetched 2026-10-25, reads \"לרוב, הגורם שיעניק טיפול רגשי לילד או לילדה יוכל ללוות את ההורים בטיפול הורי או בהדרכת הורים.\" In English: usually, whoever gives the child emotional therapy can also accompany the parents with parent therapy or parent guidance. The same page lists the basket treatments as occupational therapy, physiotherapy, speech therapy, and emotional therapy from psychologists or social workers.\n\nIndependent checks:\n- Maccabi's autism page (https://www.maccabi4u.co.il/new/eligibilites/2733/) agrees that the basic basket includes therapy from a psychologist or social worker. It does not mention parent guidance as an item, so it neither confirms nor contradicts the Clalit statement.\n- Kolzchut returned HTTP 403, so I could not read it.\n- DuckDuckGo showed a bot check and Bing returned unrelated results, so I could not use either search engine.\n\nThe claim is about what Clalit's own page says, and that page is an official health fund source, so it is confirmed.\n\nCaveats for the website wording:\n- The statement comes from Clalit only. Other health funds may say something different.\n- It is hedged: \"usually\" and \"can.\" Parent guidance is presented as something the child's emotional therapist may offer, not as a separate guaranteed service in the basket.\n- The website should not say that all health funds cover parent guidance, or that it is guaranteed.",
+      "corrected_claim": "Clalit's page on autism treatments says that usually, the professional who gives the child emotional therapy (a psychologist or social worker) can also accompany the parents with parent therapy or parent guidance. This is Clalit's own wording and is hedged with \"usually\" and \"can\". It is not a separate guaranteed service in the basket, and the page does not say it applies to every health fund.",
+      "evidence_url": "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+     }
+    ]
+   },
+   {
+    "claim": "מכבי, סל בסיסי: לילדים עם אוטיזם מלידה עד גיל 17 (כולל) – עד 3 טיפולים בשבוע ועד 156 בשנה קלנדרית בקלינאות תקשורת, ריפוי בעיסוק, פיזיותרפיה, עבודה סוציאלית ופסיכולוגיה; השתתפות עצמית 37.70 ₪ לטיפול בגילאי 3–17, ללא השתתפות בגילאי 0–2.",
+    "source_urls": [
+     "https://www.maccabi4u.co.il/eligibilites/2733/"
+    ],
+    "source_date": "2026-08-25 (עדכון אחרון 25.8.26)",
+    "confidence": "high",
+    "survives": true,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The claim matches the cited official Maccabi page, last updated 25.8.26 (https://www.maccabi4u.co.il/eligibilites/2733/). Under the basic basket (סל בסיסי), Maccabi members aged 0-17 inclusive with an ASD diagnosis get up to 3 treatments a week, at the professional team's discretion, and up to 156 per calendar year. The covered fields are speech therapy, occupational therapy, physiotherapy, social work and psychology. There is no copayment at ages 0-2. At ages 3-17 the copayment is 37.70 NIS per treatment at Maccabi child-development units and institutes, or at independent providers that have an agreement with Maccabi.\n\nThe Ministry of Health confirms the core entitlement independently: up to 3 paramedical sessions a week in the same five professions (https://me.health.gov.il/mental-health/information-and-updates/autism/entitlements-for-children/). That page does not give an age range or a copayment amount. The 37.70 NIS figure comes only from Maccabi's own official page. Kol Zchut (kolzchut.org.il) returned 403 and could not be read.\n\nThe claim is accurate but leaves out conditions shown on the Maccabi page:\n(a) A child in a rehabilitative day-care or a communication kindergarten that provides health-promotion treatment (טב\"ם) is not eligible for these basket treatments.\n(b) At public hospitals with an agreement, the charge is a quarterly 41 NIS commitment instead of 37.70 per treatment.\n(c) Children in families receiving income support pay nothing up to age 18.\n(d) Families with four or more registered children up to age 18 get a 50% discount.\nThe figures apply to Maccabi only; other health funds may charge different copayments.",
+      "corrected_claim": "מכבי, סל בסיסי: ילדים עם אבחנת אוטיזם מלידה עד גיל 17 (כולל) זכאים לעד 3 טיפולים בשבוע (לפי שיקול דעת מקצועי) ועד 156 טיפולים בשנה קלנדרית בקלינאות תקשורת, ריפוי בעיסוק, פיזיותרפיה, עבודה סוציאלית ופסיכולוגיה. השתתפות עצמית: ללא תשלום בגילאי 0–2; 37.70 ₪ לטיפול בגילאי 3–17 ביחידות ובמכונים של מכבי או אצל ספקים עצמאיים בהסכם; בבתי חולים ציבוריים בהסכם – התחייבות רבעונית של 41 ₪. פטור לילדים במשפחות המקבלות הבטחת הכנסה, והנחה של 50% למשפחות עם 4 ילדים ומעלה עד גיל 18. ילד במעון יום שיקומי או בגן תקשורת עם טב\"ם אינו זכאי לטיפולים אלה בסל (נכון לעדכון מכבי מ-25.8.26).",
+      "evidence_url": "https://www.maccabi4u.co.il/eligibilites/2733/"
+     },
+     {
+      "refuted": false,
+      "reason": "The cited official Maccabi page (https://www.maccabi4u.co.il/eligibilites/2733/, last updated 25.8.26) confirms each part of the claim. In the basic basket, Maccabi members aged 0–17 inclusive with an ASD diagnosis get up to 3 treatments a week, based on professional judgment, and up to 156 per calendar year. The covered fields are speech therapy, occupational therapy, physiotherapy, social work and psychology. There is no copayment at ages 0–2, and the copayment at ages 3–17 is 37.70 ILS per treatment at Maccabi child development institutes or units and at independent providers with an agreement. An independent official source, the Ministry of Health page (https://me.health.gov.il/mental-health/information-and-updates/autism/entitlements-for-children/), confirms the national entitlement of up to 3 paramedical sessions a week in the same five fields. It gives no annual cap; the 156 figure (3 × 52) appears only on Maccabi's page. The claim is accurate but leaves out conditions from the source. A child in a rehabilitative day-care or communication-preschool framework that provides TAM (health-promotion treatment) is not eligible for the basket treatments. At public hospitals under agreement, the copayment is a 41 ILS quarterly commitment rather than 37.70 per treatment. Children of families receiving income support pay no copayment, and families with four or more children get a 50% discount. The 37.70 ILS amount is Maccabi's own; other health funds differ (Clalit listed 33 ILS as of January 2023). The website should present the figures as Maccabi-specific.",
+      "corrected_claim": "מכבי, סל בסיסי: לילדים עם אבחנה רפואית של אוטיזם (ASD) מלידה עד גיל 17 (כולל) – עד 3 טיפולים בשבוע (לפי שיקול דעת מקצועי) ועד 156 בשנה קלנדרית בקלינאות תקשורת, ריפוי בעיסוק, פיזיותרפיה, עבודה סוציאלית ופסיכולוגיה. ילד במעון יום שיקומי או בגן תקשורת עם טיפול בריאותי מקדם (טב\"ם) אינו זכאי לטיפולי הסל. השתתפות עצמית: ללא תשלום בגילאי 0–2. בגילאי 3–17: 37.70 ₪ לטיפול במכוני מכבי ואצל ספקים בהסכם, או התחייבות בהשתתפות רבעונית של 41 ₪ בבתי חולים ציבוריים בהסכם. פטור למשפחות המקבלות הבטחת הכנסה, והנחה של 50% למשפחות עם ארבעה ילדים ומעלה (נכון לעדכון 25.8.26; הסכומים בקופות אחרות שונים).",
+      "evidence_url": "https://www.maccabi4u.co.il/eligibilites/2733/"
+     }
+    ]
+   },
+   {
+    "claim": "Maccabi: since 01.12.2025 (per MoH guidelines of 10.8.2025), private-therapist refunds in the basic basket need prior approval. The therapist must hold an MoH licence in speech, occupational or physiotherapy (or be a registered social worker) and have at least 4 years at 50% or more in developmental institutions, including at least 2 years in a multi-population institution. The refund is capped at the MoH tariff (example: 300 ₪ cost, 273 ₪ cap, 36.50 ₪ co-pay, 236.50 ₪ refund).",
+    "source_urls": [
+     "https://www.maccabi4u.co.il/eligibilites/2733/"
+    ],
+    "source_date": "2026-08-25",
+    "confidence": "high",
+    "survives": false,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The claim matches Maccabi's official eligibility page (https://www.maccabi4u.co.il/eligibilites/2733/, last updated 25.8.26). That page sets out the rules for private-therapist refunds \"from 01.12.2025, under MoH guidelines of 10.8.2025\". It says there is no refund without prior approval from Maccabi's child-development institute. The therapist must hold an MoH certificate in speech therapy, occupational therapy or physiotherapy, or be a registered social worker. They also need at least 4 years in developmental institutions and services at a 50% position, with at least 2 of those years in an institution serving a range of populations. The refund is the lower of actual cost and the cap, minus co-payment, and never more than the actual cost. The page's illustrative speech-therapy example is 300 ₪ cost, 273 ₪ cap, 36.50 ₪ co-pay and 236.50 ₪ refund. A second Maccabi page says the same and states the cap is the MoH tariff, price column B (https://www.maccabi4u.co.il/eligibilites/4738/). I could not get a non-Maccabi official copy: kolzchut returned 403, and the gov.il PDF https://www.gov.il/BlobFolder/policy/sbn01-2026/he/files_circulars_sbn_sbn01-2026.pdf could not be read. So the confirmation rests only on Maccabi's own official pages. The claim leaves out several things. (1) The therapist must also meet MoH supervision requirements and submit a signed declaration (Appendix B of the circular). (2) The rule says \"50% position\"; \"50% or more\" is a small paraphrase. (3) The 273 ₪ figure is an example, not a fixed tariff. (4) The most important gap is the child-development reform, under which the refund route is being phased out. The reform page (https://www.maccabi4u.co.il/maccabi_circles/child_development/child_services_reform/) gives the dates for new patients. From 01.02.26 the change covers ages 0–6 who are not \"complex children\". From 01.08.26 it covers older non-complex children. Children with autism or a somatic disability are counted as \"complex\". New patients in that group move to public services from 01.01.27 (ages 0–6) and from 01.01.28 (over 6), and all children move from 01.01.30. The same reform section on page 2733 confirms the phase-out began on 1 February 2026. The core facts are right, but the website text should add the missing conditions and the phase-out.",
+      "corrected_claim": "Maccabi: from 01.12.2025 (per MoH guidelines of 10.8.2025), a refund for treatment by a private therapist in the basic basket needs prior approval from Maccabi's child-development institute; without it there is no refund. The therapist must hold an MoH certificate in speech, occupational or physiotherapy (or be registered as a social worker). They need at least 4 years in developmental institutions and services at a 50% position, including at least 2 years in an institution serving a range of populations. They must also meet MoH supervision requirements and sign a therapist declaration (Appendix B of the circular). The refund is the lower of the actual cost and the MoH tariff cap (column B), minus the co-payment. Maccabi's illustrative example: 300 ₪ cost, 273 ₪ cap, 36.50 ₪ co-pay, 236.50 ₪ refund. Under the child-development reform, the refund route is being phased out for new patients. For children with autism, new patients move to public services from 01.01.2027 (ages 0–6) and from 01.01.2028 (over 6), and for all children from 01.01.2030.",
+      "evidence_url": "https://www.maccabi4u.co.il/eligibilites/2733/"
+     },
+     {
+      "refuted": true,
+      "reason": "The cited Maccabi page (https://www.maccabi4u.co.il/eligibilites/2733/) confirms each specific detail. Prior approval is required \"החל בתאריך 01.12.2025\", in line with the MoH guidelines of 10.8.2025 (circular 5/2025), and a private treatment started without it gets no refund. The therapist must hold an MoH professional certificate in speech therapy, occupational therapy or physiotherapy, or be registered in the social workers' register. They also need at least 4 years at 50% or more in \"developmental institutions and services\", including at least 2 years in an institution serving a range of populations, plus the MoH supervision requirement. The refund is the MoH tariff (price list, code B) minus the co-pay, and never more than the actual cost. The page's example is speech therapy: 300 ₪ cost, 273 ₪ cap, 36.50 ₪ co-pay, 236.50 ₪ refund. Maccabi's therapist declaration form (Appendix B, https://www.maccabi4u.co.il/media/aetmsqcs/טופס-הכרה-קופות-נספח-ב-מעודכן-מכבי-שירותי-בריאות-24-8.pdf) repeats the 4-year / 50% / 2-year requirement and cites section 3 of circular 5/2025.\n\nThe claim is still incomplete and partly out of date as of 25.10.2026, because it leaves out the child-development reform. The same 2733 page and Maccabi's reform page (https://www.maccabi4u.co.il/maccabi_circles/child_development/child_services_reform/) say refunds for physio, speech, OT and social work are being phased out, and the phase-out applies to new patients only. From 01.02.26, new patients aged 0–6 lose the refund route and get the service through the public system. This applies only to children who are not \"complex\" (somatic disability or autism) and who live within 30 km of a recognised unit. From 01.08.26 the same applies to new patients over 6. Complex children, autism included, move over later: new patients aged 0–6 from 01.01.27, new patients over 6 from 01.01.28, and all children from 01.01.30.\n\nKipa (https://www.kipa.co.il/חדשות/פוליטי/1204009-0/) independently reported the MoH plan to end these refunds for new patients only, phased through 2029. I could not open gov.il or Kol Zchut (403 errors and search-engine blocks), so I have no MoH-hosted copy of the circular. The confirmation comes from Maccabi's official pages and press reports.\n\nSmaller points the claim also omits: the 273 ₪ cap is an illustration for speech therapy that changes whenever the MoH tariff is updated, the therapist must report progress at the end of the treatment series, and some children are exempt from the co-pay (up to age 2, a diagnosed somatic disability, or income-support recipients).",
+      "corrected_claim": "Maccabi: since 01.12.2025 (under MoH guidelines of 10.8.2025, circular 5/2025), a refund for a private therapist (physio, speech, OT or social work) needs prior approval from Maccabi's child development institute. Without that approval there is no refund. The therapist must hold an MoH professional certificate in speech therapy, occupational therapy or physiotherapy, or be registered as a social worker. They must also have at least 4 years at 50% or more in developmental institutions and services, including at least 2 years in an institution serving a range of populations, and meet the MoH supervision requirement. The refund is the MoH tariff for that profession minus the co-pay, and never more than the actual cost. Example for speech therapy: 300 ₪ cost, 273 ₪ cap, 36.50 ₪ co-pay, 236.50 ₪ refund. The tariff is updated from time to time, and children up to age 2, children with a somatic disability, and income-support recipients are exempt from the co-pay. Under the MoH child-development reform, this refund route is being phased out for new patients. Since 1.2.2026 (ages 0–6) and 1.8.2026 (over 6), new patients who are not \"complex\" and live within 30 km of a recognised unit are treated in the public system instead. For children with autism or a somatic disability, the change applies to new patients aged 0–6 from 1.1.2027 and over 6 from 1.1.2028, and to all children from 1.1.2030. Check current eligibility with Maccabi (*3555) before starting private treatment.",
+      "evidence_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/child_services_reform/"
+     }
+    ]
+   },
+   {
+    "claim": "מאוחדת: ילדים על הרצף זכאים לסל של 3 טיפולים בשבוע (תקשורת, ריפוי בעיסוק, פיזיותרפיה, פסיכולוגיה ועבודה סוציאלית) ממועד האבחון עד גיל 18; המשך טיפול אצל ספק פרטי מורשה בהסדר החזרים ניתן לפרק זמן מוגבל, ו'נוהל מתן החזרים יוחלף בהמשך בהתחייבויות בלבד'.",
+    "source_urls": [
+     "https://www.meuhedet.co.il/התפתחות-הילד/אוטיזם-ונכות-סומטית/",
+     "https://www.meuhedet.co.il/מידע-ללקוח/זכאות-מתוקף-חוקים/טיפולים-לילדים-על-הרצף-האוטיסטי/"
+    ],
+    "source_date": "not shown",
+    "confidence": "high",
+    "survives": true,
+    "votes": [
+     {
+      "refuted": false,
+      "reason": "The claim matches what Meuhedet's own pages say, but it leaves out a few conditions. The child-development page (https://www.meuhedet.co.il/התפתחות-הילד/אוטיזם-ונכות-סומטית/) says three things. First, children on the spectrum get \"עד 3 טיפולים בשבוע\", decided \"לפי שיקול דעת מקצועי בלבד\", so it is up to 3 a week by professional judgment, not a fixed 3. Second, the covered fields are תקשורת, ריפוי בעיסוק, פיזיותרפיה, פסיכולוגיה and עבודה סוציאלית, from diagnosis until age 18. Third, to keep the therapy going, \"תינתן אפשרות להמשך טיפול אצל ספק פרטי מורשה מטעם מאוחדת, בהסדר של החזרים\", \"למשך פרק זמן מוגבל\". The provider must be approved in advance and suitably trained, and the refund follows the Ministry of Health tariff and needs an original receipt. That same page also says, word for word, \"נוהל מתן החזרים יוחלף בהמשך בהתחייבויות בלבד\". The rights page (https://www.meuhedet.co.il/מידע-ללקוח/זכאות-מתוקף-חוקים/טיפולים-לילדים-על-הרצף-האוטיסטי/) gives the same entitlement. It says \"שלושה טיפולים מקדמי בריאות בשבוע\" from diagnosis to 18, with the same five fields, through Meuhedet's providers with a co-payment, and the same limited-period private option. It does not contain the sentence about commitments. For an independent check, Kol Zchut's autism page was blocked (403), so I used its Arabic version (https://www.kolzchut.org.il/ar/علاجات_مكملة_للأطفال_التوحديين). It also says up to 3 sessions a week, all year, from diagnosis to 18, in the same five fields. It excludes children under 7 who get enhanced care hours, and it allows a private therapist approved in advance, refunded at the Ministry tariff minus the co-payment, if the wait is longer than 3 months. A search snippet of the Hebrew Kol Zchut page adds that above age 3 there is a co-payment per session, unless the family receives income support. So the claim is not outdated and not misquoted. It only overstates \"3\" (it is \"up to 3\") and drops the conditions.",
+      "corrected_claim": "מאוחדת: ילדים על הרצף זכאים לעד 3 טיפולים בשבוע, לפי שיקול דעת מקצועי, בתקשורת, ריפוי בעיסוק, פיזיותרפיה, פסיכולוגיה ועבודה סוציאלית, ממועד האבחון ועד גיל 18. הטיפולים ניתנים אצל ספקי הקופה בהשתתפות עצמית. כדי לאפשר המשך קשר טיפולי, ולפרק זמן מוגבל, אפשר להמשיך אצל ספק פרטי מורשה שאושר מראש על ידי מאוחדת, בהסדר החזרים לפי תעריף משרד הבריאות ובהצגת קבלה מקורית. לפי הקופה, נוהל ההחזרים יוחלף בהמשך בהתחייבויות בלבד.",
+      "evidence_url": "https://www.meuhedet.co.il/התפתחות-הילד/אוטיזם-ונכות-סומטית/"
+     },
+     {
+      "refuted": false,
+      "reason": "Meuhedet's own pages confirm the core of the claim, but the claim leaves out some conditions.\n\n1. The basket and the professions are confirmed. The eligibility page (https://www.meuhedet.co.il/מידע-ללקוח/זכאות-מתוקף-חוקים/טיפולים-לילדים-על-הרצף-האוטיסטי/) says children on the spectrum are entitled to \"סל של שלושה טיפולים מקדמי בריאות בשבוע\". It lists communication, occupational therapy, physiotherapy, psychology and social work, and covers the period \"ממועד האבחון ועד גיל 18\".\n\n2. That same page confirms the private-provider continuation. It applies to \"ספק פרטי מורשה מטעמנו\", under \"הסדר של החזרים ולמשך פרק זמן מוגבל\". The refund is at the Ministry of Health rate. The page gives no length for the limited period.\n\n3. The child-development page (https://www.meuhedet.co.il/התפתחות-הילד/אוטיזם-ונכות-סומטית/) contains the quoted sentence \"נוהל מתן החזרים יוחלף בהמשך בהתחייבויות בלבד\", with no date given. This page words the basket as \"עד 3 טיפולים בשבוע לפי שיקול דעת מקצועי בלבד\", so it is a maximum, not a fixed three. It also requires that the private provider be approved in advance by Meuhedet's professional staff.\n\n4. An independent health-fund source puts a timeline on the phase-out of reimbursements. It is Maccabi's page on the national child-development reform (https://www.maccabi4u.co.il/maccabi_circles/child_development/child_services_reform/). Reimbursements for paramedical treatments are being phased out gradually. For \"complex children\", which the page defines as children with autism or a somatic disability, the change starts on 01.01.27 for new patients aged 0-6. It starts on 01.01.28 for new patients over 6.\n\n5. Leumit (https://www.leumit.co.il/en/child-development/rights-of-children-with-autism/) and Kol Zchut, as shown in search results, also describe entitlement up to age 18. Kolzchut itself returned 403 when fetched directly.\n\nVerdict: the claim is not false. It does overstate one point by saying \"3 per week\" when Meuhedet's own page says up to 3 at professional discretion. It also omits the prior-approval condition, the Ministry of Health refund rate and the reform timeline.",
+      "corrected_claim": "מאוחדת: ילדים המאובחנים על הרצף האוטיסטי זכאים, ממועד האבחון ועד גיל 18, לסל של עד 3 טיפולים בשבוע בסך הכול. מספר הטיפולים נקבע לפי שיקול דעת מקצועי, והטיפולים הם בתחומי תקשורת, ריפוי בעיסוק, פיזיותרפיה, פסיכולוגיה ועבודה סוציאלית. כדי לאפשר המשך קשר טיפולי, ניתן להמשיך לפרק זמן מוגבל אצל ספק פרטי מורשה שאושר מראש על ידי מאוחדת, בהסדר החזרים בתעריף משרד הבריאות. לפי מאוחדת, \"נוהל מתן החזרים יוחלף בהמשך בהתחייבויות בלבד\". במסגרת הרפורמה הארצית בהתפתחות הילד, מסלול ההחזרים מבוטל בהדרגה: לילדים עם אוטיזם החל מ-1.1.2027 למטופלים חדשים בגילאי 0–6, ומ-1.1.2028 למטופלים חדשים מעל גיל 6, לפי עמוד הרפורמה של מכבי.",
+      "evidence_url": "https://www.meuhedet.co.il/התפתחות-הילד/אוטיזם-ונכות-סומטית/"
+     }
+    ]
+   },
+   {
+    "claim": "לאומית: ילדים על הספקטרום זכאים ל-3 טיפולים פרא-רפואיים בשבוע אצל ספק מוכר שקיבל אישור לעבוד עם ילדים על הספקטרום (ריפוי בעיסוק, ריפוי בדיבור, פסיכולוגיה, עבודה סוציאלית), מגיל האבחון עד 18, במכסה שנתית של עד 156 טיפולים.",
+    "source_urls": [
+     "https://www.leumit.co.il/child-development/the-rights-of-children-with-autism/",
+     "https://www.leumit.co.il/lobby-rights/children-rights/childrensrights/childrenszakautpage/?sid=26&zid=113767"
+    ],
+    "source_date": "not shown",
+    "confidence": "high",
+    "survives": false,
+    "votes": [
+     {
+      "refuted": true,
+      "reason": "The core of the claim is right, but it leaves out a condition and takes the annual cap from a different page.\n\nWhat checks out:\n- Leumit's autism-rights page says children on the spectrum get \"3 טיפולים פרא-רפואיים בשבוע\" from a recognized provider approved to work with children on the spectrum.\n- The same page gives the age range as \"מגיל האבחון ועד גיל 18\" and lists ריפוי בעיסוק, ריפוי בדיבור, פסיכולוגיה and עבודה סוציאלית. (https://www.leumit.co.il/child-development/the-rights-of-children-with-autism/)\n- Kol Zchut (kolzchut.org.il) independently confirms up to 3 treatments a week, all year, from diagnosis to age 18. I saw this only in search-result summaries: its pages blocked direct fetch with HTTP 403. Kol Zchut also includes physiotherapy in the list. (https://www.kolzchut.org.il/he/טיפולים_פרא_רפואיים_לילדים_אוטיסטים)\n\nProblems:\n1) A condition is missing. The Leumit autism page limits this right to children who are NOT using their טיפול בריאותי מקדם (טב\"ם) entitlement in rehabilitative day centers or communication kindergartens. Kol Zchut likewise says children up to age 7 who receive טב\"ם hours are excluded. (https://www.kolzchut.org.il/he/טיפול_בריאותי_מקדם_(טב\"ם)_לילדים_על_הרצף_האוטיסטי)\n2) The 156 cap is not on the autism page. That page states no annual quota at all. The figure comes from the second cited link, a general child-development page for ages 0-3 (until the 3rd birthday). There it reads \"המכסה השנתית לא תעלה על 156 טיפולים, לכל הטיפולים בתחום התפתחות הילד בסל\". So the cap covers all child-development treatments together and counts per calendar year. It is not a separate autism quota. (https://www.leumit.co.il/lobby-rights/children-rights/childrensrights/childrenszakautpage/?sid=26&zid=113767)\n3) Other conditions are left out. The 0-3 page requires prior approval from the fund's triage body (גורם ממיין). Kol Zchut notes a co-payment per treatment from age 3, unless the family receives income support (הבטחת הכנסה / השלמת הכנסה).\n\nOverall: correct on 3 a week, diagnosis to 18 and the recognized-provider rule. Overstated because it drops the טב\"ם / communication-kindergarten exclusion and presents 156 as an autism-specific quota from the autism page.",
+      "corrected_claim": "לאומית: ילדים שאובחנו על הרצף האוטיסטי זכאים, מגיל האבחון ועד גיל 18, לעד 3 טיפולים פרא-רפואיים בשבוע (ריפוי בעיסוק, ריפוי בדיבור, פסיכולוגיה, עבודה סוציאלית) אצל ספק מוכר שקיבל אישור לעבוד עם ילדים על הספקטרום. הזכאות היא לילדים שאינם מקבלים טיפול בריאותי מקדם (טב\"ם) במעון יום שיקומי או בגן תקשורת. הטיפולים מותנים באישור הקופה, ומגיל 3 יש השתתפות עצמית. בדף הזכויות של לאומית לגילאי 0–3 מצוין גם שהמכסה השנתית לכל טיפולי התפתחות הילד יחד היא עד 156 טיפולים בשנה קלנדרית.",
+      "evidence_url": "https://www.leumit.co.il/child-development/the-rights-of-children-with-autism/"
+     },
+     {
+      "refuted": true,
+      "reason": "The numbers are right, but the claim leaves out a key condition and overstates the age range. Leumit's page (https://www.leumit.co.il/child-development/the-rights-of-children-with-autism/) does say children on the spectrum are entitled to 3 paramedical treatments a week with a recognized provider approved to work with children on the spectrum. It lists occupational therapy, speech therapy, psychology and social work, and physiotherapy in a separate section. But the \"from the age of diagnosis to 18\" entitlement applies only to children who are not using their entitlement to health-promoting treatment (טב\"ם) in rehabilitation day centers or communication kindergartens. Children over 7 are entitled in any educational setting. Leumit's eligibility page (https://www.leumit.co.il/lobby-rights/children-rights/childrensrights/childrenszakautpage/?sid=26&zid=113767) adds three things. A child aged 3 to 7 in a Ministry of Health–funded therapeutic kindergarten is eligible for Leumit treatments only from age 7. Insured children up to age 3 who are recognized as on the spectrum are usually referred to rehabilitation day centers. The rule is \"up to 3\" treatments a week. That page also says the 156 annual cap is shared across all child development treatments in the basket, not a separate autism allowance. Treatment needs prior approval from Leumit's triage body and is normally given through contracted providers (a non-contracted provider only if the child already started treatment with them on a refund basis), with reimbursement only in exceptional cases. Kol Zchut, an independent rights site, confirms that the Ministry of Health's health-promoting treatment covers children up to 7 in dedicated frameworks and cannot be received at the same time as health-fund treatments (https://www.kolzchut.org.il/he/%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA%D7%99_%D7%9E%D7%A7%D7%93%D7%9D_(%D7%98%D7%91%22%D7%9D)_%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%A2%D7%9C_%D7%94%D7%A8%D7%A6%D7%A3_%D7%94%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98%D7%99). This comes from search-result summaries only, because Kol Zchut blocked direct fetching (HTTP 403).",
+      "corrected_claim": "לאומית: ילדים על הספקטרום האוטיסטי זכאים לעד 3 טיפולים פרא-רפואיים בשבוע (ריפוי בעיסוק, ריפוי בדיבור, פסיכולוגיה, עבודה סוציאלית ופיזיותרפיה) אצל ספק מוכר בהסדר עם הקופה שקיבל אישור לעבוד עם ילדים על הספקטרום, ובאישור מראש של הקופה. הזכאות היא מגיל האבחון ועד 18 לילדים שאינם מקבלים טיפול בריאותי מקדם (טב\"ם) במעון יום שיקומי או בגן תקשורת. ילד בגן טיפולי במימון משרד הבריאות זכאי לטיפולים מהקופה רק מגיל 7, ופעוטות עד גיל 3 מופנים בדרך כלל למעון יום שיקומי. המכסה השנתית, עד 156 טיפולים, משותפת לכל טיפולי התפתחות הילד בסל.",
+      "evidence_url": "https://www.leumit.co.il/child-development/the-rights-of-children-with-autism/"
+     }
+    ]
+   },
+   {
+    "claim": "Clalit: a Ministry of Health–led child-development reform began on 1 February 2026 and will be phased in through 2030. It abolishes reimbursement for child-development treatments obtained privately; new patients will be served within the health funds.",
+    "source_urls": [
+     "https://www.clalit.co.il/he/info/Pages/child-development-reform.aspx"
+    ],
+    "source_date": "2026-08-05",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "לפי כללית: מ-1 בינואר 2027 לא יינתנו החזרים למטופלים חדשים עד גיל 6 עם אבחנה של אוטיזם; מ-1 בינואר 2028 גם למטופלים חדשים בני 6 עד 18 עם אוטיזם; ומ-1 בינואר 2030 לא יינתנו החזרים כלל.",
+    "source_urls": [
+     "https://www.clalit.co.il/he/info/Pages/child-development-reform.aspx",
+     "https://www.clalit.co.il/he/myrights/autism-spectrum-disorder/Pages/asd-treatments.aspx"
+    ],
+    "source_date": "2026-08-05",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Per Clalit, the reform covers speech therapy, occupational therapy, physiotherapy, social work, developmental psychology and developmental medicine. Children already receiving reimbursed private treatment keep reimbursement until their quota ends, at the latest 1 January 2030, unless treatment pauses for a year or more.",
+    "source_urls": [
+     "https://www.clalit.co.il/he/info/Pages/child-development-reform.aspx"
+    ],
+    "source_date": "2026-08-05",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Per Clalit, reimbursement for a psychological diagnostic assessment for autism will continue until 1 January 2030, subject to prior approval, as an exception to the reform.",
+    "source_urls": [
+     "https://www.clalit.co.il/he/info/Pages/child-development-reform.aspx"
+    ],
+    "source_date": "2026-08-05",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "לאומית: השינוי במדיניות ההחזרים בהתפתחות הילד (במסגרת הרפורמה) אינו חל על הזכאויות במסגרת הביטוח המשלים, לאומית כסף ולאומית זהב; היעד לזמני המתנה הוא עד 3–4 חודשים.",
+    "source_urls": [
+     "https://www.leumit.co.il/child-development/reimbursement-for-child-dev-treatments/"
+    ],
+    "source_date": "not shown",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Maccabi states that from 1 February 2026 a gradual process to expand developmental services in the community and health funds begins at Ministry of Health initiative, including gradual cancellation of the reimbursement track, with treatments given within the public service.",
+    "source_urls": [
+     "https://www.maccabi4u.co.il/eligibilites/2733/"
+    ],
+    "source_date": "2026-08-25",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Maariv (4.12.2025), citing the Ministry of Health: reimbursement for private treatment was allowed from 2010. Parents often paid the large gap above the refund, sometimes up to twice the refund. Treatment in two fields (e.g., OT and speech) could cost families about 1,500 ₪ or more a month. The child-development budget rose to 130 million ₪ a year in 2025.",
+    "source_urls": [
+     "https://www.maariv.co.il/news/health/article-1258784"
+    ],
+    "source_date": "2025-12-04",
+    "confidence": "medium",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Maariv (11.5.2025) reported parents and the organization 'אותי – עמותה ישראלית לאוטיזם' protesting the Ministry of Health plan to cancel reimbursements for private paramedical treatments, saying it would harm families who cannot afford full-price private care.",
+    "source_urls": [
+     "https://www.maariv.co.il/news/education/article-1195484"
+    ],
+    "source_date": "2025-05-11",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "The Ministry of Health reform Q&A page states that families pay on average 150–250 ₪ out of pocket per treatment beyond the health-fund refund (seen only in a search-engine excerpt; the page returned 403 to direct fetch).",
+    "source_urls": [
+     "https://www.gov.il/he/pages/q-a-for-child-development-therapists"
+    ],
+    "source_date": "not verified",
+    "confidence": "medium",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "כללית מושלם: טיפולים רגשיים לילדים מגיל 3 עד יום הולדת 18 (רכיבה טיפולית, טיפול במוזיקה, טיפול באומנויות ועוד) – במושלם זהב עד 30 טיפולים בשנה קלנדרית ולא יותר מ-100 בכל תקופת החברות; תקופת אכשרה 6 חודשים; השירות ניתן באמצעות ספקים בהסדר בלבד.",
+    "source_urls": [
+     "https://www.clalit.co.il/he/myrights/child-development/Pages/creative_therapy.aspx"
+    ],
+    "source_date": "2025-01-20",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Clalit Mushlam defines arts therapy (טיפול באומנויות) to include expressive and creative therapy, visual art, music, movement and dance, drama, psychodrama and bibliotherapy; it requires only a signed parental declaration of need. Mushlam Platinum adds 25 treatments, up to 70 a year combined until age 10.",
+    "source_urls": [
+     "https://www.clalit.co.il/he/myrights/child-development/Pages/creative_therapy.aspx"
+    ],
+    "source_date": "2025-01-20",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Clalit Mushlam charges a 45 ₪ co-payment per emotional treatment in riding, therapeutic swimming, therapeutic sport, music, movement/dance, drama, psychodrama and bibliotherapy, and 110 ₪ per treatment with a psychologist or social worker for ages 10–18.",
+    "source_urls": [
+     "https://www.clalit.co.il/he/myrights/child-development/Pages/creative_therapy.aspx"
+    ],
+    "source_date": "2025-01-20",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "מכבי זהב/שלי לילדים עם אוטיזם בגילאי 3–17: טיפולים משלימים – רכיבה טיפולית, תרפיה באמצעות בעלי חיים, תרפיה בהבעה ויצירה (תנועה, דרמה, ביבליותרפיה, מוזיקה, אומנות פלסטית), ספורט טיפולי ופעילות טיפולית במים; במכבי זהב עד 30 בשנה (ועד 100 לכל תקופת החברות), במכבי שלי תוספת של עד 20; השתתפות עצמית 45 ₪ לטיפול.",
+    "source_urls": [
+     "https://www.maccabi4u.co.il/eligibilites/2733/"
+    ],
+    "source_date": "2026-08-25",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Maccabi Sheli and Zahav autism services start 6 months after joining the plan. Complementary treatments need a referral from a pediatrician, family doctor or the child development institute. To use Maccabi Sheli the child must first use the full basic-basket quota.",
+    "source_urls": [
+     "https://www.maccabi4u.co.il/eligibilites/2733/"
+    ],
+    "source_date": "2026-08-25",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Maccabi's autism developmental-treatment eligibility page does not list group treatment or social-skills groups among the covered treatment types in any tier.",
+    "source_urls": [
+     "https://www.maccabi4u.co.il/eligibilites/2733/"
+    ],
+    "source_date": "2026-08-25",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Maccabi Zahav covers additional health-profession treatments (speech, OT, PT, psychotherapy) for children with autism aged 3–9 after the basic basket is used, at 36 ₪ per treatment. The page states that from 01.01.2020 reimbursement for private therapists was cancelled under this Zahav section.",
+    "source_urls": [
+     "https://www.maccabi4u.co.il/eligibilites/2733/"
+    ],
+    "source_date": "2026-08-25",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "מכבי, טיפול פסיכולוגי ופסיכותרפיה אצל מטפלים שבהסכם עם מכבי: טיפול קבוצתי בהשתתפות עצמית של 78 ₪ לטיפול; טיפול פרטני/משפחתי/הדרכת הורים – 70 ₪ לאינטייק ו-170 ₪ מהטיפול השני ואילך.",
+    "source_urls": [
+     "https://www.maccabi4u.co.il/eligibilites/2084/"
+    ],
+    "source_date": "2026-07-28",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "מכבי, טיפולים משלימים לצורך טיפול רגשי (לא ספציפי לאוטיזם): במכבי שלי עד 50 טיפולים בשנה קלנדרית לפי גיל (בגילאי 3–9: 20 בנוסף ל-30 של מכבי זהב), עד 2 בשבוע, בהשתתפות עצמית של 45 ₪, אצל ספקים בהסכם.",
+    "source_urls": [
+     "https://www.maccabi4u.co.il/eligibilites/2726/"
+    ],
+    "source_date": "2026-07-23",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "מאוחדת שיא: זכאות ל-40 טיפולים רגשיים בשנה לילדים עד גיל 12 ול-24 טיפולים בשנה לגילאי 12–18, ושירותים מורחבים בהתפתחות הילד הכוללים ריפוי באמנות, ריפוי בתנועה, בעלי חיים ורכיבה טיפולית.",
+    "source_urls": [
+     "https://www.meuhedet.co.il/ביטוחים/מאוחדת-שיא/השיא-שלנו/"
+    ],
+    "source_date": "not shown",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Meuhedet Adif members are entitled to a package of child-development treatments beyond the health-basket entitlement, by the child's age, with a symbolic co-payment per treatment.",
+    "source_urls": [
+     "https://www.meuhedet.co.il/ביטוחים/מאוחדת-עדיף/כיסויים-נוספים/"
+    ],
+    "source_date": "not shown",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "לאומית מפרטת טיפולים רגשיים המוצעים לילדים על הרצף האוטיסטי: טיפול בתנועה, במוסיקה, בדרמה, באומנות, ביבליותרפיה, שחיה טיפולית, ספורט טיפולי פרטני, ספורט טיפולי קבוצתי ורכיבה טיפולית.",
+    "source_urls": [
+     "https://www.leumit.co.il/child-development/the-rights-of-children-with-autism/"
+    ],
+    "source_date": "not shown",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Leumit advertises Leumit Zahav as including 55 treatments per year in child development.",
+    "source_urls": [
+     "https://www.leumit.co.il/lobby-rights/children-rights/childrensrights/childrenszakautpage/?sid=26&zid=113767"
+    ],
+    "source_date": "not shown",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "ילדים מגיל 91 ימים עד 18 ו-3 חודשים שאובחנו על רצף האוטיזם זכאים לגמלת ילד נכה בשיעור 100% (3,820 ₪, נכון ל-2026); מי שתלויים לחלוטין בעזרת הזולת – 188% (7,181 ₪), ובמידה רבה במיוחד – 235% (9,126 ₪).",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/גמלת_ילד_נכה_לילדים_אוטיסטים"
+    ],
+    "source_date": "2025-05-18 (page update; rates stated as 2026)",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Bituach Leumi's rates page states that from 01.01.2026 the disabled-child benefit is calculated as a percentage of a full single allowance of 3,820 ₪, with 100% = 3,820 ₪, 188% = 7,181 ₪ and 235% = 9,126 ₪ per month.",
+    "source_urls": [
+     "https://www.btl.gov.il/benefits/Disabled_Child/Pages/שיעורי%20הגמלה.aspx"
+    ],
+    "source_date": "2026-01-01 (effective date of amounts)",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Bituach Leumi describes the disabled-child benefit as recognising the heavy care burden of raising a child with a severe impairment. It contributes to the family's financial expenses to ease raising the child at home and in the community. The page sets no restriction on how the money is spent.",
+    "source_urls": [
+     "https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx"
+    ],
+    "source_date": "not shown",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "For children diagnosed with autism after age 3, disabled-child benefit eligibility is set until age 18 and 3 months based on the diagnosis, without the child attending the medical committee. Children are summoned only if the committee doctor sees a need.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/גמלת_ילד_נכה_לילדים_אוטיסטים"
+    ],
+    "source_date": "2025-05-18",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Recipients of the disabled-child benefit are automatically exempt from health-fund co-payments for secondary (specialist) doctors, hospital outpatient clinics, and imaging/diagnostic institutes.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/פטור_מתשלומים_בקופות_החולים_למקבלי_גמלת_ילד_נכה"
+    ],
+    "source_date": "2025-07-02",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "הורים לילד המקבל גמלת ילד נכה זכאים ל-2 נקודות זיכוי ממס הכנסה, בשווי 5,808 ₪ לשנה (484 ₪ לחודש).",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_בעד_ילד_או_בוגר_עם_מוגבלות"
+    ],
+    "source_date": "2026-03-09",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "To receive community services from the Welfare Ministry, a child with ASD needs Welfare Ministry recognition, requested through the local social services department and decided by a 'trust psychologist'. Since 01.02.2019 recognition of a child is valid until age 18.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/הכרה_של_משרד_הרווחה_באנשים_על_רצף_האוטיזם"
+    ],
+    "source_date": "2026-01-22",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "ילדים על הרצף שהוכרו על-ידי משרד הרווחה ומתגוררים בבית הוריהם זכאים למועדונית אחה\"צ – מסגרת חינוכית טיפולית שניתן לקבל בה טיפול אישי וקבוצתי לשיפור מיומנויות חברתיות; יש לבחור בין מועדונית לשעות סומך.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/שירותים_בקהילה_לילדים_אוטיסטים",
+     "https://www.kolzchut.org.il/he/מועדוניות_לילדים_ולבוגרים_עם_אוטיזם_הגרים_בבית_הוריהם"
+    ],
+    "source_date": "2025-05-20 / 2026-03-11",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Welfare-recognised children with autism aged 3+ living at home may get funding for a personal mentor (סומך) for some afternoon hours, with a co-payment based on family income.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/מטפח_אישי_(סומך)_לילדים_ולבוגרים_עם_אוטיזם_הגרים_בבית_הוריהם"
+    ],
+    "source_date": "2025-12-02",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Welfare-recognised children with autism in regular education can get help funding municipal summer camps, or camps that won a Welfare Ministry tender. Parents pay in full and claim a refund with the receipt at the local social services department.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/סיוע_במימון_קייטנות_לילדים_עם_אוטיזם_המשולבים_בחינוך_הרגיל"
+    ],
+    "source_date": "2025-03-02",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "תוכנית 'רעים' של החברה למתנ\"סים מקיימת מפגשי קבוצות חברתיות שבועיים לאנשים עם קשיי תקשורת, כולל על רצף האוטיזם בתפקוד גבוה, בחלוקה לשכבות גיל (ילדים, נוער, צעירים, בוגרים), בפריסה ארצית ובהשתתפות עצמית.",
+    "source_urls": [
+     "https://www.kolzchut.org.il/he/תוכנית_רעים_-_קבוצות_חברתיות_לאנשים_עם_קשיי_תקשורת"
+    ],
+    "source_date": "2025-03-10",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Tel Aviv-Yafo's social services administration serves people and children with disabilities, explicitly including people on the autism spectrum. It refers families to leisure (children's club, camp, respite) and support services (transport, mentors), and runs 'תותים', a centre for children with disabilities and their families.",
+    "source_urls": [
+     "https://www.tel-aviv.gov.il/Residents/HealthAndSocial/Pages/PeopleWithDisabilities.aspx"
+    ],
+    "source_date": "not shown",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Bing he-IL autosuggest for 'טיפול רגשי לילדים' returns health-fund-specific and local variants: 'טיפול רגשי לילדים כללית', 'מכבי', 'מאוחדת', 'כללית מושלם', 'כללית חיפה' and 'חיפה'.",
+    "source_urls": [
+     "https://api.bing.com/osjson.aspx?mkt=he-IL&query=%D7%98%D7%99%D7%A4%D7%95%D7%9C%20%D7%A8%D7%92%D7%A9%D7%99%20%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D"
+    ],
+    "source_date": "2026-10-22 (retrieved)",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Bing he-IL autosuggest for 'הדרכת הורים' includes 'הדרכת הורים לילדים על הרצף', 'הדרכת הורים כללית מושלם' and 'הדרכת הורים מכבי'. For 'סל אוטיזם' it returns 'סל אוטיזם כללית'. For 'כללית מושלם טיפול' it returns 'כללית מושלם טיפול באומנות' and 'החזר טיפול כללית מושלם'.",
+    "source_urls": [
+     "https://api.bing.com/osjson.aspx?mkt=he-IL&query=%D7%94%D7%93%D7%A8%D7%9B%D7%AA%20%D7%94%D7%95%D7%A8%D7%99%D7%9D",
+     "https://api.bing.com/osjson.aspx?mkt=he-IL&query=%D7%A1%D7%9C%20%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D",
+     "https://api.bing.com/osjson.aspx?mkt=he-IL&query=%D7%9B%D7%9C%D7%9C%D7%99%D7%AA%20%D7%9E%D7%95%D7%A9%D7%9C%D7%9D%20%D7%98%D7%99%D7%A4%D7%95%D7%9C"
+    ],
+    "source_date": "2026-10-22 (retrieved)",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   },
+   {
+    "claim": "Bing he-IL autosuggest for 'אוטיזם ביטוח לאומי' returns 'ביטוח לאומי אוטיזם הגשה', 'ביטוח לאומי אוטיזם ילדים' and 'ביטוח לאומי ילד נכה אוטיזם'. For 'קבוצה חברתית' it returns 'קבוצה חברתית תל אביב מוגבלות'. Longer phrasings ('קבוצה חברתית לילדים', 'כישורים חברתיים לילדים', 'החזר טיפולים אוטיזם', 'ביטוח משלים אוטיזם') returned no suggestions.",
+    "source_urls": [
+     "https://api.bing.com/osjson.aspx?mkt=he-IL&query=%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D%20%D7%91%D7%99%D7%98%D7%95%D7%97%20%D7%9C%D7%90%D7%95%D7%9E%D7%99",
+     "https://api.bing.com/osjson.aspx?mkt=he-IL&query=%D7%A7%D7%91%D7%95%D7%A6%D7%94%20%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA"
+    ],
+    "source_date": "2026-10-22 (retrieved)",
+    "confidence": "high",
+    "survives": false,
+    "votes": [],
+    "unverified": true
+   }
+  ],
+  "keywords": [
+   "גמלת ילד נכה אוטיזם",
+   "ביטוח לאומי ילד נכה אוטיזם",
+   "ביטוח לאומי אוטיזם הגשה",
+   "גמלת ילד נכה זכאות",
+   "סל אוטיזם כללית",
+   "סל טיפולים לילדים עם אוטיזם",
+   "טיפולים פרא רפואיים לילדים אוטיסטים",
+   "החזר על טיפולים פרטיים התפתחות הילד",
+   "רפורמה בהתפתחות הילד ביטול החזרים",
+   "טיפול בריאותי מקדם טב\"ם",
+   "טיפול רגשי לילדים כללית מושלם",
+   "כללית מושלם טיפול באומנות",
+   "החזר טיפול כללית מושלם",
+   "טיפול רגשי לילדים מכבי",
+   "טיפולים משלימים מכבי שלי",
+   "מכבי זהב טיפול בהבעה ויצירה",
+   "טיפול רגשי לילדים מאוחדת",
+   "מאוחדת שיא טיפולים רגשיים",
+   "לאומית זהב טיפולים התפתחות הילד",
+   "טיפול רגשי לילדים חיפה",
+   "קופת חולים מכבי אוטיזם",
+   "קופת חולים מאוחדת אוטיזם",
+   "הדרכת הורים לילדים על הרצף",
+   "הדרכת הורים מכבי",
+   "הדרכת הורים כללית מושלם",
+   "קבוצה חברתית תל אביב מוגבלות",
+   "מועדונית לילדים עם אוטיזם",
+   "הכרה משרד הרווחה אוטיזם",
+   "תוכנית רעים קבוצות חברתיות",
+   "נקודות זיכוי ילד עם מוגבלות",
+   "טיפולים ואבחונים לילד הראל",
+   "ביטוח לאומי ילד על הרצף"
+  ]
+ },
+ "listings": {
+  "galila_mentions": [
+   {
+    "url": "https://www.facebook.com/p/%D7%92%D7%9C%D7%99%D7%9C%D7%94-%D7%A7%D7%91%D7%95%D7%A6%D7%94-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA-100088575528100/",
+    "what": "The official Facebook page \"גלילה- קבוצה חברתית\" (Haifa, category Children & Parenting, username galilagroup, links to galilagroup.com). Search snippets show about 539 likes, 769 followers and 0 reviews (\"Not yet rated\"). The snippets list only Haifa (אליהו חכים 6) and a phone number ending in 7806, while the website lists 054-9480868, so the name/address/phone details don't match and the Tel Aviv branch is missing. The page itself is behind a login, so these details come only from search snippets."
+   },
+   {
+    "url": "https://www.instagram.com/galilagroup/",
+    "what": "Instagram @galilagroup, display name \"גלילה קבוצות חברתיות • אוטיזם •ASD • פיתוח כישורים חברתיים\". It has about 1,385 followers and 527 following, and links to www.galilagroup.com. The bio says Haifa and Tel Aviv for ages 4 to 10, but the website says 4 to 9, so the age range should be made consistent."
+   },
+   {
+    "url": "https://www.youtube.com/@%D7%92%D7%9C%D7%99%D7%9C%D7%94%D7%A7%D7%91%D7%95%D7%A6%D7%94%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%AA/shorts",
+    "what": "YouTube channel \"גלילה קבוצה חברתית\" (Shorts), linked from the website. Only the channel title could be read; the description, subscriber count and About links were not returned."
+   },
+   {
+    "url": "https://www.facebook.com/share/g/1B9KHdjobE",
+    "what": "Facebook community group \"קהילת - מדברים אוטיזם בגיל הרך\", linked from the galilagroup.com footer. No search engine returned it, so its size and activity could not be checked."
+   },
+   {
+    "url": "https://galilagroup.com/epilepsy-and-autism-connection-guide/",
+    "what": "This was the only galilagroup.com page the web-search index returned for \"galilagroup.com\". The indexed copy is about 220 days old and uses the non-www address. It is the blog article on epilepsy and autism, signed by Galit Brenholtz (behavior analyst). The URL still serves the article. This suggests the rest of the site is barely indexed in that engine."
+   },
+   {
+    "url": "https://wa.me/972504387806",
+    "what": "WhatsApp link on the website, phone 050-4387806. It differs from the phone shown on the site (054-9480868), which adds to the mismatched phone numbers across platforms."
+   }
+  ],
+  "listing_opportunities": [
+   {
+    "name": "easy.co.il (business directory and local search app)",
+    "type": "directory",
+    "url": "https://easy.co.il/list/Expression-and-Creation-therapiests",
+    "competitors_listed": "Not verified: easy.co.il returned HTTP 403 to automated fetching. Search results show relevant easy categories: expressive/art therapists (with filters for health-fund arrangements such as Leumit and Clalit Mushlam, e.g. https://easy.co.il/list/Expression-and-Creation-therapiests?c2=5407), and psychologists filtered by behavior analysis (https://easy.co.il/list/Psychologists?c2=25381) with children and special-education filters. Mako describes the easy app as Israel's leading search platform for nearby businesses (https://www.mako.co.il/home-family-toddlers/Article-ec7d7d91e1e5581026.htm).",
+    "how_to_get_listed": "Owner sign-up on easy.co.il. Exact terms could not be checked (403). Create two listings, Haifa (מרכז קריגר, אליהו חכים 6) and Tel Aviv (ז'בוטינסקי 106), with the same name, phone and website everywhere.",
+    "value": "high – one of the main Israeli local-search directories, with category pages that match the services (art therapy, behavior analysis, children). It gives a consistent name/address/phone listing for both cities."
+   },
+   {
+    "name": "B144 (Bezeq) – אוטיזם category, Haifa and Tel Aviv sub-pages",
+    "type": "directory",
+    "url": "https://www.b144.co.il/%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D/",
+    "competitors_listed": "Haifa region (https://www.b144.co.il/%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D/%D7%90%D7%96%D7%95%D7%A8-%D7%97%D7%99%D7%A4%D7%94-%D7%94%D7%A7%D7%A8%D7%99%D7%95%D7%AA-%D7%95%D7%94%D7%A1%D7%91%D7%99%D7%91%D7%94/): only 5 listings. They are מרכז מילמן, אלו\"ט northern hostels (Kiryat Ata), עופר-קורן מנשה school, a soap workshop and a plumber listed by mistake. Tel Aviv (https://www.b144.co.il/%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D/%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-%D7%99%D7%A4%D7%95/): 8 listings. They are מכון א\"מ הדרך (neurofeedback), 6 אלו\"ט kindergartens and זכויות פלוס עינבר זוהר. National page: מרכז וולפסון לאוטיזם (Holon, group therapies) and חוברים (social groups for teens and adults). No social group for young children is listed.",
+    "how_to_get_listed": "Free self-registration at https://www.b144.co.il/selfRegister/. Paid upgrades are offered through https://www.b144.co.il/PriceList/ and https://www.b144biz.co.il/ (prices not stated).",
+    "value": "medium-high – a free listing in a very thin category (in Haifa a plumber outranks real providers). Galila would show at or near the top of the Haifa and Tel Aviv autism pages, and the listing adds a directory mention with consistent contact details."
+   },
+   {
+    "name": "פסיכולוגיה עברית (hebpsy.net) – therapist index: autism category and Haifa group-therapy page",
+    "type": "directory",
+    "url": "https://www.hebpsy.net/pl.asp?class_=42",
+    "competitors_listed": "Autism category (32 shown): in Tel Aviv, art therapists ענת ניר, יעל הלוי, יונתן טאובר, פזית אורן and אילה וילד, plus psychologists and social workers. In Haifa, psychologists אמיר ואכד, ניר זילבר and מיקיילה פרידמן. The Haifa group-therapy page (https://hebpsy.net/pl.asp?method=68&region=14, 3 pages) lists about 34 therapists, including art therapists רות דורום, מיכל אונגר מלכיאל and איריס צ'רנינסקי. None of the visible profiles advertise social groups for children with ASD, so this is an open niche. There are filters for \"הנחיית קבוצות\" (group facilitation) and \"קשיים במיומנויות חברתיות\" (social-skills difficulties).",
+    "how_to_get_listed": "Join through \"אודות והצטרפות\" (pl.asp?cat=about) and new-user registration (addUserForm.asp). Membership terms and fees were not shown on the fetched pages. Profiles for Hila (art therapist) and Galit (behavior analyst) should both link to galilagroup.com.",
+    "value": "high – the largest Hebrew therapy portal, with strong domain authority. It ranks for Hebrew therapy searches, and nobody in its autism and Haifa group categories offers ASD social groups for ages 4 to 9."
+   },
+   {
+    "name": "קשר – הבית של המשפחות המיוחדות (kesher.org.il) knowledge base of organizations and services",
+    "type": "NGO resource list",
+    "url": "https://www.kesher.org.il/subject/%D7%A2%D7%9E%D7%95%D7%AA%D7%95%D7%AA-%D7%95%D7%90%D7%A8%D7%92%D7%95%D7%A0%D7%99%D7%9D/",
+    "competitors_listed": "Includes גן הילד חיפה, a municipal enrichment center with social-skills groups for ASD and special-ed children aged 3 to 21 (https://www.kesher.org.il/knowledge_item/%D7%92%D7%9F-%D7%94%D7%99%D7%9C%D7%93-%D7%9E%D7%A8%D7%9B%D7%96-%D7%94%D7%A2%D7%A9%D7%A8%D7%94-%D7%A8%D7%91-%D7%AA%D7%97%D7%95%D7%9E%D7%99/), and שווים (PEERS social-skills groups, Jerusalem). Also להיות שם, בית אקדם ברעות, חוברים, משתלבים ברצף and a private clinic, מכון תל-אביב לפסיכותרפיה. Listings show disability type, region (e.g. North/Haifa), ages, contact details and a website link.",
+    "how_to_get_listed": "No public submission form was found. Use the site's contact page (\"יצירת קשר\") or the phone number listed on the site, 1-700-501-601, and ask to add Galila as a service for communication/ASD, ages 4 to 9, Haifa and Tel Aviv, with a link.",
+    "value": "high – a national NGO portal for families of children with special needs that already lists private clinics. A trusted, relevant link that parents actually use, with region and disability filters that match Galila."
+   },
+   {
+    "name": "ארגון מנתחי ההתנהגות בישראל – behavior analyst registry (search by region, city and autism specialty)",
+    "type": "directory",
+    "url": "https://www.behavior-analyst.co.il/%d7%94%d7%a8%d7%a9%d7%9e%d7%94-%d7%9e%d7%a0%d7%aa%d7%97-%d7%94%d7%aa%d7%a0%d7%94%d7%92%d7%95%d7%aa/",
+    "competitors_listed": "Profiles were not readable: the public search page returned 404 and the registry sits at /view/job-board/. A search-result summary said the registry can be filtered by area (e.g. אזור הצפון, חיפה) and by specialty such as autism, and that the data is self-reported by analysts.",
+    "how_to_get_listed": "Membership in the organization (https://www.behavior-analyst.co.il/%D7%97%D7%91%D7%A8%D7%95%D7%AA-%D7%9C%D7%90%D7%A8%D7%92%D7%95%D7%9F/) plus registry sign-up (link above). Fees not stated. Galit Brenholtz would register with Haifa and Tel Aviv and an autism specialty, linking to galilagroup.com.",
+    "value": "medium-high – a relevant professional-body link that supports expertise and trust for the ABA side of the model, and parents looking for a behavior analyst use it."
+   },
+   {
+    "name": "מכבי – list of contracted complementary therapists (art and expressive therapy); Maccabi Zahav/Sheli developmental treatments for children with autism",
+    "type": "health fund provider list",
+    "url": "https://www.maccabi4u.co.il/eligibilites/4767/",
+    "competitors_listed": "Haifa expressive and art therapy: מכון ערוגות, תרצה וובר, שרי דושינסקי, לים סלימאן, שרית אדרי (art therapy), שיינדי פשקוס. Tel Aviv: דבורית לוי, יעל ביר, קתרין פרנקל, יעל שהרבני. Some providers are marked \"טיפול קבוצתי בלבד\" (group only), e.g. אושרית אורסטי (Gan Yavne). Maccabi Zahav/Sheli cover up to 2 complementary treatments a week for ages 3 to 9 (3 to 17 in Sheli), including expressive arts therapy, at a 45 NIS co-pay (https://www.maccabi4u.co.il/eligibilites/2733/?id=1527).",
+    "how_to_get_listed": "Requires a contract with Maccabi; the page does not explain how therapists join. Ask Maccabi's complementary-services or provider-contracting department whether a group expressive-arts program for ASD children led by a certified art therapist can be contracted. Note that Maccabi is phasing out private-therapist refunds from 1.2.2026 under the child-development reform (https://www.maccabi4u.co.il/maccabi_circles/child_development/child_services_reform/).",
+    "value": "high for business, low for SEO – being a funded option would strongly increase sign-ups, and the page is a high-authority listing. It needs a contract and may not cover social groups as such."
+   },
+   {
+    "name": "העמותה הישראלית להתפתחות הילד – therapist directory",
+    "type": "directory",
+    "url": "https://child-development.org.il/therapist/7530",
+    "competitors_listed": "Example profile: רחל צור המברה, autism specialty, Haifa, Tel Aviv and Be'er Sheva. Profiles show specialty tag, locations, phone, email and bio; no personal-website field was seen.",
+    "how_to_get_listed": "Through membership in the association (a membership link is on the page; fees and requirements not stated).",
+    "value": "medium – a relevant professional directory with autism tagging and Haifa and Tel Aviv locations. It may not pass a website link, but it reaches referrers and parents."
+   },
+   {
+    "name": "Empatia / parent.org.il – therapist index (parent counseling)",
+    "type": "directory",
+    "url": "https://www.parent.org.il/%D7%90%D7%99%D7%A0%D7%93%D7%A7%D7%A1/",
+    "competitors_listed": "Raya Blanky-Vronov (social-skills groups), Elior Mor Yosef (DBT skills groups), Ronit Berman and Orr Savion (Tel Aviv). There is a Haifa region filter, but no Haifa listings were visible. There is no autism category.",
+    "how_to_get_listed": "\"הצטרפות למטפלים\" form at /form/ (cost not stated).",
+    "value": "medium – fits Galila's parent-guidance service; the Haifa section of the index is nearly empty."
+   },
+   {
+    "name": "בטיפולנט (betipulnet.co.il) – mental-health therapist index",
+    "type": "directory",
+    "url": "https://www.betipulnet.co.il/profileUser/profileLists.aspx",
+    "competitors_listed": "Topic filters include טיפול באוטיזם, Asperger/high-functioning autism, art therapy, group therapy, group facilitation and parent guidance, by region and city. An art therapist lists the autism spectrum among her areas; she was not named in the fetched page.",
+    "how_to_get_listed": "Professional registration form (\"הרשמה לאינדקס אנשי מקצוע\"); fees not stated. Profiles can carry a \"נבדק\" (credentials-checked) badge.",
+    "value": "medium – a relevant Hebrew directory link and some referral traffic."
+   },
+   {
+    "name": "על הספה (alhasapa.co.il) – therapist index",
+    "type": "directory",
+    "url": "https://www.alhasapa.co.il/%D7%97%D7%A4%D7%A9-%D7%9E%D7%98%D7%A4%D7%9C-%D7%91%D7%90%D7%AA%D7%A8-%D7%A2%D7%9C-%D7%94%D7%A1%D7%A4%D7%94",
+    "competitors_listed": "Categories: child therapy, adolescents, expressive and art therapy, and therapy groups (\"קבוצות טיפוליות\"). There is no autism category. Individual competitors were not visible in the fetched page.",
+    "how_to_get_listed": "\"הצטרפות לאינדקס מטפלים\" with paid service packages (prices not stated).",
+    "value": "medium-low – a general therapy directory; useful mainly as a mention for Hila as an art therapist."
+   },
+   {
+    "name": "מידרג (midrag.co.il) – parent guides (מדריכות הורים), reviews-based marketplace",
+    "type": "directory",
+    "url": "https://www.midrag.co.il/Content/Tip/29557",
+    "competitors_listed": "An article on parent guidance for children on the spectrum (300 to 500 NIS per session) lists top-rated parent guides by rating and review count (e.g. 9.72 from 36 reviews); names were not extracted. City searches cover Tel Aviv and Haifa.",
+    "how_to_get_listed": "Through the \"for service providers\" section (terms not shown in the fetched content).",
+    "value": "medium – promotes the parent-guidance service and builds verified reviews that parents trust. Less useful for the children's groups themselves."
+   },
+   {
+    "name": "דפי זהב (d.co.il) – ילדים-פעילויות and psychologists, Haifa & Krayot",
+    "type": "directory",
+    "url": "https://www.d.co.il/h-c19740-e2-p40-l0/",
+    "competitors_listed": "Children's activities in Haifa & Krayot (44 results): no autism or social-skills provider, mostly parties, puppet theatre and rhythmics. The Haifa psychologists category lists 125 psychologists (https://www.d.co.il/h-c40260-e2-p0-l0/). The Haifa classes-and-workshops category has 323 results (https://www.d.co.il/h-c15640-e2-p40-l0/), including art therapist שרית אדרי.",
+    "how_to_get_listed": "\"הוסף עסק בחינם\" (free listing), plus a paid \"עסק זהב\" upgrade (price not stated).",
+    "value": "medium – a free mention with consistent contact details, and almost no competition for an ASD social group in Haifa's children's-activities category."
+   },
+   {
+    "name": "מעגל הספקטרום (circleofspectrum.co.il) – nonprofit community for ASD children and parents",
+    "type": "parent community",
+    "url": "https://www.circleofspectrum.co.il/",
+    "competitors_listed": "No providers listed by name. The site links out to מרכז מילמן, אקים, כל זכות and the health funds' child-development pages. It has a blog with professional contributions in categories such as communication and society and professional treatments, and an intake form that connects children by interests and area.",
+    "how_to_get_listed": "Contact by the email or phone in the site footer. Offer a guest article (e.g. social skills in kindergarten-age ASD children) linking to galilagroup.com, and ask to be added as a Haifa and Tel Aviv resource.",
+    "value": "medium – a highly topical link and a direct parent audience; the site explicitly invites professionals to share knowledge."
+   },
+   {
+    "name": "אלו\"ט – national autism parents' association (Haifa youth club opened 2024; בית לורן family centers)",
+    "type": "NGO resource list",
+    "url": "https://alut.org.il/",
+    "competitors_listed": "ALUT itself runs youth clubs (מועדוניות), camps and family services. Its 2024 report notes a new club in Haifa (https://alut.org.il/wp-content/uploads/2025/06/%D7%90%D7%9C%D7%95%D7%98-%D7%93%D7%95%D7%97-%D7%A4%D7%A2%D7%99%D7%9C%D7%95%D7%AA-%D7%95%D7%94%D7%A9%D7%A4%D7%A2%D7%94-2024.pdf). No public directory of private providers was found.",
+    "how_to_get_listed": "No listing route was found. Approach the Haifa branch or family centers about lectures for parents, joint activities or a newsletter mention.",
+    "value": "medium – very high authority and the main parent hub, but a link from them is unlikely; better pursued as a relationship and referral source."
+   },
+   {
+    "name": "עיריית תל אביב-יפו – \"משתלבים בחוגים\" booklet, \"קהילת המיוחדים.ות\" Facebook group, תותים family center",
+    "type": "municipal",
+    "url": "https://www.tel-aviv.gov.il/Residents/Education/Pages/SpecialEducation.aspx",
+    "competitors_listed": "The municipal booklet (https://www.tel-aviv.gov.il/Documents/accessible-activities-tlv.pdf) lists only community-center classes for children with disabilities aged 4 to 12; no private providers. The special-education page links to the municipality's Facebook group \"קהילת המיוחדים.ות של תל אביב-יפו\". תותים (https://www.tel-aviv.gov.il/Residents/HealthAndSocial/Pages/FamiliesWithNeeds.aspx) runs therapeutic groups for children, parent training and lectures.",
+    "how_to_get_listed": "No private-provider listing. Possible routes: offer a parent lecture or workshop to תותים, or join the municipal Facebook community and share useful information where its rules allow.",
+    "value": "low-medium – no link to be had, but a direct route to Tel Aviv parents of children with disabilities."
+   },
+   {
+    "name": "כל זכות / כל שירות – services database",
+    "type": "NGO resource list",
+    "url": "https://www.kolzchut.org.il/he/%D7%A2%D7%96%D7%A8%D7%94:%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%A2%D7%95%D7%A8%D7%9A/%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D",
+    "competitors_listed": "Has pages for NGO providers such as מרכז מילמן (https://www.kolzchut.org.il/he/%D7%9E%D7%A8%D7%9B%D7%96_%D7%9E%D7%99%D7%9C%D7%9E%D7%9F), קבוצת השווים (social groups for ASD children and youth in Herzliya, Ramat HaSharon, Ramat Gan, Ashdod and Nahariya; https://www.kolzchut.org.il/he/%D7%A7%D7%91%D7%95%D7%A6%D7%AA_%D7%94%D7%A9%D7%95%D7%95%D7%99%D7%9D) and מסוגלים. The autism services page (https://www.kolsherut.org.il/autistic_spectrum) returned 403.",
+    "how_to_get_listed": "Kol Zchut's editor guide says service pages are for services given on a non-profit basis, so private Galila is likely not eligible.",
+    "value": "low – very high authority, but a for-profit provider is likely ineligible."
+   },
+   {
+    "name": "Local Haifa news: חי פה (haipo.co.il) and כלבו (colbonews.co.il)",
+    "type": "media",
+    "url": "https://haipo.co.il/en/tag/art",
+    "competitors_listed": "No Haifa article on ASD social groups was found. Example to copy: on 16.10.2026 the Rehovot local site be106 ran an item on חוויות (Rehovot) opening ASD social-skills groups from kindergarten to grade 1, with phone, email and price (150 NIS per session) (https://www.be106.net/233/162215). Time Out Tel Aviv profiled the social-skills nonprofit חברים in 2016 (https://timeout.co.il/הכירו-טיפול-קבוצתי-לשיפור-כישורים-חבר/).",
+    "how_to_get_listed": "Send a short news item or press release to the haipo newsroom (the site has a \"Contact the newsroom\" option) and to כלבו. Topics could be new groups opening in Haifa and Tel Aviv, registration dates, or a professional tip column. Offer the therapists as expert sources on ASD and social skills.",
+    "value": "medium-high – local news links and brand-name searches. Local news sites run exactly this kind of item for competitors."
+   },
+   {
+    "name": "פורום ערוץ 7 – \"פורום אימהות השלב הבא\" (parents asking for social-skills group recommendations)",
+    "type": "forum",
+    "url": "https://www.inn.co.il/forum/t1418509",
+    "competitors_listed": "In the thread, parents recommend תעצומות (Beit Binyamin, individual treatment only at that age) and מכון מסילות (Ashdod, sometimes runs social groups). They also suggest contacting the welfare department or ALUT.",
+    "how_to_get_listed": "Not a listing. Parents (not Galila) may answer relevant threads honestly; avoid self-promotion.",
+    "value": "low – shows parents ask for recommendations in forums, but it is the wrong region and audience and gives little SEO value."
+   },
+   {
+    "name": "GuideStar Israel – nonprofits tagged אוטיזם",
+    "type": "NGO resource list",
+    "url": "https://www.guidestar.org.il/search-malkars/%D7%90%D7%95%D7%98%D7%99%D7%96%D7%9D",
+    "competitors_listed": "Registered autism nonprofits only (e.g. אלו\"ט, אותי, נצר/מרכז מילמן).",
+    "how_to_get_listed": "Only registered nonprofits (עמותות) are listed.",
+    "value": "low – Galila is not eligible; useful only to map NGO partners."
+   }
+  ],
+  "notes": "I found almost nothing about Galila outside its own channels.\n\n**Galila's own presence**\n- Only Galila's own profiles turned up: the Facebook page, Instagram @galilagroup, the YouTube channel and the Facebook community group.\n- Galila was not found in any third-party directory, news article or NGO list, including B144, Dapei Zahav, easy, hebpsy, Kesher and ALUT.\n- Searches for \"הילה עובדה\", \"גלית ברנהולץ\", \"Hila Ovda\" and \"Galit Bernholtz\" returned no relevant results. The site signs articles \"Galit Brenholtz\", so one English spelling should be chosen and used everywhere.\n\n**Details that don't match across Galila's channels**\n- Phone: the site shows 054-9480868, while WhatsApp and the Facebook snippet show 050-4387806.\n- Ages: the site says 4 to 9; Instagram says 4 to 10.\n- Locations: the Facebook snippet shows Haifa only.\n- Reviews: the Facebook page has 0 reviews.\n- Fix these, and add a Google Business Profile for each location (Haifa at מרכז קריגר; Tel Aviv at the Herzliya Gymnasium building, ז'בוטינסקי 106) before building listings. This last point is my recommendation, not a research finding.\n\n**Competitors seen in search results**\n\nHaifa:\n- מרכז מילמן runs \"חברותא\" social groups in Haifa, Kiryat Bialik and Karmiel (https://www.milman-center.org.il/).\n- נועם מערכות טיפול וחינוך runs ASD social groups from about age 3 to 4 in Haifa and the Krayot, led by OTs together with emotional therapists or behavior analysts (https://noamsystems.co.il/2025/03/11/%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA-%D7%9C%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%A8%D7%A6%D7%A3-%D7%94%D7%90%D7%95%D7%98%D7%99%D7%A1%D7%98/). Its model is the closest to Galila's.\n- מרכז CBT in Haifa runs social-skills groups from גן חובה up, not ASD-specific (https://www.cbtclinic.co.il/social-skills-kids/).\n- גן הילד חיפה is municipal and runs during school hours.\n- אקים חיפה runs the מועדונית קנר.\n\nTel Aviv area:\n- בית אחד ASD unit: PEERS groups for ages 7 to 11.\n- הדרך לגדול: grades 3 to 6; the page dates from 2018 (https://d-ligdol.co.il/).\n- socialkid (north Tel Aviv), חברים (haverim.me; not ASD-specific) and אפשרויות (גן חובה group, Ramat HaHayal).\n- מכון טמיר / רינה צור (https://www.tipulpsychology.co.il/therapy/children/%D7%9B%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%99%D7%9D-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8.html). This clinic page ranks for \"קבוצות לכישורים חברתיים לילדים בתל אביב\".\n- רן ודורית in Givatayim: ages 3 to 7, registration open for 2026-27 (https://www.ranvedorit.com/).\n- מרכז וולפסון לאוטיזם in Holon.\n\nNational or online: בשביל הכוכב (https://www.bsk.co.il/).\n\n**Gap in the market**\n- Few competitors target ASD ages 4 to 9 with a behavior analyst plus art therapist team.\n- Several competitor pages are old.\n- Directory categories for autism are very thin: B144 Haifa has 5 listings, and Dapei Zahav children's activities has none for autism.\n- Free directory listings are therefore fast wins. hebpsy and Kesher are the strongest relevant links.\n\n**Funding context**\n- Maccabi Zahav/Sheli covers expressive arts therapy for ASD children aged 3 to 9 through contracted providers.\n- Maccabi is phasing out private-therapist refunds from February 2026.\n\n**How the research was done**\n- Bing, fetched directly, returned irrelevant, bot-filtered results for every query.\n- DuckDuckGo served a CAPTCHA, which I did not attempt. Brave returned 429 and Mojeek 403.\n- So I relied on the WebSearch tool (US index) plus direct page fetches.\n- easy.co.il, kolzchut.org.il and kolsherut.org.il returned 403, so their listings were checked only through search snippets.\n- Facebook and YouTube details come only from search snippets or page titles.\n- I fetched every URL cited above or saw it in search results during this session. Follower and like counts are snapshots."
+ }
+}
