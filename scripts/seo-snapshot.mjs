@@ -198,9 +198,11 @@ if (withLighthouse) {
 
 // ---------- 4. Google Search Console (אופציונלי, אוטומטי)
 // רץ רק אם קיים קובץ מפתח של חשבון שירות ב-seo/secrets/gsc-service-account.json (התיקייה לא נכנסת ל-Git),
-// ואם כתובת המייל של חשבון השירות נוספה כמשתמש בנכס sc-domain:galilagroup.com ב-Search Console.
+// ואם כתובת המייל של חשבון השירות נוספה כמשתמש בנכס של האתר ב-Search Console.
 // בלי הקובץ, את אותם מספרים אפשר להעתיק ידנית מ-Search Console לקובץ search-console.csv.
-const GSC_PROPERTY = 'sc-domain:galilagroup.com'
+// הנכס: עדיף נכס "דומיין" (מכסה גם את galilagroup.com בלי www, שם נשארו עמודי הספאם מהפריצה);
+// אם אין כזה, נכס "קידומת כתובת" של האתר. הסקריפט בוחר את הראשון מהרשימה שחשבון השירות רואה.
+const GSC_PROPERTIES = ['sc-domain:galilagroup.com', 'https://www.galilagroup.com/']
 const gscKeyFile = path.join(root, 'seo', 'secrets', 'gsc-service-account.json')
 const gscHeader = ['date', 'clicks_28d', 'impressions_28d', 'ctr_percent', 'avg_position', 'queries_in_top10', 'pages_indexed', 'pages_checked', 'spam_impressions_28d', 'spam_clicks_28d']
 
@@ -228,6 +230,11 @@ async function searchConsole() {
     if (!res.ok) throw new Error(`${res.status} ${JSON.stringify(json.error?.message ?? json)}`)
     return json
   }
+  const listed = await (await fetch('https://searchconsole.googleapis.com/webmasters/v3/sites', { headers: { authorization: `Bearer ${token}` } })).json()
+  const available = (listed.siteEntry ?? []).map((site) => site.siteUrl)
+  const GSC_PROPERTY = GSC_PROPERTIES.find((property) => available.includes(property))
+  if (!GSC_PROPERTY) throw new Error(`חשבון השירות לא רואה אף נכס של האתר (רואה: ${available.join(', ') || 'כלום'})`)
+
   // הנתונים ב-Search Console מתעדכנים באיחור של יומיים-שלושה, ולכן החלון מסתיים לפני 3 ימים
   const day = (offset) => new Date(Date.now() - offset * 86400000).toISOString().slice(0, 10)
   const range = { startDate: day(30), endDate: day(3) }
