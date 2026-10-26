@@ -75,7 +75,8 @@ export const navLinks = [
   { href: '/הצוות-שלנו/', label: 'הצוות שלנו' },
   { href: '/#13', label: 'הורים ממליצים' },
   { href: paths.cases, label: 'תיאורי מקרה' },
-  { href: '/#faq', label: 'שאלות נפוצות' },
+  // "חומרים להורדה" מחליף את "שאלות נפוצות" ברגע שהגיליון מחובר (site.leadsEndpoint); השאלות נשארות בעמוד הבית
+  site.leadsEndpoint ? { href: paths.downloads, label: 'חומרים להורדה' } : { href: '/#faq', label: 'שאלות נפוצות' },
   { href: paths.blog, label: 'בלוג' },
 ]
 
