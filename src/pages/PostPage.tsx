@@ -6,7 +6,7 @@ import { FacebookIcon, InstagramIcon, MailIcon, UsersIcon } from '../components/
 import { areas, paths, site } from '../config/site'
 import { author, posts, type Post } from '../content'
 
-const POST_CONTACT_INTRO = 'השאירו פרטים, ונחזור אלייך בשיחה טלפונית כדי לתאם מפגש היכרות ראשוני ללא עלות.'
+const POST_CONTACT_INTRO = 'השאירו פרטים, ונחזור אלייך בשיחה טלפונית ללא עלות, כדי לתאם מפגש היכרות.'
 
 const social = [
   { href: site.facebook, label: 'גלילה קבוצה חברתית', icon: FacebookIcon },

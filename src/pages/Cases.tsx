@@ -4,7 +4,7 @@ import Img from '../components/Img'
 import Layout from '../components/Layout'
 import { cases, type Block } from '../content'
 
-const CASES_CONTACT_INTRO = 'מלאי את הטופס ותלחצי שליחה, ונחזור אלייך בשיחה טלפונית כדי לתאם מפגש היכרות ראשוני ללא עלות.'
+const CASES_CONTACT_INTRO = 'מלאי את הטופס ותלחצי שליחה, ונחזור אלייך בשיחה טלפונית ללא עלות, כדי לתאם מפגש היכרות.'
 
 const intro = cases.blocks.find((b) => b.type === 'heading')
 
