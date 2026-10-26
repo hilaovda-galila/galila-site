@@ -17,7 +17,7 @@ export const site = {
   // כתובת ה-Web App של Google Apps Script ששומר את הנרשמים ל"חומרים להורדה" בגיליון של הלקוחה
   // (הקוד וההוראות: docs/leads-google-apps-script.gs).
   // כל עוד ריק – העמוד לא מוצג בתפריטים ולא נכנס לגוגל.
-  leadsEndpoint: '',
+  leadsEndpoint: 'https://script.google.com/macros/s/AKfycbyhRE7ALAAIsbPaXZzn3TYzmXKQfYw7ER3zTdIHHHM5Q7315QXzlstxhwCOr8FgYCs/exec',
 }
 
 // הקבוצות הפעילות לפי אזור – מוצגות ככרטיסים ב"השירותים שלנו" ומזינות את שדה האזור בטופס

@@ -31,7 +31,7 @@ function doPost(e) {
       clean(p.age),
       clean(p.diagnosed),
       clean(p.email),
-      clean(p.phone),
+      asText(p.phone),
       clean(p.city),
       'כן',
       clean(p.consentText),
@@ -64,6 +64,12 @@ function getSheet() {
 function clean(value) {
   const v = String(value || '').trim().slice(0, 300)
   return /^[=+\-@]/.test(v) ? "'" + v : v
+}
+
+// טלפון נשמר תמיד כטקסט, אחרת הגיליון מוחק את ה-0 שבהתחלה
+function asText(value) {
+  const v = clean(value)
+  return v.startsWith("'") ? v : "'" + v
 }
 
 function json(obj) {
