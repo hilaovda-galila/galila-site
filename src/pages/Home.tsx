@@ -1,5 +1,5 @@
 import BannerVideo from '../components/BannerVideo'
-import { Rich } from '../components/Blocks'
+import Blocks, { Rich } from '../components/Blocks'
 import Img from '../components/Img'
 import Layout from '../components/Layout'
 import ShortsSequence from '../components/ShortsSequence'
@@ -8,6 +8,7 @@ import { PinIcon } from '../components/icons'
 import { areas, introVideo, shorts, site, youtubeChannel } from '../config/site'
 import { home } from '../content'
 import { testimonials } from '../content/testimonials'
+import { homeFaq } from '../content/homeFaq'
 
 // המזהים הם מזהי הווידג'טים של העמוד המקורי ב-Elementor (ראו src/content/home.json)
 const w = home.widgets
@@ -20,8 +21,8 @@ const advantages = [
 ]
 
 const team = [
-  { name: '1704531', text: '291b3a6', image: '9bbbc86' },
-  { name: '8764d0f', text: '1ec4d50', image: '378270b' },
+  { name: '1704531', text: '291b3a6', image: '9bbbc86', href: '/הצוות-שלנו/#hila' },
+  { name: '8764d0f', text: '1ec4d50', image: '378270b', href: '/הצוות-שלנו/#galit' },
 ]
 
 export default function Home() {
@@ -35,8 +36,11 @@ export default function Home() {
       {/* פתיח */}
       <section className="mx-auto flex max-w-site flex-col items-center gap-[11px] px-2.5 py-2.5 text-center">
         <Img name="גלילה-600-pix.png" alt="גלילה – קבוצות חברתיות" loading="eager" sizes="(min-width: 700px) 420px, 60vw" className="w-[60%] max-w-[420px]" />
-        <h1 className="text-[32px] leading-tight font-extrabold text-brand md:text-[41px]">{w['4d9b430'].text}</h1>
-        <p className="text-[20px] leading-tight font-extrabold text-brand md:text-[23px]">{w['c7af937'].text}</p>
+        <h1 className="flex flex-col items-center gap-[11px] font-extrabold text-brand">
+          <span className="text-[32px] leading-tight md:text-[41px]">{w['4d9b430'].text}</span>
+          <span className="sr-only"> – </span>
+          <span className="text-[20px] leading-tight md:text-[23px]">{w['c7af937'].text}</span>
+        </h1>
         <Rich html={w['20fdeab'].html} />
         <a href={site.phoneHref} className="btn mb-6">
           {w['cbf0f2c'].text}
@@ -66,7 +70,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-[1100px] flex-col items-center">
           <h2 className="title text-center">{w['65f38e61'].text}</h2>
           <span className="divider my-5" />
-          <p className="mb-10 max-w-[640px] text-center text-lg">קבוצות חברתיות לילדים על הספקטרום האוטיסטי, בקבוצות קטנות לפי גיל.</p>
+          <p className="mb-10 max-w-[640px] text-center text-lg">מיומנויות חברתיות לילדים על הרצף, בקבוצות קטנות לפי גיל.</p>
 
           <div className="grid w-full gap-8 md:grid-cols-2">
             {areas.map((area) => (
@@ -88,6 +92,18 @@ export default function Home() {
                     </article>
                   ))}
                 </div>
+                <a href={area.page} className="btn mt-5">
+                  כל הפרטים על הקבוצה ב{area.name}
+                </a>
+                <a
+                  href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(area.address)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`ניווט בגוגל מפות אל ${area.address} (נפתח בחלון חדש)`}
+                  className="mt-5 block text-[15px] font-medium text-brand-deep underline hover:text-sky"
+                >
+                  ניווט אל {area.place}
+                </a>
               </div>
             ))}
           </div>
@@ -111,6 +127,9 @@ export default function Home() {
             <h2 className="title">{w['3aba3dd'].text}</h2>
             <span className="divider mx-auto my-5" />
             <Rich html={w['f8d558e'].html} />
+            <a href="/מיומנויות-חברתיות-לילדים-על-הרצף/" className="mt-6 inline-block font-medium text-brand-deep underline hover:text-sky">
+              מה מתרגלים בקבוצה: מיומנויות חברתיות לילדים על הרצף
+            </a>
           </div>
         </div>
       </section>
@@ -144,10 +163,17 @@ export default function Home() {
               <div className="size-[170px] shrink-0 overflow-hidden rounded-full bg-powder ring-4 ring-brand-soft/50">
                 <Img name={w[member.image].image} alt={w[member.name].text} sizes="170px" className="size-full object-cover object-top" />
               </div>
-              <h3 className="mt-5 mb-3 text-[30px] leading-tight font-semibold text-brand">{w[member.name].text}</h3>
+              <h3 className="mt-5 mb-3 text-[30px] leading-tight font-semibold text-brand">
+                <a href={member.href} className="hover:text-sky">{w[member.name].text}</a>
+              </h3>
               <Rich html={w[member.text].html} />
             </article>
           ))}
+        </div>
+        <div className="mt-8 text-center">
+          <a href="/הצוות-שלנו/" className="btn">
+            עוד על הצוות
+          </a>
         </div>
       </section>
 
@@ -156,6 +182,25 @@ export default function Home() {
         <span id="13" />
         <h2 className="title mb-6 text-center">{w['3ec2969'].text}</h2>
         <Testimonials items={testimonials} />
+        <div className="mt-6 text-center">
+          <a href="/גלילה-קבוצות-חברתיות-2/" className="font-medium text-brand-deep underline hover:text-sky">
+            תיאורי מקרה מתוך הקבוצות
+          </a>
+        </div>
+      </section>
+
+      {/* שאלות נפוצות */}
+      <section id="faq" className="mx-auto max-w-[900px] px-5 py-14" aria-labelledby="faq-title">
+        <div className="flex flex-col items-center">
+          <h2 id="faq-title" className="title text-center">
+            שאלות נפוצות על הקבוצה החברתית לילדים על הרצף
+          </h2>
+          <span className="divider my-5" />
+          <p className="mb-6 text-center text-lg">ריכזנו כאן תשובות קצרות לשאלות נפוצות על הקבוצות.</p>
+        </div>
+        <div className="card p-5 md:p-8">
+          <Blocks blocks={[{ type: 'faq', items: homeFaq }]} />
+        </div>
       </section>
 
       {/* תובנות וטיפים מהשטח */}

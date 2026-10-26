@@ -4,9 +4,9 @@ import Layout from '../components/Layout'
 import { posts } from '../content'
 
 export const blogMeta = {
-  title: 'בלוג להורים לילדים על הרצף - ידע וכלים מעשיים | גלילה',
+  title: 'בלוג להורים לילדים על הרצף: ידע וכלים מעשיים | גלילה',
   description:
-    'בלוג מקצועי ונגיש להורים לילדים עם אוטיזם ASD – על תקשורת, הורות, אספרגר, טיפול בתא לחץ, בדיקת אקסום, קריספר, תסמונת ויליאמס ועוד',
+    'מאמרים מקצועיים ונגישים להורים לילדים על הרצף (ASD): אספרגר, PDA, תסמונת ויליאמס, בדיקת אקסום, אוטיזם בזמן מלחמה ועוד, מבית גלילה בחיפה ובתל אביב.',
 }
 
 export default function Blog() {
@@ -19,7 +19,12 @@ export default function Blog() {
           </Link>{' '}
           » בלוג
         </nav>
-        <h1 className="title mb-10 text-center">מאמרים בנושא אוטיזם ASD</h1>
+        <h1 className="title mb-4 text-center">בלוג להורים לילדים על הרצף</h1>
+        <p className="mx-auto mb-10 max-w-3xl text-center text-[17px] text-ink/80">
+          כאן תמצאו מאמרים מקצועיים ונגישים להורים לילדים על הרצף, מבית גלילה –{' '}
+          <a href="/#3" className="text-brand-deep hover:text-sky">הקבוצות החברתיות</a> בחיפה ובתל אביב. רוצים להכיר את מי שעומדות מאחורי הקבוצות? הכירו את{' '}
+          <a href="/#6" className="text-brand-deep hover:text-sky">הצוות שלנו</a>.
+        </p>
 
         <div className="grid gap-x-[30px] gap-y-[35px] md:grid-cols-2 lg:grid-cols-3">
           {posts.map((post) => (

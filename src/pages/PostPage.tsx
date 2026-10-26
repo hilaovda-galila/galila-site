@@ -3,7 +3,7 @@ import Blocks from '../components/Blocks'
 import Img from '../components/Img'
 import Layout from '../components/Layout'
 import { FacebookIcon, InstagramIcon, MailIcon, UsersIcon } from '../components/icons'
-import { paths, site } from '../config/site'
+import { areas, paths, site } from '../config/site'
 import { author, posts, type Post } from '../content'
 
 const POST_CONTACT_INTRO = 'השאירו פרטים, ונחזור אלייך בשיחה טלפונית כדי לתאם מפגש היכרות ראשוני ללא עלות.'
@@ -28,6 +28,21 @@ export default function PostPage({ post }: { post: Post }) {
         </p>
 
         <Blocks blocks={post.blocks} />
+
+        {/* קישור מכל כתבה אל הקבוצות עצמן */}
+        <div className="card mt-10 p-6 text-center">
+          <p className="text-xl font-extrabold text-brand">הקבוצות החברתיות של גלילה</p>
+          <p className="mt-2">קבוצות קטנות לילדים וילדות על הרצף בגילאי 4–9, לתרגול מיומנויות חברתיות:</p>
+          <ul className="mt-3 flex flex-col items-center gap-2 sm:flex-row sm:justify-center sm:gap-6">
+            {areas.map((area) => (
+              <li key={area.name}>
+                <Link to={area.page} className="font-medium text-brand-deep underline hover:text-sky">
+                  {area.name} – {area.groups[0].day}, {area.place}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
 
         <aside className="mt-10 flex flex-col items-center gap-5 border-t-[3px] border-sun pt-8 text-center sm:flex-row sm:text-start">
           <Img name={author.image} alt={author.name} sizes="100px" className="size-[100px] shrink-0 rounded-full object-cover" />

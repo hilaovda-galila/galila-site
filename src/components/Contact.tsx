@@ -29,7 +29,8 @@ function Detail({ icon, href, children }: { icon: ReactNode; href?: string; chil
   )
 }
 
-export default function Contact({ intro = DEFAULT_INTRO }: { intro?: string }) {
+// defaultArea: בעמודי הערים האזור בטופס כבר מסומן
+export default function Contact({ intro = DEFAULT_INTRO, defaultArea = '' }: { intro?: string; defaultArea?: string }) {
   const [sent, setSent] = useState(false)
 
   // אין לאתר שרת: הטופס מרכיב הודעה ופותח אותה בוואטסאפ, והפונה שולח אותה בעצמו.
@@ -70,7 +71,7 @@ export default function Contact({ intro = DEFAULT_INTRO }: { intro?: string }) {
             </label>
             <label className="block">
               <span className={labelClass}>אזור</span>
-              <select name="area" required defaultValue="" className="field">
+              <select name="area" required defaultValue={defaultArea} className="field">
                 <option value="" disabled>
                   בחרו אזור
                 </option>

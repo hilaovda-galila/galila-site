@@ -9,7 +9,10 @@ import Blog, { blogMeta } from './pages/Blog'
 import Cases from './pages/Cases'
 import Courses, { coursesMeta } from './pages/Courses'
 import MyCourses from './pages/MyCourses'
-import { organizationLd, postLd } from './seo'
+import { homeFaq } from './content/homeFaq'
+import { faqLd, landingLd, organizationLd, postLd } from './seo'
+import { landingPages } from './content/landing'
+import LandingPage from './pages/LandingPage'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import PostPage from './pages/PostPage'
@@ -28,9 +31,9 @@ export type Page = {
 
 // כל עמודי האתר, בכתובות המקוריות שלהם
 export const pages: Page[] = [
-  { path: '/', title: home.metaTitle, description: home.description, image: imageSrc('IMG-20230523-WA0016.jpg'), jsonLd: [organizationLd], element: <Home /> },
+  { path: '/', title: home.metaTitle, description: home.description, image: imageSrc('IMG-20230523-WA0016.jpg'), jsonLd: [organizationLd, faqLd(homeFaq)], element: <Home /> },
   { path: paths.blog, ...blogMeta, element: <Blog /> },
-  { path: paths.cases, title: 'תאורי מקרה | גלילה', description: cases.description, element: <Cases /> },
+  { path: paths.cases, title: 'תיאורי מקרה מהקבוצה החברתית לילדים על הרצף | גלילה', description: cases.description, element: <Cases /> },
   // עד שהקורסים נפתחים (COURSES_OPEN) שני העמודים מציגים חלונית "בקרוב" ולא נכנסים למפת האתר
   COURSES_OPEN
     ? { path: paths.courses, ...coursesMeta, element: <Courses /> }
@@ -43,6 +46,8 @@ export const pages: Page[] = [
     private: true,
     element: COURSES_OPEN ? <MyCourses /> : <ComingSoon />,
   },
+  // עמודי הערים, מדריך המיומנויות החברתיות ועמוד הצוות
+  ...landingPages.map((page) => ({ path: page.path, title: page.title, description: page.description, jsonLd: landingLd(page), element: <LandingPage page={page} /> })),
   ...posts.map((post) => ({
     path: `/${post.slug}/`,
     title: post.metaTitle,
