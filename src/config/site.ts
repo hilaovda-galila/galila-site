@@ -15,7 +15,7 @@ export const site = {
   community: 'https://www.facebook.com/share/g/1B9KHdjobE',
   communityName: 'קהילת - מדברים אוטיזם בגיל הרך',
   // כתובת ה-Web App של Google Apps Script ששומר את הנרשמים ל"חומרים להורדה" בגיליון של הלקוחה
-  // ושולח לה את הרשימה במייל ב-1 לכל חודש (הקוד וההוראות: docs/leads-google-apps-script.gs).
+  // (הקוד וההוראות: docs/leads-google-apps-script.gs).
   // כל עוד ריק – העמוד לא מוצג בתפריטים ולא נכנס לגוגל.
   leadsEndpoint: '',
 }

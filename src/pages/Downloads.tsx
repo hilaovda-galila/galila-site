@@ -34,9 +34,11 @@ export default function Downloads() {
     if (data.get('website')) return
     setStatus('sending')
     const body = new URLSearchParams({
-      name: String(data.get('name') ?? ''),
+      age: String(data.get('age') ?? ''),
+      diagnosed: String(data.get('diagnosed') ?? ''),
       email: String(data.get('email') ?? ''),
       phone: String(data.get('phone') ?? ''),
+      city: String(data.get('city') ?? ''),
       consent: data.get('consent') ? 'yes' : 'no',
       consentText: CONSENT_TEXT,
       page: window.location.href,
@@ -84,18 +86,31 @@ export default function Downloads() {
               </h2>
               <form onSubmit={handleSubmit} className="mt-5 grid gap-4 sm:grid-cols-2">
                 <label className="block">
-                  <span className={labelClass}>שם</span>
-                  <input name="name" type="text" required autoComplete="name" maxLength={80} className="field" />
+                  <span className={labelClass}>בן/בת כמה הילד/ה?</span>
+                  <input name="age" type="number" required min={1} max={18} step="0.5" inputMode="decimal" className="field" />
                 </label>
+                <fieldset className="block">
+                  <legend className={labelClass}>מאובחן/ת על הרצף?</legend>
+                  <div className="flex gap-6 py-2.5">
+                    <label className="flex items-center gap-2">
+                      <input type="radio" name="diagnosed" value="כן" required className="size-5 accent-brand-deep" /> כן
+                    </label>
+                    <label className="flex items-center gap-2">
+                      <input type="radio" name="diagnosed" value="לא" className="size-5 accent-brand-deep" /> לא
+                    </label>
+                  </div>
+                </fieldset>
                 <label className="block">
                   <span className={labelClass}>מייל</span>
                   <input name="email" type="email" required autoComplete="email" maxLength={120} dir="ltr" className="field text-right" />
                 </label>
+                <label className="block">
+                  <span className={labelClass}>טלפון</span>
+                  <input name="phone" type="tel" required autoComplete="tel" minLength={9} maxLength={20} className="field text-right" />
+                </label>
                 <label className="block sm:col-span-2">
-                  <span className={labelClass}>
-                    טלפון <span className="font-normal text-ink/70">(לא חובה)</span>
-                  </span>
-                  <input name="phone" type="tel" autoComplete="tel" maxLength={20} className="field text-right" />
+                  <span className={labelClass}>עיר</span>
+                  <input name="city" type="text" required autoComplete="address-level2" maxLength={60} className="field" />
                 </label>
                 <label className="hidden" aria-hidden="true">
                   אתר
