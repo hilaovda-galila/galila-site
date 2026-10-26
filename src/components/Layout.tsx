@@ -57,6 +57,7 @@ export default function Layout({ title, children, contactIntro, contactArea, con
           <Link to="/הצוות-שלנו/" className="hover:underline">הצוות שלנו</Link>
           <Link to={paths.cases} className="hover:underline">תיאורי מקרה</Link>
           <Link to={paths.blog} className="hover:underline">בלוג</Link>
+          {site.leadsEndpoint && <Link to={paths.downloads} className="hover:underline">חומרים להורדה בחינם</Link>}
           <Link to={paths.courses} className="hover:underline">קורסים דיגיטליים</Link>
           <a href={site.phoneHref} className="hover:underline" dir="ltr">{site.phoneDisplay}</a>
         </nav>

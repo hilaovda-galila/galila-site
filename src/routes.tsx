@@ -3,11 +3,12 @@ import { Navigate } from 'react-router'
 import ComingSoon from './components/ComingSoon'
 import { imageSrc } from './components/Img'
 import { COURSES_OPEN } from './content/courses'
-import { paths, redirects } from './config/site'
+import { paths, redirects, site } from './config/site'
 import { cases, home, posts } from './content'
 import Blog, { blogMeta } from './pages/Blog'
 import Cases from './pages/Cases'
 import Courses, { coursesMeta } from './pages/Courses'
+import Downloads, { downloadsMeta } from './pages/Downloads'
 import MyCourses from './pages/MyCourses'
 import { homeFaq } from './content/homeFaq'
 import { faqLd, landingLd, organizationLd, postLd } from './seo'
@@ -38,6 +39,8 @@ export const pages: Page[] = [
   COURSES_OPEN
     ? { path: paths.courses, ...coursesMeta, element: <Courses /> }
     : { path: paths.courses, title: 'קורסים דיגיטליים – בקרוב | גלילה', description: 'בקרוב: קורסים דיגיטליים להורים מבית גלילה.', private: true, element: <ComingSoon /> },
+  // חומרים להורדה: עד שמוגדרת כתובת השמירה (site.leadsEndpoint) העמוד לא נכנס למפת האתר ולגוגל
+  { path: paths.downloads, ...downloadsMeta, private: !site.leadsEndpoint, element: <Downloads /> },
   // אזור אישי: נוצר מראש רק עם שער הכניסה, בלי תוכן, ולא נכנס למפת האתר
   {
     path: paths.myCourses,

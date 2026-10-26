@@ -14,6 +14,10 @@ export const site = {
   instagram: 'https://www.instagram.com/galilagroup/',
   community: 'https://www.facebook.com/share/g/1B9KHdjobE',
   communityName: 'קהילת - מדברים אוטיזם בגיל הרך',
+  // כתובת ה-Web App של Google Apps Script ששומר את הנרשמים ל"חומרים להורדה" בגיליון של הלקוחה
+  // ושולח לה את הרשימה במייל ב-1 לכל חודש (הקוד וההוראות: docs/leads-google-apps-script.gs).
+  // כל עוד ריק – העמוד לא מוצג בתפריטים ולא נכנס לגוגל.
+  leadsEndpoint: '',
 }
 
 // הקבוצות הפעילות לפי אזור – מוצגות ככרטיסים ב"השירותים שלנו" ומזינות את שדה האזור בטופס
@@ -57,6 +61,7 @@ export const paths = {
   cases: '/גלילה-קבוצות-חברתיות-2/',
   courses: '/courses/',
   myCourses: '/courses/my/',
+  downloads: '/חומרים-להורדה/',
 }
 
 // 8 לשוניות = שתי שורות של 4. שורה ראשונה: מקטעי עמוד הבית (המספרים הם העוגנים המקוריים);
