@@ -17,7 +17,7 @@ const stories = cases.blocks.reduce<{ text: Block; image?: Block }[]>((list, blo
 
 // הסתרת פסקת מילות המפתח שבסוף כל סיפור: רק אחרי אישור הלקוחה. עד אז false, והסיפור מוצג במלואו.
 // גם כשמסתירים, הטקסט נשמר ב-cases.json וב-content-archive.
-const HIDE_KEYWORD_LINES = false
+const HIDE_KEYWORD_LINES = true
 
 // השורה המודגשת הראשונה בכל סיפור מוצגת ככותרת (h2), באותן מילים.
 function splitStory(html = '') {
