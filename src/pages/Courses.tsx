@@ -4,7 +4,7 @@ import AuthDialog from '../components/AuthDialog'
 import Img, { imageSrc } from '../components/Img'
 import Layout from '../components/Layout'
 import { paths } from '../config/site'
-import { ACCESS_DAYS, courseMinutes, courses, type Course } from '../content/courses'
+import { ACCESS_DAYS, courseMinutes, coursePath, courses, type Course } from '../content/courses'
 import { DEMO_MODE, isActive, useSession } from '../lib/session'
 
 export const coursesMeta = {
@@ -58,12 +58,18 @@ export default function Courses() {
             const owned = session?.enrollments.some((e) => e.courseSlug === course.slug && isActive(e))
             return (
               <article key={course.slug} className="card flex flex-col overflow-hidden">
-                <CourseCover course={course} className="aspect-[16/9]" />
+                <Link to={coursePath(course)} tabIndex={-1} aria-hidden="true">
+                  <CourseCover course={course} className="aspect-[16/9]" />
+                </Link>
                 <div className="flex grow flex-col p-6 text-center">
-                  <h2 className="text-[23px] leading-snug font-extrabold text-brand">{course.title}</h2>
+                  <h2 className="text-[23px] leading-snug font-extrabold text-brand">
+                    <Link to={coursePath(course)} className="hover:text-brand-deep">
+                      {course.title}
+                    </Link>
+                  </h2>
                   <p className="mt-3 grow">{course.summary}</p>
                   <p className="mt-4 text-[15px] text-ink/75">
-                    {course.lessons.length} פרקים · כ-{courseMinutes(course)} דקות · גישה ל-{ACCESS_DAYS} יום
+                    {course.lessons.length} סרטונים · כ-{courseMinutes(course)} דקות · גישה ל-{ACCESS_DAYS} יום
                   </p>
                   <p className="mt-3 text-[28px] leading-none font-extrabold">₪{course.priceILS}</p>
                   {owned ? (
@@ -71,13 +77,18 @@ export default function Courses() {
                       לצפייה בקורס
                     </Link>
                   ) : (
-                    <button
-                      type="button"
-                      onClick={() => setBuying(course)}
-                      className="btn mt-5 cursor-pointer rounded-lg py-3.5 text-base hover:scale-100 hover:brightness-110"
-                    >
-                      לרכישת הקורס
-                    </button>
+                    <>
+                      <button
+                        type="button"
+                        onClick={() => setBuying(course)}
+                        className="btn mt-5 cursor-pointer rounded-lg py-3.5 text-base hover:scale-100 hover:brightness-110"
+                      >
+                        לרכישת הקורס
+                      </button>
+                      <Link to={coursePath(course)} className="mt-3 font-medium text-brand-deep underline hover:text-sky">
+                        מה בקורס?
+                      </Link>
+                    </>
                   )}
                 </div>
               </article>

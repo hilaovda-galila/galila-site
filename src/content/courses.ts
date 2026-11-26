@@ -1,7 +1,8 @@
 // קורסים דיגיטליים.
 // TODO: הקורסים, המחירים והפרקים כאן הם דוגמה בלבד, כדי לבנות ולבדוק את הממשק.
 // להחליף בקורסים האמיתיים (ובהמשך לטעון אותם ממסד הנתונים) לפני פתיחה להורים.
-export type Lesson = { title: string; minutes: number; videoId?: string }
+// summary: משפט אחד על הפרק, מוצג בעמוד הקורס לפני הרכישה
+export type Lesson = { title: string; minutes: number; summary: string; videoId?: string }
 
 export type Course = {
   slug: string
@@ -11,6 +12,9 @@ export type Course = {
   image?: string
   priceILS: number
   lessons: Lesson[]
+  // "מה תקבלו מהקורס" ו"למי הקורס מתאים" בעמוד הקורס
+  outcomes: string[]
+  audience: string[]
 }
 
 // כל עוד false, עמודי הקורסים מציגים רק חלונית "בקרוב" שמחזירה לדף הבית, והקטלוג,
@@ -24,42 +28,27 @@ export const COURSES_OPEN = import.meta.env.MODE === 'courses-preview'
 
 export const ACCESS_DAYS = 30
 
+// תבנית: קורס אחד עם 3 סרטונים של 15–20 דקות. כדי להוסיף קורס – מעתיקים את הבלוק ומשנים.
 export const courses: Course[] = [
   {
     slug: 'emotional-regulation-at-home',
     title: 'ויסות רגשי בבית',
-    summary: 'כלים מעשיים לזיהוי סימנים מוקדמים של הצפה, ולבניית שגרה שעוזרת לילד להירגע.',
+    summary: 'שלושה סרטונים קצרים עם כלים מעשיים לזיהוי סימנים מוקדמים של הצפה, ולבניית שגרה שעוזרת לילד להירגע.',
     priceILS: 149,
     lessons: [
-      { title: 'מה קורה לילד ברגע של הצפה', minutes: 9 },
-      { title: 'סימנים מוקדמים ואיך מזהים אותם', minutes: 12 },
-      { title: 'פינת הרגעה ושגרות שעוזרות', minutes: 11 },
-      { title: 'מה עושים אחרי התפרצות', minutes: 8 },
+      { title: 'מה קורה לילד ברגע של הצפה', minutes: 15, summary: 'מה עובר על הילד ברגע של הצפה, ולמה דווקא אז כל כך קשה לו להקשיב.' },
+      { title: 'סימנים מוקדמים ואיך מזהים אותם', minutes: 18, summary: 'איך מזהים את הרגע שלפני, ומה אפשר לעשות כבר אז.' },
+      { title: 'פינת הרגעה ושגרות שעוזרות', minutes: 20, summary: 'בונים יחד עם הילד פינה ושגרה שעוזרות לו לחזור לאיזון.' },
     ],
-  },
-  {
-    slug: 'joining-play',
-    title: 'איך עוזרים לילד להצטרף למשחק',
-    summary: 'צעדים קטנים לתרגול בבית ובגן השעשועים: הצטרפות, תורות והתמודדות עם "לא".',
-    priceILS: 129,
-    lessons: [
-      { title: 'למה הצטרפות למשחק כל כך קשה', minutes: 7 },
-      { title: 'משפטי פתיחה ותרגול בבית', minutes: 10 },
-      { title: 'תורות, ניצחון והפסד', minutes: 12 },
+    outcomes: [
+      'הבנה של מה שקורה לילד ברגעי הצפה',
+      'דרכים לזהות סימנים מוקדמים, לפני שהמצב מסלים',
+      'כלים מעשיים ליישום בבית, כבר מהיום',
     ],
-  },
-  {
-    slug: 'from-struggle-to-play',
-    title: 'במקום מאבק – לשחק את המשחק',
-    summary: 'איך ללמד ילדים להביע סירוב בדרך מקובלת, ולהפוך רגעי התנגדות להזדמנות ללמידה.',
-    priceILS: 149,
-    lessons: [
-      { title: 'מה מסתתר מאחורי ה"לא"', minutes: 10 },
-      { title: 'שפה שמורידה התנגדות', minutes: 13 },
-      { title: 'בחירות, הומור ושיתוף פעולה', minutes: 11 },
-      { title: 'תרגול ושאלות נפוצות', minutes: 9 },
-    ],
+    audience: ['הורים לילדים על הרצף בגילאי 4–9', 'הורים שמחפשים כלים לרגעים של התפרצות והצפה'],
   },
 ]
+
+export const coursePath = (course: Course) => `/courses/${course.slug}/`
 
 export const courseMinutes = (course: Course) => course.lessons.reduce((sum, lesson) => sum + lesson.minutes, 0)

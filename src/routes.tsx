@@ -2,11 +2,12 @@ import type { ReactElement } from 'react'
 import { Navigate } from 'react-router'
 import ComingSoon from './components/ComingSoon'
 import { imageSrc } from './components/Img'
-import { COURSES_OPEN } from './content/courses'
+import { COURSES_OPEN, coursePath, courses } from './content/courses'
 import { paths, redirects, site } from './config/site'
 import { cases, home, posts } from './content'
 import Blog, { blogMeta } from './pages/Blog'
 import Cases from './pages/Cases'
+import CoursePage from './pages/CoursePage'
 import Courses, { coursesMeta } from './pages/Courses'
 import Downloads, { downloadsMeta } from './pages/Downloads'
 import Guides, { guidesMeta } from './pages/Guides'
@@ -44,6 +45,10 @@ export const pages: Page[] = [
   { path: paths.downloads, ...downloadsMeta, private: !site.leadsEndpoint, element: <Downloads /> },
   // מדריכים בתשלום – עד שיהיו מוכנים: "בקרוב" וטופס לעדכונים, מחוץ לגוגל
   { path: paths.guides, ...guidesMeta, private: true, element: <Guides /> },
+  // עמוד לכל קורס – רק בתצוגה המקדימה של הקורסים (npm run dev:courses)
+  ...(COURSES_OPEN
+    ? courses.map((course) => ({ path: coursePath(course), title: `${course.title} | גלילה`, description: course.summary, element: <CoursePage course={course} /> }))
+    : []),
   // אזור אישי: נוצר מראש רק עם שער הכניסה, בלי תוכן, ולא נכנס למפת האתר
   {
     path: paths.myCourses,
