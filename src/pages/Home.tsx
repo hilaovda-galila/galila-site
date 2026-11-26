@@ -6,6 +6,7 @@ import ShortsSequence from '../components/ShortsSequence'
 import Testimonials from '../components/Testimonials'
 import { PinIcon } from '../components/icons'
 import { areas, introVideo, shorts, site, youtubeChannel } from '../config/site'
+import { groupFormats, groupsTogether } from '../content/groups'
 import { home } from '../content'
 import { testimonials } from '../content/testimonials'
 import { homeFaq } from '../content/homeFaq'
@@ -70,7 +71,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-[1100px] flex-col items-center">
           <h2 className="title text-center">{w['65f38e61'].text}</h2>
           <span className="divider my-5" />
-          <p className="mb-10 max-w-[640px] text-center text-lg">מיומנויות חברתיות לילדים על הרצף, בקבוצות קטנות לפי גיל.</p>
+          <p className="mb-10 max-w-[640px] text-center text-lg">מיומנויות חברתיות לילדים על הרצף, בקבוצות קטנות של עד 8 ילדים, לפי גיל.</p>
 
           <div className="grid w-full gap-8 md:grid-cols-2">
             {areas.map((area) => (
@@ -106,6 +107,28 @@ export default function Home() {
                 </a>
               </div>
             ))}
+          </div>
+
+          {/* איך נראה מפגש בכל קבוצת גיל */}
+          <div className="mt-12 w-full">
+            <h3 className="mb-6 text-center text-[28px] leading-tight font-extrabold text-brand md:text-[32px]">איך נראה מפגש</h3>
+            <div className="grid gap-6 md:grid-cols-2">
+              {groupFormats.map((group) => (
+                <article key={group.title} className="card p-6 text-center md:p-8">
+                  <h4 className="text-[24px] leading-tight font-extrabold">{group.title}</h4>
+                  <p className="mt-2 inline-block rounded-full bg-powder px-3 py-1 text-[15px] font-medium text-brand-deep">{group.ages}</p>
+                  <p className="mt-4">{group.text}</p>
+                </article>
+              ))}
+            </div>
+            <article className="card mt-6 p-6 text-center md:p-8">
+              <h4 className="text-[24px] leading-tight font-extrabold">{groupsTogether.title}</h4>
+              <ul className="mx-auto mt-4 max-w-[760px] space-y-3">
+                {groupsTogether.points.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
+            </article>
           </div>
 
           <a href="#contact" className="btn mt-10">
