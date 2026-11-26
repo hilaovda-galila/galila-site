@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import ShortsSequence from '../components/ShortsSequence'
 import Testimonials from '../components/Testimonials'
 import { PinIcon } from '../components/icons'
-import { areas, introVideo, shorts, site, whatsappLink, youtubeChannel } from '../config/site'
+import { areas, introVideo, shorts, site, youtubeChannel } from '../config/site'
 import { groupFormats, groupsTogether } from '../content/groups'
 import { home } from '../content'
 import { testimonials } from '../content/testimonials'
@@ -34,22 +34,20 @@ export default function Home() {
         <BannerVideo id={introVideo.id} title={introVideo.title} />
       </section>
 
-      {/* פתיח: משפט אחד להורה, וכפתור אחד ברור */}
-      <section className="mx-auto flex max-w-site flex-col items-center gap-3 px-5 pt-8 pb-10 text-center">
-        <Img name="גלילה-600-pix.png" alt="גלילה – קבוצות חברתיות" loading="eager" sizes="160px" className="w-[120px] md:w-[160px]" />
-        <p className="text-[34px] leading-tight font-extrabold text-ink md:text-[48px]">הילד שלך יכול להרגיש שייך</p>
-        <h1 className="max-w-[720px] text-[20px] leading-snug font-extrabold text-brand md:text-[24px]">
-          {w['4d9b430'].text}
-          <span className="sr-only"> – </span> {w['c7af937'].text}
+      {/* פתיח – הטקסט המקורי, ומתחתיו שלוש עובדות קצרות מהאתר */}
+      <section className="mx-auto flex max-w-site flex-col items-center gap-[11px] px-2.5 pt-2.5 pb-10 text-center">
+        <Img name="גלילה-600-pix.png" alt="גלילה – קבוצות חברתיות" loading="eager" sizes="(min-width: 700px) 420px, 60vw" className="w-[60%] max-w-[420px]" />
+        <h1 className="flex flex-col items-center gap-[11px] font-extrabold text-brand">
+          <span className="text-[32px] leading-tight md:text-[41px]">{w['4d9b430'].text}</span>
+          <span className="sr-only"> – </span>
+          <span className="text-[20px] leading-tight md:text-[23px]">{w['c7af937'].text}</span>
         </h1>
-        <a href={whatsappLink('שלום, אשמח לשמוע על הקבוצות החברתיות של גלילה')} target="_blank" rel="noopener noreferrer" className="btn mt-3 rounded-lg px-8 py-4 text-base hover:scale-100 hover:brightness-110">
-          לשיחת היכרות בוואטסאפ
+        <Rich html={w['20fdeab'].html} />
+        <a href={site.phoneHref} className="btn">
+          {w['cbf0f2c'].text}
         </a>
-        <a href={site.phoneHref} className="text-[15px] font-medium text-brand-deep underline hover:text-sky">
-          או התקשרו: <span dir="ltr">{site.phoneDisplay}</span>
-        </a>
-        <ul className="mt-6 flex flex-wrap justify-center gap-2 text-[15px]">
-          {['קבוצות קטנות, עד 8 ילדים', 'חיפה ותל אביב', 'מנחות שעובדות בגני תקשורת'].map((item) => (
+        <ul className="mt-4 flex flex-wrap justify-center gap-2 text-[15px]">
+          {['קבוצות קטנות, עד 8 ילדים בקבוצה', 'בחיפה ובתל אביב', 'מטפלת רגשית ומנתחת התנהגות'].map((item) => (
             <li key={item} className="rounded-full bg-powder px-4 py-1.5 font-medium text-brand-deep">
               {item}
             </li>
@@ -100,9 +98,9 @@ export default function Home() {
           <span className="divider mx-auto my-5" />
           <ol className="mt-8 grid gap-6 md:grid-cols-3">
             {[
-              ['משאירים פרטים', 'בטופס או בהודעת וואטסאפ: שם, טלפון, אזור וגיל הילד.'],
-              ['שיחת טלפון ללא עלות', 'נחזור אליכם, נשמע על הילד ונענה על כל השאלות.'],
-              ['מפגש היכרות', 'נכיר את הילד ואתכם, ונבדוק יחד אם הקבוצה מתאימה לו.'],
+              ['השאירו פרטים', 'שם מלא, טלפון, אזור וגיל הילד/ה.'],
+              ['נחזור אליכם בשיחה טלפונית', 'שיחת הטלפון הראשונה ללא עלות.'],
+              ['מפגש היכרות', 'בשיחה נתאם יחד מפגש היכרות.'],
             ].map(([title, text], i) => (
               <li key={title} className="card p-6">
                 <span className="mx-auto flex size-11 items-center justify-center rounded-full bg-brand text-lg font-extrabold text-ink">{i + 1}</span>
