@@ -23,9 +23,6 @@ if (missing.length) {
   process.exit(1)
 }
 
-// מעטפת ריקה לאחסון Apache (.htaccess); ב-Vercel כתובת שלא קיימת מקבלת את 404.html עם סטטוס 404
-await writeFile(path.join(dist, 'spa.html'), template)
-
 for (const page of pageList) {
   const head = [
     `<title>${escape(page.title)}</title>`,
@@ -93,6 +90,47 @@ await writeFile(
     ...publicPages.filter(isPost).map(line),
     '',
   ].join('\n'),
+)
+
+// .htaccess לאחסון ב-JetServer (LiteSpeed/Apache): כתובת אחת עם www, ההפניות מ-site.ts כ-301 אמיתי,
+// ועמוד "לא נמצא" עם סטטוס 404. ההגדרות המקבילות ל-Vercel נמצאות ב-vercel.json.
+const host = new URL(site.url).host
+const reEscape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+const redirectRules = Object.entries(redirects).map(
+  ([from, to]) => `  RewriteRule ^${reEscape(from.replace(/^\/|\/$/g, ''))}/?$ ${encodeURI(to)} [R=301,L,NE]`,
+)
+await writeFile(
+  path.join(dist, '.htaccess'),
+  [
+    '# נוצר אוטומטית ב-scripts/prerender.mjs – לא לערוך ידנית',
+    'Options -Indexes',
+    'DirectoryIndex index.html',
+    'AddDefaultCharset UTF-8',
+    'ErrorDocument 404 /404.html',
+    '',
+    '<IfModule mod_rewrite.c>',
+    '  RewriteEngine On',
+    `  RewriteCond %{HTTP_HOST} ^${reEscape(host.replace(/^www\./, ''))}$ [NC]`,
+    `  RewriteRule ^ https://${host}%{REQUEST_URI} [R=301,L,NE]`,
+    ...redirectRules,
+    '</IfModule>',
+    '',
+    '# קבצי JS/CSS של הבנייה (שם ייחודי) נשמרים בדפדפן לשנה; עמודי HTML נבדקים מחדש בכל כניסה',
+    '<IfModule mod_headers.c>',
+    '  <FilesMatch "\\.(js|css)$">',
+    '    Header set Cache-Control "public, max-age=31536000, immutable"',
+    '  </FilesMatch>',
+    '  <FilesMatch "\\.html$">',
+    '    Header set Cache-Control "no-cache"',
+    '  </FilesMatch>',
+    '</IfModule>',
+    '',
+  ].join('\n'),
+)
+// הקבצים להורדה לא נכנסים לחיפוש בגוגל
+await writeFile(
+  path.join(dist, 'downloads', '.htaccess'),
+  '<IfModule mod_headers.c>\n  Header set X-Robots-Tag "noindex"\n</IfModule>\n',
 )
 
 await rm(serverDir, { recursive: true, force: true })
