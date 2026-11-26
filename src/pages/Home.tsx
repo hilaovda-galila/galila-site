@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import ShortsSequence from '../components/ShortsSequence'
 import Testimonials from '../components/Testimonials'
 import { PinIcon } from '../components/icons'
-import { areas, introVideo, shorts, site, youtubeChannel } from '../config/site'
+import { areas, introVideo, shorts, site, whatsappLink, youtubeChannel } from '../config/site'
 import { groupFormats, groupsTogether } from '../content/groups'
 import { home } from '../content'
 import { testimonials } from '../content/testimonials'
@@ -34,18 +34,87 @@ export default function Home() {
         <BannerVideo id={introVideo.id} title={introVideo.title} />
       </section>
 
-      {/* פתיח */}
-      <section className="mx-auto flex max-w-site flex-col items-center gap-[11px] px-2.5 py-2.5 text-center">
-        <Img name="גלילה-600-pix.png" alt="גלילה – קבוצות חברתיות" loading="eager" sizes="(min-width: 700px) 420px, 60vw" className="w-[60%] max-w-[420px]" />
-        <h1 className="flex flex-col items-center gap-[11px] font-extrabold text-brand">
-          <span className="text-[32px] leading-tight md:text-[41px]">{w['4d9b430'].text}</span>
-          <span className="sr-only"> – </span>
-          <span className="text-[20px] leading-tight md:text-[23px]">{w['c7af937'].text}</span>
+      {/* פתיח: משפט אחד להורה, וכפתור אחד ברור */}
+      <section className="mx-auto flex max-w-site flex-col items-center gap-3 px-5 pt-8 pb-10 text-center">
+        <Img name="גלילה-600-pix.png" alt="גלילה – קבוצות חברתיות" loading="eager" sizes="160px" className="w-[120px] md:w-[160px]" />
+        <p className="text-[34px] leading-tight font-extrabold text-ink md:text-[48px]">הילד שלך יכול להרגיש שייך</p>
+        <h1 className="max-w-[720px] text-[20px] leading-snug font-extrabold text-brand md:text-[24px]">
+          {w['4d9b430'].text}
+          <span className="sr-only"> – </span> {w['c7af937'].text}
         </h1>
-        <Rich html={w['20fdeab'].html} />
-        <a href={site.phoneHref} className="btn mb-6">
-          {w['cbf0f2c'].text}
+        <a href={whatsappLink('שלום, אשמח לשמוע על הקבוצות החברתיות של גלילה')} target="_blank" rel="noopener noreferrer" className="btn mt-3 rounded-lg px-8 py-4 text-base hover:scale-100 hover:brightness-110">
+          לשיחת היכרות בוואטסאפ
         </a>
+        <a href={site.phoneHref} className="text-[15px] font-medium text-brand-deep underline hover:text-sky">
+          או התקשרו: <span dir="ltr">{site.phoneDisplay}</span>
+        </a>
+        <ul className="mt-6 flex flex-wrap justify-center gap-2 text-[15px]">
+          {['קבוצות קטנות, עד 8 ילדים', 'חיפה ותל אביב', 'מנחות שעובדות בגני תקשורת'].map((item) => (
+            <li key={item} className="rounded-full bg-powder px-4 py-1.5 font-medium text-brand-deep">
+              {item}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* הורים ממליצים */}
+      <section className="mx-auto max-w-site px-2.5 py-2.5">
+        <span id="13" />
+        <h2 className="title mb-6 text-center">{w['3ec2969'].text}</h2>
+        <Testimonials items={testimonials} />
+        <div className="mt-6 text-center">
+          <a href="/גלילה-קבוצות-חברתיות-2/" className="font-medium text-brand-deep underline hover:text-sky">
+            תיאורי מקרה מתוך הקבוצות
+          </a>
+        </div>
+      </section>
+
+      {/* הצוות שלנו */}
+      <section className="mx-auto max-w-[1100px] px-5 py-10">
+        <span id="6" />
+        <h2 className="title mb-10 text-center">{w['718463c'].text}</h2>
+        <div className="grid gap-6 md:grid-cols-2">
+          {team.map((member) => (
+            <article key={member.name} className="card flex flex-col items-center p-6 text-center md:p-8">
+              <div className="size-[170px] shrink-0 overflow-hidden rounded-full bg-powder ring-4 ring-brand-soft/50">
+                <Img name={w[member.image].image} alt={w[member.name].text} sizes="170px" className="size-full object-cover object-top" />
+              </div>
+              <h3 className="mt-5 mb-3 text-[30px] leading-tight font-semibold text-brand">
+                <a href={member.href} className="hover:text-sky">{w[member.name].text}</a>
+              </h3>
+              <Rich html={w[member.text].html} />
+            </article>
+          ))}
+        </div>
+        <div className="mt-8 text-center">
+          <a href="/הצוות-שלנו/" className="btn">
+            עוד על הצוות
+          </a>
+        </div>
+      </section>
+
+      {/* איך מתחילים */}
+      <section className="bg-sand px-5 py-14" aria-labelledby="start-title">
+        <div className="mx-auto max-w-[1100px] text-center">
+          <h2 id="start-title" className="title">איך מתחילים</h2>
+          <span className="divider mx-auto my-5" />
+          <ol className="mt-8 grid gap-6 md:grid-cols-3">
+            {[
+              ['משאירים פרטים', 'בטופס או בהודעת וואטסאפ: שם, טלפון, אזור וגיל הילד.'],
+              ['שיחת טלפון ללא עלות', 'נחזור אליכם, נשמע על הילד ונענה על כל השאלות.'],
+              ['מפגש היכרות', 'נכיר את הילד ואתכם, ונבדוק יחד אם הקבוצה מתאימה לו.'],
+            ].map(([title, text], i) => (
+              <li key={title} className="card p-6">
+                <span className="mx-auto flex size-11 items-center justify-center rounded-full bg-brand text-lg font-extrabold text-ink">{i + 1}</span>
+                <h3 className="mt-4 text-[22px] font-extrabold">{title}</h3>
+                <p className="mt-2">{text}</p>
+              </li>
+            ))}
+          </ol>
+          <a href="#contact" className="btn mt-10">
+            {CTA}
+          </a>
+        </div>
       </section>
 
       {/* אודותינו */}
@@ -173,42 +242,6 @@ export default function Home() {
               </article>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* הצוות שלנו */}
-      <section className="mx-auto max-w-[1100px] px-5 py-10">
-        <span id="6" />
-        <h2 className="title mb-10 text-center">{w['718463c'].text}</h2>
-        <div className="grid gap-6 md:grid-cols-2">
-          {team.map((member) => (
-            <article key={member.name} className="card flex flex-col items-center p-6 text-center md:p-8">
-              <div className="size-[170px] shrink-0 overflow-hidden rounded-full bg-powder ring-4 ring-brand-soft/50">
-                <Img name={w[member.image].image} alt={w[member.name].text} sizes="170px" className="size-full object-cover object-top" />
-              </div>
-              <h3 className="mt-5 mb-3 text-[30px] leading-tight font-semibold text-brand">
-                <a href={member.href} className="hover:text-sky">{w[member.name].text}</a>
-              </h3>
-              <Rich html={w[member.text].html} />
-            </article>
-          ))}
-        </div>
-        <div className="mt-8 text-center">
-          <a href="/הצוות-שלנו/" className="btn">
-            עוד על הצוות
-          </a>
-        </div>
-      </section>
-
-      {/* הורים ממליצים */}
-      <section className="mx-auto max-w-site px-2.5 py-2.5">
-        <span id="13" />
-        <h2 className="title mb-6 text-center">{w['3ec2969'].text}</h2>
-        <Testimonials items={testimonials} />
-        <div className="mt-6 text-center">
-          <a href="/גלילה-קבוצות-חברתיות-2/" className="font-medium text-brand-deep underline hover:text-sky">
-            תיאורי מקרה מתוך הקבוצות
-          </a>
         </div>
       </section>
 
