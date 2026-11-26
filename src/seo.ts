@@ -16,7 +16,7 @@ export const organizationLd = {
   name: 'גלילה – קבוצה חברתית',
   alternateName: ['גלילה', 'Galila'],
   description:
-    'קבוצות חברתיות טיפוליות לילדים וילדות על הרצף האוטיסטי (ASD) בגילאי 4–9, בחיפה ובתל אביב, בשיתוף פעולה מלא עם ההורים. בהנחיית מטפלת רגשית באמנות ומנתחת התנהגות.',
+    'קבוצות חברתיות טיפוליות לילדים וילדות על הרצף האוטיסטי (ASD) בגילאי 4–9, בחיפה ובתל אביב, בשיתוף פעולה מלא עם ההורים. בהנחיית מטפלת רגשית באומנויות ומנתחת התנהגות.',
   url: `${site.url}/`,
   logo: abs(imageSrc('גלילה-600-pix.png')),
   image: abs(imageSrc('IMG-20230523-WA0016.jpg')),
@@ -29,7 +29,7 @@ export const organizationLd = {
     address: { '@type': 'PostalAddress', streetAddress: area.address.split(',')[0], addressLocality: area.name, addressCountry: 'IL' },
   })),
   founder: [
-    { '@type': 'Person', name: 'הילה עובדה', jobTitle: 'מטפלת רגשית באמנות' },
+    { '@type': 'Person', name: 'הילה עובדה', jobTitle: 'מטפלת רגשית באומנויות' },
     { '@type': 'Person', name: 'גלית ברנהולץ', jobTitle: 'מנתחת התנהגות' },
   ],
   knowsAbout: ['אוטיזם', 'ASD', 'מיומנויות חברתיות', 'קבוצות חברתיות לילדים', 'ויסות רגשי', 'ניתוח התנהגות יישומי (ABA)'],
