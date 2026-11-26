@@ -11,8 +11,8 @@
 
 - **כתובת**: https://www.galilagroup.com (הכתובת בלי www מפנה אליה). האתר עלה לאוויר ב-13.10.2026.
 - **קוד**: GitHub, מאגר פרטי `hilaovda-galila/galila-site`, ענף `main`.
-- **אחסון ודומיין**: מנובמבר 2026, לבחירת הלקוחה, גם הדומיין וגם האחסון ב-JetServer (שרתי שמות `ns71/ns72.jetserver.net`, שרת LiteSpeed). כל `git push` ל-`main` מפעיל את `.github/workflows/deploy-jetserver.yml`, שבונה ומעלה את `dist` לשרת ב-FTPS (פרטי הגישה ב-Secrets של המאגר ב-GitHub). אין שלב אישור נוסף, ולכן בונים ובודקים לפני שדוחפים. הגדרות השרת (הפניות 301, עמוד 404, www) נכתבות ל-`dist/.htaccess` ב-`scripts/prerender.mjs`.
-- **Vercel** (פרויקט `galila-site`) עדיין בונה כל דחיפה, בכתובת https://galila-site.vercel.app – שימושי לתצוגה מקדימה, אבל זה לא האתר החי.
+- **אחסון ודומיין**: מנובמבר 2026, לבחירת הלקוחה, גם הדומיין וגם האחסון ב-JetServer (cPanel בשרת `israel69.jetserver.net`, תיקיית האתר `public_html`, שרתי שמות `ns71/ns72.jetserver.net`). **העלאה: `npm run deploy`** מהמחשב הזה – בונה ומעלה ב-FTPS רק קבצים שהשתנו (`scripts/deploy-ftp.mjs`, חשבון `deploy@galilagroup.com`, הסיסמה ב-`secrets/ftp-password.txt` שלא נכנס ל-Git). השרת חוסם FTP מחו"ל, ולכן אין העלאה מ-GitHub. הגדרות השרת (הפניות 301, עמוד 404, www) נכתבות ל-`dist/.htaccess` ב-`scripts/prerender.mjs`.
+- **Vercel** (פרויקט `galila-site`) עדיין בונה כל `git push`, בכתובת https://galila-site.vercel.app – תצוגה מקדימה בלבד, לא האתר החי.
 - **השרת הישן** (WordPress ב-Hostinger) נפרץ ב-2026 ואין אליו גישה. לא נוגעים בו.
 - הלקוחה אינה מתכנתת וכותבת בעברית: מסבירים בלי ז'רגון, ונותנים הוראות לחיצה מדויקות כשנדרשת פעולה בחשבונות שלה (GitHub, Vercel, JetServer, Google).
 
@@ -82,8 +82,8 @@
 2. לפני סיום, להריץ `npm run build` ולוודא שאין שגיאות קומפילציה / TypeScript / Linter.
 3. אם הבנייה נכשלת — לנתח ולתקן בלולאה סגורה עד שהיא עוברת.
 4. מיד לאחר בנייה מוצלחת:
-   `git add . ; git commit -m "הודעת קומיט ברורה" ; git push`
-   (ב-PowerShell אין `&&`.) המטרה: ש-Vercel ימשוך את העדכון ויעלה אותו מיידית.
+   `git add . ; git commit -m "הודעת קומיט ברורה" ; git push ; npm run deploy`
+   (ב-PowerShell אין `&&`.) ה-push שומר את הקוד ב-GitHub; `npm run deploy` מעלה לאתר החי ב-JetServer.
 5. אחרי הדחיפה, לוודא שהשינוי אכן עלה ב-https://www.galilagroup.com.
 
 ## כללי קוד

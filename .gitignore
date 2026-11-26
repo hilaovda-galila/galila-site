@@ -9,3 +9,4 @@ dist-server
 galila-site-upload.zip
 seo/secrets/
 .claude/launch.json
+secrets/
