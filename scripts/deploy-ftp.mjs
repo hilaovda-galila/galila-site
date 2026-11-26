@@ -44,18 +44,45 @@ if (!changed.length) {
   process.exit(0)
 }
 
-const client = new Client(60_000)
-try {
+// השרת מנתק לפעמים באמצע: מתחברים מחדש ומנסים שוב, ושומרים את ההתקדמות אחרי כל קובץ,
+// כך שהרצה חוזרת ממשיכה מאיפה שנעצרה
+let client
+// ניתוק של חיבור ה-TLS לא מפיל את כל ההעלאה: הפעולה שרצה נכשלת (או מגיעה לזמן הקצוב) ומנסים שוב
+process.on('uncaughtException', (error) => {
+  if (error.code !== 'ECONNRESET') throw error
+  client?.close()
+})
+async function connect() {
+  client?.close()
+  client = new Client(60_000)
   await client.access({ ...FTP, password, secure: true })
+}
+
+const done = { ...previous }
+let uploaded = 0
+try {
   for (const rel of changed) {
-    const dir = path.posix.dirname(rel)
-    await client.ensureDir(dir === '.' ? '/' : '/' + dir)
-    await client.uploadFrom(path.join(dist, rel), '/' + rel)
+    for (let attempt = 1; ; attempt++) {
+      try {
+        if (!client || client.closed) await connect()
+        const dir = path.posix.dirname(rel)
+        await client.ensureDir(dir === '.' ? '/' : '/' + dir)
+        await client.uploadFrom(path.join(dist, rel), '/' + rel)
+        break
+      } catch (error) {
+        if (attempt === 4) throw error
+        console.log(`  חיבור נותק (${error.code || error.message}), מנסים שוב…`)
+        client?.close()
+        await new Promise((r) => setTimeout(r, 2000 * attempt))
+      }
+    }
+    done[rel] = current[rel]
+    await writeFile(manifestFile, JSON.stringify(done, null, 2))
+    uploaded++
     console.log('↑', rel)
   }
 } finally {
-  client.close()
+  client?.close()
 }
 
-await writeFile(manifestFile, JSON.stringify(current, null, 2))
-console.log(`הועלו ${changed.length} קבצים`)
+console.log(`הועלו ${uploaded} קבצים`)
