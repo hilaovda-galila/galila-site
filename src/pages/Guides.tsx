@@ -3,11 +3,11 @@ import Layout from '../components/Layout'
 import LeadForm from '../components/LeadForm'
 
 export const guidesMeta = {
-  title: 'מדריכים להורים – בקרוב | גלילה',
-  description: 'בקרוב בגלילה: מדריכים להורים לילדים על הרצף, להורדה בתשלום. השאירו פרטים ונעדכן כשהמדריכים יעלו.',
+  title: 'קורסים מקוונים להורים – בקרוב | גלילה',
+  description: 'בקרוב בגלילה: קורסים מקוונים להורים לילדים על הרצף. השאירו פרטים ונעדכן כשהקורסים יעלו.',
 }
 
-// "מדריכים": מדריכים להורדה בתשלום. עד שהם מוכנים העמוד מציג "בקרוב" וטופס לקבלת עדכונים
+// "קורסים מקוונים": קורסים בתשלום. עד שהם מוכנים העמוד מציג "בקרוב" וטופס לקבלת עדכונים
 // (הפרטים נכנסים לאותו גיליון של "חומרים להורדה", ועמודת "עמוד" מראה שהגיעו מכאן).
 export default function Guides() {
   const [sent, setSent] = useState(false)
@@ -17,10 +17,10 @@ export default function Guides() {
       <div className="mx-auto max-w-[1100px] px-5 py-10">
         <header className="text-center">
           <span className="mb-4 inline-block rounded-full bg-powder px-4 py-1 font-medium text-brand-deep">בקרוב</span>
-          <h1 className="title">מדריכים להורים</h1>
+          <h1 className="title">קורסים מקוונים להורים</h1>
           <span className="divider mx-auto my-5" />
           <p className="mx-auto max-w-[760px] text-lg">
-            אנחנו עובדות על מדריכים להורים לילדים על הרצף, להורדה בתשלום. השאירו פרטים, ונעדכן אתכם כשהמדריכים יעלו לאתר.
+            אנחנו עובדות על קורסים מקוונים להורים לילדים על הרצף. השאירו פרטים, ונעדכן אתכם כשהקורסים יעלו לאתר.
           </p>
         </header>
 
@@ -30,7 +30,7 @@ export default function Guides() {
               <h2 id="updates" className="text-[26px] leading-tight font-extrabold text-brand md:text-[30px]">
                 תודה, נעדכן אתכם
               </h2>
-              <p className="mt-2">כשהמדריכים יהיו מוכנים, תקבלו מאיתנו הודעה.</p>
+              <p className="mt-2">כשהקורסים יהיו מוכנים, תקבלו מאיתנו הודעה.</p>
             </div>
           ) : (
             <>

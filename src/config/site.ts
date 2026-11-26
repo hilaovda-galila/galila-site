@@ -62,7 +62,8 @@ export const paths = {
   courses: '/courses/',
   myCourses: '/courses/my/',
   downloads: '/חומרים-להורדה/',
-  guides: '/מדריכים/',
+  // "קורסים מקוונים" – בקרוב, עם טופס לעדכונים (הכתובת הקודמת /מדריכים/ מפנה לכאן)
+  guides: '/קורסים-מקוונים/',
 }
 
 // 8 לשוניות = שתי שורות של 4. שורה ראשונה: מקטעי עמוד הבית (המספרים הם העוגנים המקוריים);
@@ -79,7 +80,7 @@ export const navLinks = [
   // "חומרים להורדה" מחליף את "שאלות נפוצות" ברגע שהגיליון מחובר (site.leadsEndpoint); השאלות נשארות בעמוד הבית
   site.leadsEndpoint ? { href: paths.downloads, label: 'חומרים להורדה' } : { href: '/#faq', label: 'שאלות נפוצות' },
   { href: paths.blog, label: 'בלוג' },
-  { href: paths.guides, label: 'מדריכים' },
+  { href: paths.guides, label: 'קורסים מקוונים' },
 ]
 
 // כתובות ישנות של האתר שמפנות לכתובות העדכניות.
@@ -99,6 +100,7 @@ export const redirects: Record<string, string> = {
   '/על-הספקטרום-מה-באמת-עובר-על-הורים-לילדי/': '/parents-of-children-with-autism-challenges/',
   // קיצורים לחומרים מודפסים, קוד QR וביו באינסטגרם
   '/haifa/': '/קבוצה-חברתית-לילדים-על-הרצף-חיפה/',
+  '/מדריכים/': paths.guides,
   '/tel-aviv/': '/קבוצה-חברתית-לילדים-על-הרצף-תל-אביב/',
   '/pressure-chamber-asd/': '/טיפול-בילדים-עם-אוטיזם-asd-באמצעות-תא-לחץ/',
 }

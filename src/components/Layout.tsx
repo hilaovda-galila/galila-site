@@ -58,7 +58,7 @@ export default function Layout({ title, children, contactIntro, contactArea, con
           <Link to={paths.cases} className="hover:underline">תיאורי מקרה</Link>
           <Link to={paths.blog} className="hover:underline">בלוג</Link>
           {site.leadsEndpoint && <Link to={paths.downloads} className="hover:underline">חומרים להורדה בחינם</Link>}
-          <Link to={paths.courses} className="hover:underline">קורסים דיגיטליים</Link>
+          <Link to={paths.guides} className="hover:underline">קורסים מקוונים</Link>
           <a href={site.phoneHref} className="hover:underline" dir="ltr">{site.phoneDisplay}</a>
         </nav>
         <p className="mt-3 text-sm">© {new Date().getFullYear()} {site.name} – קבוצות חברתיות. כל הזכויות שמורות.</p>

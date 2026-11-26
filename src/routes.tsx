@@ -43,7 +43,7 @@ export const pages: Page[] = [
     : { path: paths.courses, title: 'קורסים דיגיטליים – בקרוב | גלילה', description: 'בקרוב: קורסים דיגיטליים להורים מבית גלילה.', private: true, element: <ComingSoon /> },
   // חומרים להורדה: עד שמוגדרת כתובת השמירה (site.leadsEndpoint) העמוד לא נכנס למפת האתר ולגוגל
   { path: paths.downloads, ...downloadsMeta, private: !site.leadsEndpoint, element: <Downloads /> },
-  // מדריכים בתשלום – עד שיהיו מוכנים: "בקרוב" וטופס לעדכונים, מחוץ לגוגל
+  // קורסים מקוונים – עד שיהיו מוכנים: "בקרוב" וטופס לעדכונים, מחוץ לגוגל
   { path: paths.guides, ...guidesMeta, private: true, element: <Guides /> },
   // עמוד לכל קורס – רק בתצוגה המקדימה של הקורסים (npm run dev:courses)
   ...(COURSES_OPEN

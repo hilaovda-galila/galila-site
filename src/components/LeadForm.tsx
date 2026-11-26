@@ -4,7 +4,7 @@ import { site } from '../config/site'
 // הנוסח שההורה מאשר. נשמר בגיליון יחד עם הפרטים, כתיעוד למה בדיוק ניתנה ההסכמה.
 const CONSENT_TEXT = 'אני מאשר/ת לקבל מגלילה עדכונים, תכנים והצעות בדיוור (מייל, SMS או וואטסאפ). אפשר להסיר את עצמי בכל עת.'
 
-// טופס השארת פרטים ("חומרים להורדה", "מדריכים"). הפרטים נשמרים בגיליון של גלילה דרך Google Apps Script
+// טופס השארת פרטים ("חומרים להורדה", "קורסים מקוונים"). הפרטים נשמרים בגיליון של גלילה דרך Google Apps Script
 // (docs/leads-google-apps-script.gs); עמודת "עמוד" בגיליון מראה מאיזה עמוד הגיע כל נרשם. כל השדות חובה.
 export default function LeadForm({ submitLabel, onDone }: { submitLabel: string; onDone: () => void }) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'error'>('idle')
