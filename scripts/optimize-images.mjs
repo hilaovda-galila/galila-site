@@ -1,6 +1,6 @@
 // מקטין את התמונות שב-public/images כדי שהאתר ייטען מהר: מגביל את הרוחב/גובה ודוחס מחדש.
 // שם הקובץ והסוג נשארים, כך ש-src/content/images.json לא משתנה. קובץ מוחלף רק אם התוצאה קטנה יותר.
-// בנוסף נוצרות לכל תמונה גרסאות ברוחב 640 ו-1024 (קובץ בשם <שם>-640w.jpg), ונכתב
+// בנוסף נוצרות לכל תמונה גרסאות ברוחב 320, 640, 828 ו-1024 (קובץ בשם <שם>-640w.jpg), ונכתב
 // src/content/image-meta.json עם המידות – כך הטלפון מוריד רק את הגודל שהוא צריך (ראו Img.tsx).
 // הרצה: node scripts/optimize-images.mjs   (חובה להריץ שוב אחרי שמוסיפים תמונות)
 import { readdir, readFile, writeFile } from 'node:fs/promises'
@@ -30,7 +30,8 @@ async function optimize(file, max) {
   return [input.length, output.length]
 }
 
-const VARIANT_WIDTHS = [640, 1024]
+// 320 ללוגו הקטן, 828 לטלפון ברוחב מלא (412 נקודות × צפיפות מסך 2)
+const VARIANT_WIDTHS = [320, 640, 828, 1024]
 const isVariant = (name) => /-\d+w\.\w+$/.test(name)
 
 let before = 0

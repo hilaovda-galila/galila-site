@@ -3,15 +3,6 @@ import { StrictMode } from 'react'
 import { createRoot, hydrateRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router'
 import App from './App'
-// הגופן Rubik נשמר באתר עצמו (עברית ואנגלית בלבד) במקום להיטען מ-Google Fonts – כך הוא לא מעכב את הצגת העמוד
-import '@fontsource/rubik/hebrew-400.css'
-import '@fontsource/rubik/hebrew-500.css'
-import '@fontsource/rubik/hebrew-600.css'
-import '@fontsource/rubik/hebrew-800.css'
-import '@fontsource/rubik/latin-400.css'
-import '@fontsource/rubik/latin-500.css'
-import '@fontsource/rubik/latin-600.css'
-import '@fontsource/rubik/latin-800.css'
 import './index.css'
 
 const root = document.getElementById('root')!

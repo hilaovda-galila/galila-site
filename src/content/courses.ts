@@ -10,7 +10,8 @@ export type Course = {
   summary: string
   // שם קובץ תמונה מ-src/content/images.json; בלי תמונה מוצג רקע צבעוני
   image?: string
-  priceILS: number
+  // לבקשת הלקוחה המחיר לא מוצג באתר בשלב זה; כשמוגדר, הוא מופיע בקטלוג, בעמוד הקורס ובחלון הרכישה
+  priceILS?: number
   lessons: Lesson[]
   // "מה תקבלו מהקורס" ו"למי הקורס מתאים" בעמוד הקורס
   outcomes: string[]
@@ -32,9 +33,9 @@ export const ACCESS_DAYS = 30
 export const courses: Course[] = [
   {
     slug: 'emotional-regulation-at-home',
-    title: 'ויסות רגשי בבית',
+    // לבקשת הלקוחה בלי שם קורס ספציפי בתבנית
+    title: 'קורס דיגיטלי להורים',
     summary: 'שלושה סרטונים קצרים עם כלים מעשיים לזיהוי סימנים מוקדמים של הצפה, ולבניית שגרה שעוזרת לילד להירגע.',
-    priceILS: 149,
     lessons: [
       { title: 'מה קורה לילד ברגע של הצפה', minutes: 15, summary: 'מה עובר על הילד ברגע של הצפה, ולמה דווקא אז כל כך קשה לו להקשיב.' },
       { title: 'סימנים מוקדמים ואיך מזהים אותם', minutes: 18, summary: 'איך מזהים את הרגע שלפני, ומה אפשר לעשות כבר אז.' },

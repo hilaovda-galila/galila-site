@@ -12,7 +12,7 @@ if (!res.ok) throw new Error(`thumbnail download failed: ${res.status}`)
 const input = Buffer.from(await res.arrayBuffer())
 const dir = path.join(root, 'public', 'images', 'banner')
 await mkdir(dir, { recursive: true })
-for (const width of [640, 1280]) {
+for (const width of [640, 828, 1280]) {
   const output = await sharp(input).resize({ width }).jpeg({ quality: 72, mozjpeg: true }).toBuffer()
   await writeFile(path.join(dir, `intro-video-${width}.jpg`), output)
   console.log(`intro-video-${width}.jpg ${Math.round(output.length / 1024)}KB`)

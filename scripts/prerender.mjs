@@ -1,6 +1,6 @@
 // יוצר קובץ HTML מוכן לכל עמוד (טוב ל-SEO ולטעינה מהירה), וגם sitemap.xml.
 // רץ אחרי vite build ו-vite build --ssr (ראו "build" ב-package.json).
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
+import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { pathToFileURL } from 'node:url'
 
@@ -9,7 +9,12 @@ const dist = path.join(root, 'dist')
 const serverDir = path.join(root, 'dist-server')
 
 const { render, pageList, site, redirects } = await import(pathToFileURL(path.join(serverDir, 'entry-server.js')).href)
-const template = await readFile(path.join(dist, 'index.html'), 'utf8')
+// קובצי הגופן העברי נטענים מראש, יחד עם העמוד – כך הטקסט מוצג מיד ב-Rubik ולא "קופץ" כשהגופן מגיע
+const fontPreloads = (await readdir(path.join(dist, 'assets')))
+  .filter((f) => /^rubik-hebrew-\d+-normal-.*\.woff2$/.test(f))
+  .map((f) => `<link rel="preload" href="/assets/${f}" as="font" type="font/woff2" crossorigin />`)
+  .join('\n    ')
+const template = (await readFile(path.join(dist, 'index.html'), 'utf8')).replace('</head>', () => `  ${fontPreloads}\n  </head>`)
 
 const escape = (s = '') => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const absolute = (p) => site.url + encodeURI(p)

@@ -71,7 +71,7 @@ export default function Courses() {
                   <p className="mt-4 text-[15px] text-ink/75">
                     {course.lessons.length} סרטונים · כ-{courseMinutes(course)} דקות · גישה ל-{ACCESS_DAYS} יום
                   </p>
-                  <p className="mt-3 text-[28px] leading-none font-extrabold">₪{course.priceILS}</p>
+                  {course.priceILS && <p className="mt-3 text-[28px] leading-none font-extrabold">₪{course.priceILS}</p>}
                   {owned ? (
                     <Link to={paths.myCourses} className="btn mt-5 rounded-lg py-3.5 text-base hover:scale-100 hover:brightness-110">
                       לצפייה בקורס

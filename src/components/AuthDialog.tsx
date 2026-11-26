@@ -119,7 +119,7 @@ export default function AuthDialog({ course, onClose }: Props) {
               <div className="mt-4 rounded-xl bg-sand p-4 text-center">
                 <p className="text-lg font-semibold">{course.title}</p>
                 <p className="mt-1 text-ink/75">
-                  גישה לצפייה למשך {ACCESS_DAYS} יום · ₪{course.priceILS}
+                  גישה לצפייה למשך {ACCESS_DAYS} יום{course.priceILS ? ` · ₪${course.priceILS}` : ''}
                 </p>
               </div>
               <button type="button" onClick={handlePay} className="btn mt-5 w-full cursor-pointer rounded-lg py-4 text-base hover:scale-100 hover:brightness-110">

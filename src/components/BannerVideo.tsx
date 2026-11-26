@@ -13,6 +13,9 @@ export default function BannerVideo({ id, title }: { id: string; title: string }
     if (full || !holder.current) return
     // לא מפעילים למי שביקש להפחית תנועה, או בחיבור איטי / במצב חיסכון בנתונים – שם רואים רק את התמונה
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    // בטלפון ובטאבלט (מסך מגע או רוחב קטן) אין סרטון רקע: נגן יוטיוב והסרטון שמתנגן בלופ מכבידים על הגלישה
+    // וצורכים חבילת גלישה. רואים את התמונה, והכפתור פותח את הסרטון המלא למי שרוצה
+    if (window.matchMedia('(max-width: 1023px), (pointer: coarse)').matches) return
     const connection = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection
     if (connection?.saveData || ['slow-2g', '2g', '3g'].includes(connection?.effectiveType ?? '')) return
 
@@ -84,7 +87,7 @@ export default function BannerVideo({ id, title }: { id: string; title: string }
       {/* תמונת הפתיחה נשמרת באתר עצמו (scripts/banner-thumbnail.mjs) ונטענת בעדיפות גבוהה, כי היא התוכן הראשון שרואים */}
       <img
         src="/images/banner/intro-video-1280.jpg"
-        srcSet="/images/banner/intro-video-640.jpg 640w, /images/banner/intro-video-1280.jpg 1280w"
+        srcSet="/images/banner/intro-video-640.jpg 640w, /images/banner/intro-video-828.jpg 828w, /images/banner/intro-video-1280.jpg 1280w"
         sizes="100vw"
         width={1280}
         height={720}

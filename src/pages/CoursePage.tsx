@@ -23,17 +23,21 @@ export default function CoursePage({ course }: { course: Course }) {
 
   const purchase = (
     <div className="card p-6 text-center">
-      <p className="text-[34px] leading-none font-extrabold">₪{course.priceILS}</p>
-      <p className="mt-2 text-[15px] text-ink/75">תשלום חד-פעמי</p>
+      {course.priceILS && (
+        <>
+          <p className="text-[34px] leading-none font-extrabold">₪{course.priceILS}</p>
+          <p className="mt-2 text-[15px] text-ink/75">תשלום חד-פעמי</p>
+        </>
+      )}
       {owned ? (
-        <Link to={paths.myCourses} className="btn mt-5 block rounded-lg py-3.5 text-base hover:scale-100 hover:brightness-110">
+        <Link to={paths.myCourses} className={`btn block rounded-lg ${course.priceILS ? 'mt-5' : ''} py-3.5 text-base hover:scale-100 hover:brightness-110`}>
           לצפייה בקורס
         </Link>
       ) : (
         <button
           type="button"
           onClick={() => setBuying(true)}
-          className="btn mt-5 w-full cursor-pointer rounded-lg py-3.5 text-base hover:scale-100 hover:brightness-110"
+          className={`btn w-full cursor-pointer rounded-lg py-3.5 text-base hover:scale-100 hover:brightness-110 ${course.priceILS ? 'mt-5' : ''}`}
         >
           לרכישת הקורס
         </button>
@@ -47,7 +51,7 @@ export default function CoursePage({ course }: { course: Course }) {
   )
 
   return (
-    <Layout title={`${course.title} – קורס דיגיטלי להורים | גלילה`} contact={false}>
+    <Layout title={`${course.title} | גלילה`} contact={false}>
       <div className="mx-auto max-w-[1100px] px-5 py-10">
         <nav aria-label="פירורי לחם" className="mb-4 text-sm text-ink/70">
           <Link to={paths.courses} className="hover:text-brand-deep">
