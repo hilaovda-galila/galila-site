@@ -9,6 +9,7 @@ import Blog, { blogMeta } from './pages/Blog'
 import Cases from './pages/Cases'
 import Courses, { coursesMeta } from './pages/Courses'
 import Downloads, { downloadsMeta } from './pages/Downloads'
+import Guides, { guidesMeta } from './pages/Guides'
 import MyCourses from './pages/MyCourses'
 import { homeFaq } from './content/homeFaq'
 import { faqLd, landingLd, organizationLd, postLd } from './seo'
@@ -41,6 +42,8 @@ export const pages: Page[] = [
     : { path: paths.courses, title: 'קורסים דיגיטליים – בקרוב | גלילה', description: 'בקרוב: קורסים דיגיטליים להורים מבית גלילה.', private: true, element: <ComingSoon /> },
   // חומרים להורדה: עד שמוגדרת כתובת השמירה (site.leadsEndpoint) העמוד לא נכנס למפת האתר ולגוגל
   { path: paths.downloads, ...downloadsMeta, private: !site.leadsEndpoint, element: <Downloads /> },
+  // מדריכים בתשלום – עד שיהיו מוכנים: "בקרוב" וטופס לעדכונים, מחוץ לגוגל
+  { path: paths.guides, ...guidesMeta, private: true, element: <Guides /> },
   // אזור אישי: נוצר מראש רק עם שער הכניסה, בלי תוכן, ולא נכנס למפת האתר
   {
     path: paths.myCourses,
