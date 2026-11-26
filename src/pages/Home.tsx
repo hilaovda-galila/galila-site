@@ -55,19 +55,6 @@ export default function Home() {
         </ul>
       </section>
 
-      {/* הורים ממליצים */}
-      <section className="bg-sand px-5 py-14 md:py-16">
-        <span id="13" />
-        <h2 className="title text-center">{w['3ec2969'].text}</h2>
-        <span className="divider mx-auto mt-5 mb-8" />
-        <Testimonials items={testimonials} />
-        <div className="mt-6 text-center">
-          <a href="/גלילה-קבוצות-חברתיות-2/" className="font-medium text-brand-deep underline hover:text-sky">
-            תיאורי מקרה מתוך הקבוצות
-          </a>
-        </div>
-      </section>
-
       {/* הצוות שלנו */}
       <section className="mx-auto max-w-[1100px] px-5 py-10">
         <span id="6" />
@@ -92,8 +79,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* הורים ממליצים */}
+      <section className="bg-sand px-5 py-14 md:py-16">
+        <span id="13" />
+        <h2 className="title text-center">{w['3ec2969'].text}</h2>
+        <span className="divider mx-auto mt-5 mb-8" />
+        <Testimonials items={testimonials} />
+        <div className="mt-6 text-center">
+          <a href="/גלילה-קבוצות-חברתיות-2/" className="font-medium text-brand-deep underline hover:text-sky">
+            תיאורי מקרה מתוך הקבוצות
+          </a>
+        </div>
+      </section>
+
       {/* איך מתחילים */}
-      <section className="bg-sand px-5 py-14" aria-labelledby="start-title">
+      <section className="px-5 py-14" aria-labelledby="start-title">
         <div className="mx-auto max-w-[1100px] text-center">
           <h2 id="start-title" className="title">איך מתחילים</h2>
           <span className="divider mx-auto my-5" />
