@@ -56,9 +56,10 @@ export default function Home() {
       </section>
 
       {/* הורים ממליצים */}
-      <section className="mx-auto max-w-site px-2.5 py-2.5">
+      <section className="bg-sand px-5 py-14 md:py-16">
         <span id="13" />
-        <h2 className="title mb-6 text-center">{w['3ec2969'].text}</h2>
+        <h2 className="title text-center">{w['3ec2969'].text}</h2>
+        <span className="divider mx-auto mt-5 mb-8" />
         <Testimonials items={testimonials} />
         <div className="mt-6 text-center">
           <a href="/גלילה-קבוצות-חברתיות-2/" className="font-medium text-brand-deep underline hover:text-sky">
