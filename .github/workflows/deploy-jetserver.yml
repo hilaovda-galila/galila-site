@@ -1,7 +1,7 @@
 # העלאה אוטומטית של האתר לאחסון ב-JetServer בכל דחיפה ל-main:
 # בונה את האתר (npm run build) ומעלה את תיקיית dist לשרת ב-FTPS. רק קבצים שהשתנו עולים.
 # פרטי הגישה נשמרים ב-GitHub: Settings ← Secrets and variables ← Actions:
-#   FTP_SERVER, FTP_USERNAME, FTP_PASSWORD (חובה), FTP_DIR (לא חובה, ברירת מחדל public_html/)
+#   FTP_SERVER (israel69.jetserver.net), FTP_USERNAME, FTP_PASSWORD (חובה), FTP_DIR (לא חובה). חשבון ה-FTP הייעודי deploy@galilagroup.com נפתח ישירות על public_html, ולכן ברירת המחדל ./
 # כל עוד FTP_SERVER לא הוגדר, הבנייה רצה וההעלאה מדולגת.
 name: העלאה ל-JetServer
 
@@ -39,4 +39,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           local-dir: ./dist/
-          server-dir: ${{ secrets.FTP_DIR || 'public_html/' }}
+          server-dir: ${{ secrets.FTP_DIR || './' }}
