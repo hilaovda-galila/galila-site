@@ -65,7 +65,7 @@ export default function Downloads() {
 
         <ul className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {downloads.map((item) => (
-            <li key={item.id} className="card flex flex-col overflow-hidden">
+            <li key={item.id} id={item.id} className="card flex scroll-mt-6 flex-col overflow-hidden">
               <div className="flex h-[220px] items-center justify-center bg-sand p-3">
                 <img
                   src={downloadThumb(item)}
